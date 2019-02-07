@@ -1,0 +1,710 @@
+Script started on Wed 01 Jan 2003 01:01:52 AM IST
+]0;s4d1@localhost:~[s4d1@localhost ~]$ la[Ks
+[00m[00mabhi.txt[00m   [00manakha.txt[00m   [00ma.txt[00m   [00mceccs17d4.2.19.txt[00m
+[00mabhi.txt~[00m  [00manakha.txt~[00m  [00ma.txt~[00m  [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -l
+[00mtotal 60
+-rw-rw-r--  1 s4d1 s4d1   10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    0 Jan  1 01:01 [00mceccs17d4.2.19.txt[00m
+drwxr-xr-x  2 s4d1 s4d1 4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -lt
+[00mtotal 60
+-rw-rw-r--  1 s4d1 s4d1    0 Jan  1 01:01 [00mceccs17d4.2.19.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   49 Jan  1 00:46 [00manakha.txt~[00m
+drwxr-xr-x  2 s4d1 s4d1 4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -ltr
+[00mtotal 60
+drwxr-xr-x  2 s4d1 s4d1 4096 Jan  1 00:20 [00;34mDesktop[00m
+-rw-rw-r--  1 s4d1 s4d1   49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    0 Jan  1 01:01 [00mceccs17d4.2.19.txt[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ cat b.txt
+cat: b.txt: No such file or directory
+]0;s4d1@localhost:~[s4d1@localhost ~]$ pwd
+/home/s4d1
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cd
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat b.txt
+cat: b.txt: No such file or directory
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat [K>b.txt
+bost    Boston is the capita; l of Massa                              canada      Canada is a country
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep anakha.txt
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep 22 anakha.tct[K[Kxt
+22
+]0;s4d1@localhost:~[s4d1@localhost ~]$ print n[Kanakha
+bash: print: command not found
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep a*.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep a*.txt -c
+anakha.txt:0
+a.txt:0
+]0;s4d1@localhost:~[s4d1@localhost ~]$ uname
+Linux
+]0;s4d1@localhost:~[s4d1@localhost ~]$ uname -s[Ka
+Linux localhost.localdomain 2.6.9-5.ELsmp #1 SMP Wed Jan 5 19:30:39 EST 2005 i686 i686 i386 GNU/Linux
+]0;s4d1@localhost:~[s4d1@localhost ~]$ free
+             total       used       free     shared    buffers     cached
+Mem:       1026548     417076     609472          0      22856     235324
+-/+ buffers/cache:     158896     867652
+Swap:      2096440          0    2096440
+]0;s4d1@localhost:~[s4d1@localhost ~]$ frr[Kee -m
+             total       used       free     shared    buffers     cached
+Mem:          1002        407        595          0         22        229
+-/+ buffers/cache:        155        847
+Swap:         2047          0       2047
+]0;s4d1@localhost:~[s4d1@localhost ~]$ man cat
+[?1049h[?1h=[24;1H[KCAT(1)                          User Commands                          CAT(1)
+
+[1mNAME[0m
+       cat - concatenate files and print on the standard output
+
+[1mSYNOPSIS[0m
+       [1mcat[0m [[4mOPTION[24m] [[4mFILE[24m]...
+
+[1mDESCRIPTION[0m
+       Concatenate FILE(s), or standard input, to standard output.
+
+       [1m-A[0m, [1m--show-all[0m
+              equivalent to [1m-vET[0m
+
+       [1m-b[0m, [1m--number-nonblank[0m
+              number nonblank output lines
+
+       [1m-e[0m     equivalent to [1m-vE[0m
+
+       [1m-E[0m, [1m--show-ends[0m
+              display $ at end of each line
+
+       [1m-n[0m, [1m--number[0m
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man grep
+[?1049h[?1h=[24;1H[KGREP(1)                                                               GREP(1)
+
+[1mNAME[0m
+       grep, egrep, fgrep - print lines matching a pattern
+
+[1mSYNOPSIS[0m
+       [1mgrep[0m [[4moptions[24m] [4mPATTERN[24m [[4mFILE[24m...]
+       [1mgrep[0m [[4moptions[24m] [[1m-e[0m [4mPATTERN[24m | [1m-f[0m [4mFILE[24m] [[4mFILE[24m...]
+
+[1mDESCRIPTION[0m
+       [1mGrep[0m searches the named input [4mFILE[24ms (or standard input if no files are
+       named, or the file name [1m-[0m is given) for lines containing  a  match  to
+       the given [4mPATTERN[24m.  By default, [1mgrep[0m prints the matching lines.
+
+       In  addition,  two  variant  programs  [1megrep[0m  and [1mfgrep[0m are available.
+       [1mEgrep[0m is the same as [1mgrep[0m [1m-E[0m.  [1mFgrep[0m is the same as [1mgrep[0m [1m-F[0m.
+
+[1mOPTIONS[0m
+       [1m-A[0m [4mNUM[24m, [1m--after-context=[0m[4mNUM[24m
+              Print [4mNUM[24m lines  of  trailing  context  after  matching  lines.
+              Places  a  line  containing  [1m--[0m  between  contiguous  groups of
+              matches.
+
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ 
+]0;s4d1@localhost:~[s4d1@localhost ~]$ man uname
+[?1049h[?1h=[24;1H[KUNAME(1)                        User Commands                        UNAME(1)
+
+[1mNAME[0m
+       uname - print system information
+
+[1mSYNOPSIS[0m
+       [1muname[0m [[4mOPTION[24m]...
+
+[1mDESCRIPTION[0m
+       Print certain system information.  With no OPTION, same as [1m-s[0m.
+
+       [1m-a[0m, [1m--all[0m
+              print all information, in the following order:
+
+       [1m-s[0m, [1m--kernel-name[0m
+              print the kernel name
+
+       [1m-n[0m, [1m--nodename[0m
+              print the network node hostname
+
+       [1m-r[0m, [1m--kernel-release[0m
+              print the kernel release
+
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ uname -s
+Linux
+]0;s4d1@localhost:~[s4d1@localhost ~]$ uname -r
+2.6.9-5.ELsmp
+]0;s4d1@localhost:~[s4d1@localhost ~]$ man pwd
+[?1049h[?1h=[24;1H[KPWD(1)                          User Commands                          PWD(1)
+
+[1mNAME[0m
+       pwd - print name of current/working directory
+
+[1mSYNOPSIS[0m
+       [1mpwd[0m [[4mOPTION[24m]
+
+[1mDESCRIPTION[0m
+       NOTE:  your shell may have its own version of pwd which will supercede
+       the version described here. Please refer to your shell’s documentation
+       for details about the options it supports.
+
+       Print the full filename of the current working directory.
+
+       [1m--help[0m display this help and exit
+
+       [1m--version[0m
+              output version information and exit
+
+[1mAUTHOR[0m
+       Written by Jim Meyering.
+
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man c[Kll
+No manual entry for ll
+]0;s4d1@localhost:~[s4d1@localhost ~]$ man alias
+[?1049h[?1h=[24;1H[KBASH_BUILTINS(1)                                             BASH_BUILTINS(1)
+
+[1mNAME[0m
+       bash,  :, ., [, alias, bg, bind, break, builtin, cd, command, compgen,
+       complete, continue, declare, dirs, disown, echo, enable,  eval,  exec,
+       exit,  export,  fc, fg, getopts, hash, help, history, jobs, kill, let,
+       local, logout, popd, printf, pushd, pwd, read, readonly, return,  set,
+       shift,  shopt,  source,  suspend,  test,  times,  trap, type, typeset,
+       ulimit, umask, unalias, unset, wait  -  bash  built-in  commands,  see
+       [1mbash[0m(1)
+
+[1mBASH[0m [1mBUILTIN[0m [1mCOMMANDS[0m
+       Unless  otherwise  noted, each builtin command documented in this sec-
+       tion as accepting options preceded by [1m-[0m accepts [1m--[0m to signify the  end
+       of the options.
+       [1m:[0m [[4marguments[24m]
+              No  effect; the command does nothing beyond expanding [4marguments[24m
+              and performing any specified redirections.  A zero exit code is
+              returned.
+
+        [1m.[0m  [4mfilename[24m [[4marguments[24m]
+       [1msource[0m [4mfilename[24m [[4marguments[24m]
+              Read  and  execute  commands from [4mfilename[24m in the current shell
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ ll
+[00mtotal 76
+-rw-rw-r--  1 s4d1 s4d1   10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 8192 Jan  1 01:10 [00mceccs17d4.2.19.txt[00m
+drwxr-xr-x  2 s4d1 s4d1 4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ alia [Ks ll=ls -l
+bash: alias: -l: not found
+]0;s4d1@localhost:~[s4d1@localhost ~]$ alias ll=ls -l[4h'[4l[s4d1@localhost ~]$ alias ll='l[s4d1@localhost ~]$ alias ll='ls[s4d1@localhost ~]$ alias ll='ls [s4d1@localhost ~]$ alias ll='ls -'l[1Pl[s4d1@localhost ~]$ alias ll='ls -l'
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ll
+[00mtotal 76
+-rw-rw-r--  1 s4d1 s4d1   10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1   20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 8192 Jan  1 01:10 [00mceccs17d4.2.19.txt[00m
+drwxr-xr-x  2 s4d1 s4d1 4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ unalias llk[K
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat c.txt
+cat: c.txt: No such file or directory
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat>c.txt
+500 days of summer
+ls -l?txt
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -l?txzt\\[K[K[K[Kt
+ls: invalid option -- ?
+Try `ls --help' for more information.
+]0;s4d1@localhost:~[s4d1@localhost ~]$ pasr[Kte a.txt c.txt
+a	500 days of summer
+b	ls -l?txt
+c	
+d	
+	
+1	
+2	
+3	
+4	
+	
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep 500 c.txt
+500 days of summer
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grr[Kep c?txt
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ print =[K[K=c.txt:500
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep c *[K[K*.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep[[K[K[K[K[Kgrep c*.txt -c
+0
+]0;s4d1@localhost:~[s4d1@localhost ~]$ man route
+[?1049h[?1h=[24;1H[KROUTE(8)                  Linux Programmer’s Manual                  ROUTE(8)
+
+[1mNAME[0m
+       route - show / manipulate the IP routing table
+
+[1mSYNOPSIS[0m
+       [1mroute[0m [[1m-CFvnee[0m]
+
+       [1mroute[0m  [[1m-v[0m]  [[1m-A[0m  family] [1madd[0m [[1m-net[0m|[1m-host[0m] target [[1mnetmask[0m Nm] [[1mgw[0m Gw]
+              [[1mmetric[0m N] [[1mmss[0m M] [[1mwindow[0m W] [[1mirtt[0m  I]  [[1mreject[0m]  [[1mmod[0m]  [[1mdyn[0m]
+              [[1mreinstate[0m] [[[1mdev[0m] If]
+
+       [1mroute[0m  [[1m-v[0m]  [[1m-A[0m  family] [1mdel[0m [[1m-net[0m|[1m-host[0m] target [[1mgw[0m Gw] [[1mnetmask[0m Nm]
+              [[1mmetric[0m N] [[[1mdev[0m] If]
+
+       [1mroute[0m  [[1m-V[0m] [[1m--version[0m] [[1m-h[0m] [[1m--help[0m]
+
+[1mDESCRIPTION[0m
+       [1mRoute[0m manipulates the kernel’s IP routing tables.  Its primary use  is
+       to set up static routes to specific hosts or networks via an interface
+       after it has been configured with the [1mifconfig[0m(8) program.
+
+       When the [1madd[0m or [1mdel[0m options  are  used,  [1mroute[0m  modifies  the  routing
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man if
+[?1049h[?1h=[24;1H[Kif(3pm)                Perl Programmers Reference Guide               if(3pm)
+
+[1mNAME[0m
+       if - "use" a Perl module if a condition holds
+
+[1mSYNOPSIS[0m
+         use if CONDITION, MODULE => ARGUMENTS;
+
+[1mDESCRIPTION[0m
+       The construct
+
+         use if CONDITION, MODULE => ARGUMENTS;
+
+       has no effect unless "CONDITION" is true.  In this case the effect is
+       the same as of
+
+         use MODULE ARGUMENTS;
+
+[1mBUGS[0m
+       The current implementation does not allow specification of the
+       required version of the module.
+
+[1mAUTHOR[0m
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man cong[Kfig
+[?1049h[?1h=[24;1H[KCONFIG(5)                          OpenSSL                          CONFIG(5)
+
+[1mNAME[0m
+       config - OpenSSL CONF library configuration files
+
+[1mDESCRIPTION[0m
+       The OpenSSL CONF library can be used to read configuration files.  It
+       is used for the OpenSSL master configuration file [1mopenssl.cnf[0m and in a
+       few other places like [1mSPKAC[0m files and certificate extension files for
+       the [1mx509[0m utility.
+
+       A configuration file is divided into a number of sections. Each sec-
+       tion starts with a line [1m[[0m [1msection_name[0m [1m][0m and ends when a new section
+       is started or end of file is reached. A section name can consist of
+       alphanumeric characters and underscores.
+
+       The first section of a configuration file is special and is referred
+       to as the [1mdefault[0m section this is usually unnamed and is from the
+       start of file until the first named section. When a name is being
+       looked up it is first looked up in a named section (if any) and then
+       the default section.
+
+       The environment is mapped onto a section called [1mENV[0m.
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man dhclient
+[?1049h[?1h=[24;1H[Kdhclient(8)                                                       dhclient(8)
+
+[1mNAME[0m
+       dhclient - Dynamic Host Configuration Protocol Client
+
+[1mSYNOPSIS[0m
+       [1mdhclient[0m  [ [1m-p[0m [4mport[24m ] [ [1m-d[0m ] [ [1m-q[0m ] [ [1m-1[0m ] [ [1m-r[0m ] [ [1m-lf[0m [4mlease-file[24m ] [
+       [1m-pf[0m [4mpid-file[24m ] [ [1m-cf[0m [4mconfig-file[24m ] [ [1m-sf[0m [4mscript-file[24m ] [ [1m-s[0m server ] [
+       [1m-g[0m relay ] [ [1m-n[0m ] [ [1m-nw[0m ] [ [1m-w[0m ] [ [4mif0[24m [ [4m...ifN[24m ] ]
+
+[1mDESCRIPTION[0m
+       The  Internet  Systems  Consortium  DHCP  Client, dhclient, provides a
+       means for configuring one or more network interfaces using the Dynamic
+       Host  Configuration  Protocol,  BOOTP  protocol, or if these protocols
+       fail, by statically assigning an address.
+
+[1mOPERATION[0m
+       The DHCP protocol allows a host to  contact  a  central  server  which
+       maintains  a list of IP addresses which may be assigned on one or more
+       subnets.   A DHCP client may request an address from  this  pool,  and
+       then  use  it on a temporary basis for communication on network.   The
+       DHCP protocol also provides a mechanism whereby  a  client  can  learn
+       important  details  about the network to which it is attached, such as
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ if config
+> 
+]0;s4d1@localhost:~[s4d1@localhost ~]$ if config -a
+> route
+> 
+]0;s4d1@localhost:~[s4d1@localhost ~]$ route
+bash: route: command not found
+]0;s4d1@localhost:~[s4d1@localhost ~]$ route add default gw
+bash: route: command not found
+]0;s4d1@localhost:~[s4d1@localhost ~]$ dhclient us bo
+bash: dhclient: command not found
+]0;s4d1@localhost:~[s4d1@localhost ~]$ 
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ls
+[00m[00mabhi.txt[00m   [00manakha.txt[00m   [00ma.txt[00m   [00mb.txt[00m               [00mc.txt[00m   [00;34mDesktop[00m
+[00mabhi.txt~[00m  [00manakha.txt~[00m  [00ma.txt~[00m  [00mceccs17d4.2.19.txt[00m  [00mc.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -l
+[00mtotal 100
+-rw-rw-r--  1 s4d1 s4d1    10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 16384 Jan  1 01:23 [00mceccs17d4.2.19.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt~[00m
+drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ll
+bash: ll: command not found
+]0;s4d1@localhost:~[s4d1@localhost ~]$ alias ll [K='lsv[K -l'
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ll
+[00mtotal 100
+-rw-rw-r--  1 s4d1 s4d1    10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 16384 Jan  1 01:23 [00mceccs17d4.2.19.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt~[00m
+drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ unalias ll
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat c.txt
+500 days of summer
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat a.txt
+a
+b
+c
+d
+
+1
+2
+3
+4
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat b.txt
+Canada is a country
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat anakha.txt
+22
+33
+44
+55
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ catabhi.txt abhi.txt
+1
+4
+6
+78
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ls 
+[00m[00mabhi.txt[00m   [00manakha.txt[00m   [00ma.txt[00m   [00mb.txt[00m               [00mc.txt[00m   [00;34mDesktop[00m
+[00mabhi.txt~[00m  [00manakha.txt~[00m  [00ma.txt~[00m  [00mceccs17d4.2.19.txt[00m  [00mc.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -l
+[00mtotal 100
+-rw-rw-r--  1 s4d1 s4d1    10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 16384 Jan  1 01:23 [00mceccs17d4.2.19.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt~[00m
+drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -ltr
+[00mtotal 100
+drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
+-rw-rw-r--  1 s4d1 s4d1    49 Jan  1 00:46 [00manakha.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 16384 Jan  1 01:23 [00mceccs17d4.2.19.txt[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls a*
+[00m[00mabhi.txt[00m  [00mabhi.txt~[00m  [00manakha.txt[00m  [00manakha.txt~[00m  [00ma.txt[00m  [00ma.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls b*
+[00m[00mb.txt[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls c*
+[00m[00mceccs17d4.2.19.txt[00m  [00mc.txt[00m  [00mc.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -lt
+[00mtotal 104
+-rw-rw-r--  1 s4d1 s4d1 20480 Jan  1 01:44 [00mceccs17d4.2.19.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:14 [00mc.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    20 Jan  1 01:04 [00mb.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    18 Jan  1 00:59 [00ma.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    13 Jan  1 00:59 [00manakha.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    10 Jan  1 00:58 [00mabhi.txt[00m
+-rw-rw-r--  1 s4d1 s4d1    12 Jan  1 00:50 [00mabhi.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    49 Jan  1 00:46 [00manakha.txt~[00m
+drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ ls *i.txt
+[00m[00mabhi.txt[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls *k*
+[00m[00manakha.txt[00m  [00manakha.txt~[00m
+
+Desktop:
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls *h*
+[00m[00mabhi.txt[00m  [00mabhi.txt~[00m  [00manakha.txt[00m  [00manakha.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls *n*
+[00m[00manakha.txt[00m  [00manakha.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ man alias
+[?1049h[?1h=[24;1H[KBASH_BUILTINS(1)                                             BASH_BUILTINS(1)
+
+[1mNAME[0m
+       bash,  :, ., [, alias, bg, bind, break, builtin, cd, command, compgen,
+       complete, continue, declare, dirs, disown, echo, enable,  eval,  exec,
+       exit,  export,  fc, fg, getopts, hash, help, history, jobs, kill, let,
+       local, logout, popd, printf, pushd, pwd, read, readonly, return,  set,
+       shift,  shopt,  source,  suspend,  test,  times,  trap, type, typeset,
+       ulimit, umask, unalias, unset, wait  -  bash  built-in  commands,  see
+       [1mbash[0m(1)
+
+[1mBASH[0m [1mBUILTIN[0m [1mCOMMANDS[0m
+       Unless  otherwise  noted, each builtin command documented in this sec-
+       tion as accepting options preceded by [1m-[0m accepts [1m--[0m to signify the  end
+       of the options.
+       [1m:[0m [[4marguments[24m]
+              No  effect; the command does nothing beyond expanding [4marguments[24m
+              and performing any specified redirections.  A zero exit code is
+              returned.
+
+        [1m.[0m  [4mfilename[24m [[4marguments[24m]
+       [1msource[0m [4mfilename[24m [[4marguments[24m]
+              Read  and  execute  commands from [4mfilename[24m in the current shell
+[24;1H[K:[24;1H[24;1H[K              environment and return the exit status of the last command exe-
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man script
+[?1049h[?1h=[24;1H[KSCRIPT(1)                BSD General Commands Manual                SCRIPT(1)
+
+[1mNAME[0m
+     [1mscript[0m - make typescript of terminal session
+
+[1mSYNOPSIS[0m
+     [1mscript[0m [[1m-a[0m] [[1m-c[0m [4mCOMMAND[24m] [[1m-f[0m] [[1m-q[0m] [[1m-t[0m] [[4mfile[24m]
+
+[1mDESCRIPTION[0m
+     [1mScript[0m makes a typescript of everything printed on your terminal.  It is
+     useful for students who need a hardcopy record of an interactive session
+     as proof of an assignment, as the typescript file can be printed out
+     later with lpr(1).
+
+     If the argument [4mfile[24m is given, [1mscript[0m saves all dialogue in [4mfile[24m.  If no
+     file name is given, the typescript is saved in the file [4mtypescript[24m.
+
+     Options:
+
+     [1m-a[0m      Append the output to [4mfile[24m or [4mtypescript[24m, retaining the prior
+             contents.
+
+     [1m-c[0m [4mCOMMAND[24m
+[24;1H[K:[24;1H[K[?1l>[?1049l]0;s4d1@localhost:~[s4d1@localhost ~]$ man script[1Paliasscript[Kping 1292.1[K[K[K[K[K92.[K168.0.2
+ping: unknown host 192168.0.2
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ping 192168.0.2.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=0 ttl=64 time=1.92 ms
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.205 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.311 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.197 ms
+64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.241 ms
+64 bytes from 192.168.0.2: icmp_seq=7 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_seq=8 ttl=64 time=0.220 ms
+64 bytes from 192.168.0.2: icmp_seq=9 ttl=64 time=0.208 ms
+64 bytes from 192.168.0.2: icmp_seq=10 ttl=64 time=0.178 ms
+64 bytes from 192.168.0.2: icmp_seq=11 ttl=64 time=0.186 ms
+64 bytes from 192.168.0.2: icmp_seq=12 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=13 ttl=64 time=0.181 ms
+64 bytes from 192.168.0.2: icmp_seq=14 ttl=64 time=0.175 ms
+64 bytes from 192.168.0.2: icmp_seq=15 ttl=64 time=0.185 ms
+64 bytes from 192.168.0.2: icmp_seq=16 ttl=64 time=0.207 ms
+64 bytes from 192.168.0.2: icmp_seq=17 ttl=64 time=0.168 ms
+64 bytes from 192.168.0.2: icmp_seq=18 ttl=64 time=0.177 ms
+64 bytes from 192.168.0.2: icmp_seq=19 ttl=64 time=0.208 ms
+64 bytes from 192.168.0.2: icmp_seq=20 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=21 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.2: icmp_seq=22 ttl=64 time=0.169 ms
+64 bytes from 192.168.0.2: icmp_seq=23 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=24 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_seq=25 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_seq=26 ttl=64 time=0.220 ms
+64 bytes from 192.168.0.2: icmp_seq=27 ttl=64 time=0.216 ms
+64 bytes from 192.168.0.2: icmp_seq=28 ttl=64 time=0.210 ms
+64 bytes from 192.168.0.2: icmp_seq=29 ttl=64 time=0.167 ms
+64 bytes from 192.168.0.2: icmp_seq=30 ttl=64 time=0.170 ms
+64 bytes from 192.168.0.2: icmp_seq=31 ttl=64 time=0.183 ms
+64 bytes from 192.168.0.2: icmp_seq=32 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_seq=33 ttl=64 time=0.209 ms
+64 bytes from 192.168.0.2: icmp_seq=34 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_seq=35 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.2: icmp_seq=36 ttl=64 time=0.181 ms
+64 bytes from 192.168.0.2: icmp_seq=37 ttl=64 time=0.286 ms
+64 bytes from 192.168.0.2: icmp_seq=38 ttl=64 time=0.213 ms
+64 bytes from 192.168.0.2: icmp_seq=39 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=40 ttl=64 time=0.397 ms
+64 bytes from 192.168.0.2: icmp_seq=41 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.2: icmp_seq=42 ttl=64 time=0.276 ms
+64 bytes from 192.168.0.2: icmp_seq=43 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_seq=44 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_seq=45 ttl=64 time=0.246 ms
+64 bytes from 192.168.0.2: icmp_seq=46 ttl=64 time=0.266 ms
+64 bytes from 192.168.0.2: icmp_seq=47 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_seq=48 ttl=64 time=0.211 ms
+64 bytes from 192.168.0.2: icmp_seq=49 ttl=64 time=0.201 ms
+64 bytes from 192.168.0.2: icmp_seq=50 ttl=64 time=0.259 ms
+64 bytes from 192.168.0.2: icmp_seq=51 ttl=64 time=0.209 ms
+64 bytes from 192.168.0.2: icmp_seq=52 ttl=64 time=0.167 ms
+64 bytes from 192.168.0.2: icmp_seq=53 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=54 ttl=64 time=0.209 ms
+64 bytes from 192.168.0.2: icmp_seq=55 ttl=64 time=0.229 ms
+64 bytes from 192.168.0.2: icmp_seq=56 ttl=64 time=0.184 ms
+64 bytes from 192.168.0.2: icmp_seq=57 ttl=64 time=0.148 ms
+64 bytes from 192.168.0.2: icmp_seq=58 ttl=64 time=0.174 ms
+64 bytes from 192.168.0.2: icmp_seq=59 ttl=64 time=0.209 ms
+64 bytes from 192.168.0.2: icmp_seq=60 ttl=64 time=0.194 ms
+64 bytes from 192.168.0.2: icmp_seq=61 ttl=64 time=0.241 ms
+64 bytes from 192.168.0.2: icmp_seq=62 ttl=64 time=0.222 ms
+64 bytes from 192.168.0.2: icmp_seq=63 ttl=64 time=0.178 ms
+64 bytes from 192.168.0.2: icmp_seq=64 ttl=64 time=0.403 ms
+64 bytes from 192.168.0.2: icmp_seq=65 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_seq=66 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_seq=67 ttl=64 time=0.187 ms
+64 bytes from 192.168.0.2: icmp_seq=68 ttl=64 time=0.188 ms
+64 bytes from 192.168.0.2: icmp_seq=69 ttl=64 time=0.265 ms
+64 bytes from 192.168.0.2: icmp_seq=70 ttl=64 time=0.180 ms
+64 bytes from 192.168.0.2: icmp_seq=71 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_seq=72 ttl=64 time=0.188 ms
+64 bytes from 192.168.0.2: icmp_seq=73 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_seq=74 ttl=64 time=0.229 ms
+64 bytes from 192.168.0.2: icmp_seq=75 ttl=64 time=0.215 ms
+64 bytes from 192.168.0.2: icmp_seq=76 ttl=64 time=0.363 ms
+64 bytes from 192.168.0.2: icmp_seq=77 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_seq=78 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_seq=79 ttl=64 time=0.217 ms
+64 bytes from 192.168.0.2: icmp_seq=80 ttl=64 time=0.169 ms
+64 bytes from 192.168.0.2: icmp_seq=81 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=82 ttl=64 time=0.201 ms
+64 bytes from 192.168.0.2: icmp_seq=83 ttl=64 time=0.267 ms
+64 bytes from 192.168.0.2: icmp_seq=84 ttl=64 time=0.180 ms
+64 bytes from 192.168.0.2: icmp_seq=85 ttl=64 time=0.207 ms
+64 bytes from 192.168.0.2: icmp_seq=86 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_seq=87 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=88 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_seq=89 ttl=64 time=0.217 ms
+64 bytes from 192.168.0.2: icmp_seq=90 ttl=64 time=0.162 ms
+64 bytes from 192.168.0.2: icmp_seq=91 ttl=64 time=0.170 ms
+64 bytes from 192.168.0.2: icmp_seq=92 ttl=64 time=0.195 ms
+64 bytes from 192.168.0.2: icmp_seq=93 ttl=64 time=0.454 ms
+64 bytes from 192.168.0.2: icmp_seq=94 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.2: icmp_seq=95 ttl=64 time=0.195 ms
+64 bytes from 192.168.0.2: icmp_seq=96 ttl=64 time=0.197 ms
+64 bytes from 192.168.0.2: icmp_seq=97 ttl=64 time=0.188 ms
+64 bytes from 192.168.0.2: icmp_seq=98 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_seq=99 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_seq=100 ttl=64 time=0.234 ms
+64 bytes from 192.168.0.2: icmp_seq=101 ttl=64 time=0.216 ms
+64 bytes from 192.168.0.2: icmp_seq=102 ttl=64 time=0.168 ms
+64 bytes from 192.168.0.2: icmp_seq=103 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.2: icmp_seq=104 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.2: icmp_seq=105 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.2: icmp_seq=106 ttl=64 time=0.264 ms
+64 bytes from 192.168.0.2: icmp_seq=107 ttl=64 time=0.168 ms
+64 bytes from 192.168.0.2: icmp_seq=108 ttl=64 time=0.206 ms
+64 bytes from 192.168.0.2: icmp_seq=109 ttl=64 time=0.193 ms
+64 bytes from 192.168.0.2: icmp_seq=110 ttl=64 time=0.188 ms
+64 bytes from 192.168.0.2: icmp_seq=111 ttl=64 time=0.235 ms
+64 bytes from 192.168.0.2: icmp_seq=112 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=113 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_seq=114 ttl=64 time=0.204 ms
+64 bytes from 192.168.0.2: icmp_seq=115 ttl=64 time=0.175 ms
+64 bytes from 192.168.0.2: icmp_seq=116 ttl=64 time=0.230 ms
+64 bytes from 192.168.0.2: icmp_seq=117 ttl=64 time=0.277 ms
+64 bytes from 192.168.0.2: icmp_seq=118 ttl=64 time=0.177 ms
+64 bytes from 192.168.0.2: icmp_seq=119 ttl=64 time=0.271 ms
+64 bytes from 192.168.0.2: icmp_seq=120 ttl=64 time=0.205 ms
+64 bytes from 192.168.0.2: icmp_seq=121 ttl=64 time=0.532 ms
+64 bytes from 192.168.0.2: icmp_seq=122 ttl=64 time=0.274 ms
+64 bytes from 192.168.0.2: icmp_seq=123 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=124 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=125 ttl=64 time=0.168 ms
+64 bytes from 192.168.0.2: icmp_seq=126 ttl=64 time=0.185 ms
+64 bytes from 192.168.0.2: icmp_seq=127 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_seq=128 ttl=64 time=0.190 ms
+64 bytes from 192.168.0.2: icmp_seq=129 ttl=64 time=0.208 ms
+64 bytes from 192.168.0.2: icmp_seq=130 ttl=64 time=0.251 ms
+64 bytes from 192.168.0.2: icmp_seq=131 ttl=64 time=0.276 ms
+64 bytes from 192.168.0.2: icmp_seq=132 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_seq=133 ttl=64 time=0.269 ms
+64 bytes from 192.168.0.2: icmp_seq=134 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_seq=135 ttl=64 time=0.176 ms
+64 bytes from 192.168.0.2: icmp_seq=136 ttl=64 time=0.213 ms
+64 bytes from 192.168.0.2: icmp_seq=137 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_seq=138 ttl=64 time=0.195 ms
+64 bytes from 192.168.0.2: icmp_seq=139 ttl=64 time=0.377 ms
+64 bytes from 192.168.0.2: icmp_seq=140 ttl=64 time=0.216 ms
+64 bytes from 192.168.0.2: icmp_seq=141 ttl=64 time=0.224 ms
+64 bytes from 192.168.0.2: icmp_seq=142 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_seq=143 ttl=64 time=0.190 ms
+64 bytes from 192.168.0.2: icmp_seq=144 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_seq=145 ttl=64 time=0.284 ms
+64 bytes from 192.168.0.2: icmp_seq=146 ttl=64 time=0.168 ms
+64 bytes from 192.168.0.2: icmp_seq=147 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_seq=148 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=149 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=150 ttl=64 time=0.286 ms
+64 bytes from 192.168.0.2: icmp_seq=151 ttl=64 time=0.546 ms
+64 bytes from 192.168.0.2: icmp_seq=152 ttl=64 time=0.206 ms
+64 bytes from 192.168.0.2: icmp_seq=153 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_seq=154 ttl=64 time=0.190 ms
+64 bytes from 192.168.0.2: icmp_seq=155 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_seq=156 ttl=64 time=0.304 ms
+64 bytes from 192.168.0.2: icmp_seq=157 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_seq=158 ttl=64 time=0.248 ms
+64 bytes from 192.168.0.2: icmp_seq=159 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.2: icmp_seq=160 ttl=64 time=0.281 ms
+64 bytes from 192.168.0.2: icmp_seq=161 ttl=64 time=0.272 ms
+64 bytes from 192.168.0.2: icmp_seq=162 ttl=64 time=0.266 ms
+64 bytes from 192.168.0.2: icmp_seq=163 ttl=64 time=0.214 ms
+64 bytes from 192.168.0.2: icmp_seq=164 ttl=64 time=0.195 ms
+64 bytes from 192.168.0.2: icmp_seq=165 ttl=64 time=0.354 ms
+64 bytes from 192.168.0.2: icmp_seq=166 ttl=64 time=0.209 ms
+64 bytes from 192.168.0.2: icmp_seq=167 ttl=64 time=0.181 ms
+64 bytes from 192.168.0.2: icmp_seq=168 ttl=64 time=0.172 ms
+64 bytes from 192.168.0.2: icmp_seq=169 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.2: icmp_seq=170 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_seq=171 ttl=64 time=0.233 ms
+64 bytes from 192.168.0.2: icmp_seq=172 ttl=64 time=0.208 ms
+64 bytes from 192.168.0.2: icmp_seq=173 ttl=64 time=0.359 ms
+64 bytes from 192.168.0.2: icmp_seq=174 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.2: icmp_seq=175 ttl=64 time=0.271 ms
+
+--- 192.168.0.2 ping statistics ---
+176 packets transmitted, 176 received, 0% packet loss, time 175036ms
+rtt min/avg/max/mdev = 0.148/0.226/1.923/0.141 ms, pipe 2
+]0;s4d1@localhost:~[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]
