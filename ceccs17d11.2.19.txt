@@ -1,3 +1,8 @@
+//ANAKHA BM
+//S4D
+//ROLL_NO:6
+
+
 Script started on Mon 11 Feb 2019 11:09:16 AM IST
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ pdftotext chn.pdf chn.txt
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ cat chn.txt
@@ -762,16 +767,106 @@ Controller of Examinations
 
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS103 result[K[K[K[K[K[Kchn.txt
 CHN17CS103
-]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS103 chn.txt[s4d1@localhost ~]$ [12Pcat[s4d1@localhost ~]$ cat chn.txt[4hgrep CHN17CS[4l103[s4d1@localhost ~]$ grep CHN17CS103 chn.txt[s4d1@localhost ~]$ grep CHN17CS103[1P chn.txt[1P chn.txt[1P chn.txt0 chn.txt0 chn.txt7 chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS103 chn.txt
+
+[s4d1@localhost ~]$ [12Pcat
+[s4d1@localhost ~]$ cat chn.txt[4hgrep CHN17CS[4l103
+[s4d1@localhost ~]$ grep CHN17CS103 chn.txt
+[s4d1@localhost ~]$ grep CHN17CS103[1P chn.txt[1P chn.txt[1P chn.txt0 chn.txt0 chn.txt7 chn.txt
 CHN17CS007 MA101(F), PH100(C), BE100(P), BE10105(F), BE103(B+), EE100(F), PH110(A), EE110(B+), CS110(B+) 
-]0;s4d1@localhost:~[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ grep CHN17CS007 chn.txt103[s4d1@localhost ~]$ grep CHN17CS103 chn.txt[s4d1@localhost ~]$ [12Pcat[s4d1@localhost ~]$ cat chn.txt[4hpdftotext chn.[4lpdf[s4d1@localhost ~]$ pdftotext chn.pdf chn.txt[s4d1@localhost ~]$ [11Pcat result.txtgrep CHN17CS019 resu.txt[s4d1@localhost ~]$ [12Pcat[s4d1@localhost ~]$ cat resu.txt.sxwpdftotext Resu.pdf Resu.txtresu.pdf resu.txt[s4d1@localhost ~]$ [4hxl[4lsxtotext resu.xlsx[s4d1@localhost ~]$ xlsxtotext resu.xlsx resu.txt[s4d1@localhost ~]$ [6Pgrep CHN17AE028 res.txt[s4d1@localhost ~]$ [12Pcat[s4d1@localhost ~]$ cat res.txt[4hpdftotext res.[4lpdf[s4d1@localhost ~]$ pdftotext res.pdf res.txt[s4d1@localhost ~]$ script ceccs17d11.2.19.txt[s4d1@localhost ~]$ [15Pcat res.txt[4hpdftotext res.[4lpdf[s4d1@localhost ~]$ pdftotext res.pdf res.txt[s4d1@localhost ~]$ [13Pcat>rchn.txt rchn.txtscript ceccs17d11.2.19.txt[s4d1@localhost ~]$ [14Pcat rchn.pdfscript ceccs17d11.2.19.txt[s4d1@localhost ~]$ [14Pcat rchn.txtless anakha.txt[7Pupdate b[2Plocateupdate bless anakha.txt[3Pcat rchn.txtscript ceccs17d11.2.19.txt[s4d1@localhost ~]$ [14Pcat rchn.pdfscript ceccs17d11.2.19.txt[s4d1@localhost ~]$ [14Pcat rchn.txt>rchn.txtpdftotext res.pdf res.txt[s4d1@localhost ~]$ [14Pcat[s4d1@localhost ~]$ cat res.txtscript ceccs17d11.2.19.txt[s4d1@localhost ~]$ [1Ppdftotext res.pdf res.txt[s4d1@localhost ~]$ [14Pcat[s4d1@localhost ~]$ cat res.txt[4hgrep CHN17AE[4l028[s4d1@localhost ~]$ grep CHN17AE028 res.txt[s4d1@localhost ~]$ xlsxtotext resu.xlsx resu.txt[s4d1@localhost ~]$ [2Ppdftotext resu.pdf[s4d1@localhost ~]$ pdftotext resu.pdf resu.txtResu.pdf Resu.txt[s4d1@localhost ~]$ [11Pcat resu.txt.sxw[K[4hgrep CHN17CS[4l019[s4d1@localhost ~]$ grep CHN17CS019 resu.txt[s4d1@localhost ~]$ [10Pcat result.txtpdftotext chn.pdf chn.txt[s4d1@localhost ~]$ [14Pcat[s4d1@localhost ~]$ cat chn.txt[4hgrep CHN17CS[4l103[s4d1@localhost ~]$ grep CHN17CS103 chn.txt007[s4d1@localhost ~]$ grep CHN17CS007 chn.txt[s4d1@localhost ~]$ [KSED[K[K[Ksed -i 's/(0)/10/g' chn.txt
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(0)/10/g' chn.txt[1P[4ha[4l[1P[4hA[4l[s4d1@localhost ~]$ sed -i 's/(A)[s4d1@localhost ~]$ sed -i 's/(A)/[s4d1@localhost ~]$ sed -i 's/(A)/1[s4d1@localhost ~]$ sed -i 's/(A)/10[1P[1P[4h8[4l[4h.[4l[4h9[4l[1P[4h5[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A)/8.5/g' chn.txt[4h+[4l[s4d1@localhost ~]$ sed -i 's/(A+)[s4d1@localhost ~]$ sed -i 's/(A+)/[s4d1@localhost ~]$ sed -i 's/(A+)/8[s4d1@localhost ~]$ sed -i 's/(A+)/8.[s4d1@localhost ~]$ sed -i 's/(A+)/8.5[1P[1P[1P[4h9[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A+)/9/g' chn.txt[1P[1P[4hB[4l[4h+[4l[s4d1@localhost ~]$ sed -i 's/(B+)[s4d1@localhost ~]$ sed -i 's/(B+)/[s4d1@localhost ~]$ sed -i 's/(B+)/9[1P[4h8[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(B+)/8/g' chn.txt[1P[s4d1@localhost ~]$ sed -i 's/(B)[s4d1@localhost ~]$ sed -i 's/(B)/[s4d1@localhost ~]$ sed -i 's/(B)/8[1P[4h7[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(B)/7/g' chn.txt[1P[4hC[4l[s4d1@localhost ~]$ sed -i 's/(C)[4h0[4l[1P[s4d1@localhost ~]$ sed -i 's/(C)/[s4d1@localhost ~]$ sed -i 's/(C)/7[1P[4h5[4l[4h6[4l[1P[1P[4h6[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(C)/6/g' chn.txt[1P[4hP[4l[s4d1@localhost ~]$ sed -i 's/(P)[s4d1@localhost ~]$ sed -i 's/(P)/[s4d1@localhost ~]$ sed -i 's/(P)/6[1P[4h5[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(P)/5/g' chn.txt[1P[4hF[4l[s4d1@localhost ~]$ sed -i 's/(F)[s4d1@localhost ~]$ sed -i 's/(F)/[s4d1@localhost ~]$ sed -i 's/(F)/5[1P[4h0[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ grep CHN17CS007 chn.txt103
+[s4d1@localhost ~]$ grep CHN17CS103 chn.txt
+
+[s4d1@localhost ~]$ [12Pcat
+[s4d1@localhost ~]$ cat chn.txt[4hpdftotext chn.[4lpdf
+[s4d1@localhost ~]$ pdftotext chn.pdf chn.txt
+
+[s4d1@localhost ~]$ [11Pcat result.txtgrep CHN17CS019 resu.txt
+
+[s4d1@localhost ~]$ [12Pcat
+[s4d1@localhost ~]$ cat resu.txt.sxwpdftotext Resu.pdf Resu.txtresu.pdf resu.txt
+
+[s4d1@localhost ~]$ [4hxl[4lsxtotext resu.xlsx
+[s4d1@localhost ~]$ xlsxtotext resu.xlsx resu.txt
+
+[s4d1@localhost ~]$ [6Pgrep CHN17AE028 res.txt
+
+[s4d1@localhost ~]$ [12Pcat
+[s4d1@localhost ~]$ cat res.txt[4hpdftotext res.[4lpdf
+[s4d1@localhost ~]$ pdftotext res.pdf res.txt
+
+[s4d1@localhost ~]$ script ceccs17d11.2.19.txt
+
+[s4d1@localhost ~]$ [15Pcat res.txt[4hpdftotext res.[4lpdf
+[s4d1@localhost ~]$ pdftotext res.pdf res.txt
+
+[s4d1@localhost ~]$ [13Pcat>rchn.txt rchn.txtscript ceccs17d11.2.19.txt
+
+[s4d1@localhost ~]$ [14Pcat rchn.pdfscript ceccs17d11.2.19.txt
+
+[s4d1@localhost ~]$ [14Pcat rchn.txtless anakha.txt[7Pupdate b[2Plocateupdate bless anakha.txt[3Pcat rchn.txtscript ceccs17d11.2.19.txt
+
+[s4d1@localhost ~]$ [14Pcat rchn.pdfscript ceccs17d11.2.19.txt
+
+[s4d1@localhost ~]$ [14Pcat rchn.txt>rchn.txtpdftotext res.pdf res.txt
+
+[s4d1@localhost ~]$ [14Pcat
+[s4d1@localhost ~]$ cat res.txtscript ceccs17d11.2.19.txt
+
+[s4d1@localhost ~]$ [1Ppdftotext res.pdf res.txt
+
+[s4d1@localhost ~]$ [14Pcat
+[s4d1@localhost ~]$ cat res.txt[4hgrep CHN17AE[4l028
+[s4d1@localhost ~]$ grep CHN17AE028 res.txt
+
+[s4d1@localhost ~]$ xlsxtotext resu.xlsx resu.txt
+
+[s4d1@localhost ~]$ [2Ppdftotext resu.pdf
+[s4d1@localhost ~]$ pdftotext resu.pdf resu.txtResu.pdf Resu.txt
+
+[s4d1@localhost ~]$ [11Pcat resu.txt.sxw[K[4hgrep CHN17CS[4l019
+[s4d1@localhost ~]$ grep CHN17CS019 resu.txt
+
+[s4d1@localhost ~]$ [10Pcat result.txtpdftotext chn.pdf chn.txt
+
+[s4d1@localhost ~]$ [14Pcat
+[s4d1@localhost ~]$ cat chn.txt[4hgrep CHN17CS[4l103
+[s4d1@localhost ~]$ grep CHN17CS103 chn.txt007
+[s4d1@localhost ~]$ grep CHN17CS007 chn.txt
+
+[s4d1@localhost ~]$ [KSED[K[K[Ksed -i 's/(0)/10/g' chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(0)/10/g' chn.txt[1P[4ha[4l[1P[4hA[4l
+[s4d1@localhost ~]$ sed -i 's/(A)
+[s4d1@localhost ~]$ sed -i 's/(A)/
+[s4d1@localhost ~]$ sed -i 's/(A)/1
+[s4d1@localhost ~]$ sed -i 's/(A)/10[1P[1P[4h8[4l[4h.[4l[4h9[4l[1P[4h5[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A)/8.5/g' chn.txt[4h+[4l
+[s4d1@localhost ~]$ sed -i 's/(A+)
+[s4d1@localhost ~]$ sed -i 's/(A+)/
+[s4d1@localhost ~]$ sed -i 's/(A+)/8
+[s4d1@localhost ~]$ sed -i 's/(A+)/8.
+[s4d1@localhost ~]$ sed -i 's/(A+)/8.5[1P[1P[1P[4h9[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A+)/9/g' chn.txt[1P[1P[4hB[4l[4h+[4l
+[s4d1@localhost ~]$ sed -i 's/(B+)
+[s4d1@localhost ~]$ sed -i 's/(B+)/
+[s4d1@localhost ~]$ sed -i 's/(B+)/9[1P[4h8[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(B+)/8/g' chn.txt[1P
+[s4d1@localhost ~]$ sed -i 's/(B)
+[s4d1@localhost ~]$ sed -i 's/(B)/
+[s4d1@localhost ~]$ sed -i 's/(B)/8[1P[4h7[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(B)/7/g' chn.txt[1P[4hC[4l
+[s4d1@localhost ~]$ sed -i 's/(C)[4h0[4l[1P
+[s4d1@localhost ~]$ sed -i 's/(C)/
+[s4d1@localhost ~]$ sed -i 's/(C)/7[1P[4h5[4l[4h6[4l[1P[1P[4h6[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(C)/6/g' chn.txt[1P[4hP[4l
+[s4d1@localhost ~]$ sed -i 's/(P)
+[s4d1@localhost ~]$ sed -i 's/(P)/
+[s4d1@localhost ~]$ sed -i 's/(P)/6[1P[4h5[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(P)/5/g' chn.txt[1P[4hF[4l
+[s4d1@localhost ~]$ sed -i 's/(F)
+[s4d1@localhost ~]$ sed -i 's/(F)/
+[s4d1@localhost ~]$ sed -i 's/(F)/5[1P[4h0[4l
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(F)/0/g' chn.txt[4hE[4l
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ grep "CHN17CS" chn.txt
 CHN17CS001 Course Code (Grade) MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
@@ -894,31 +989,128 @@ CHN17CS119
 CHN17CS120
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ greop[K[Kp CHN17CS001 chn.txt
 CHN17CS001 Course Code (Grade) MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
-]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[1P"CHN17CS"[s4d1@localhost ~]$ grep "CHN17CS" chn.txt[s4d1@localhost ~]$ [4hsed -[4li 's/(FE)/0/g'[s4d1@localhost ~]$ sed -i 's/(FE)/0/g' chn.txt[1P[s4d1@localhost ~]$ sed -i 's/(F)/0/g' chn.txtP)/5[s4d1@localhost ~]$ sed -i 's/(P)/5/g' chn.txtC)/6[s4d1@localhost ~]$ sed -i 's/(C)/6/g' chn.txtB)/7[s4d1@localhost ~]$ sed -i 's/(B)/7/g' chn.txt[4h+[4l)/8[s4d1@localhost ~]$ sed -i 's/(B+)/8/g' chn.txt[4h([4l[s4d1@localhost ~]$ sed -i 's/(B+)/(8[4h)[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt[s4d1@localhost ~]$ [6Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[1P"CHN17CS"
+[s4d1@localhost ~]$ grep "CHN17CS" chn.txt
+
+[s4d1@localhost ~]$ [4hsed -[4li 's/(FE)/0/g'
+[s4d1@localhost ~]$ sed -i 's/(FE)/0/g' chn.txt[1P
+[s4d1@localhost ~]$ sed -i 's/(F)/0/g' chn.txtP)/5
+[s4d1@localhost ~]$ sed -i 's/(P)/5/g' chn.txtC)/6
+[s4d1@localhost ~]$ sed -i 's/(C)/6/g' chn.txtB)/7
+[s4d1@localhost ~]$ sed -i 's/(B)/7/g' chn.txt[4h+[4l)/8
+[s4d1@localhost ~]$ sed -i 's/(B+)/8/g' chn.txt[4h([4l
+[s4d1@localhost ~]$ sed -i 's/(B+)/(8[4h)[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt
+
+[s4d1@localhost ~]$ [6Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
 CHN17CS001 Course Code (Grade) MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
-]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i[4l 's/(B+)/(8)/g'[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt[s4d1@localhost ~]$ [6Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[1P"CHN17CS"[s4d1@localhost ~]$ grep "CHN17CS" chn.txt[s4d1@localhost ~]$ [4hsed -[4li 's/(FE)/0/g'[s4d1@localhost ~]$ sed -i 's/(FE)/0/g' chn.txt[1P[s4d1@localhost ~]$ sed -i 's/(F)/0/g' chn.txtP)/5[s4d1@localhost ~]$ sed -i 's/(P)/5/g' chn.txtC)/6[s4d1@localhost ~]$ sed -i 's/(C)/6/g' chn.txtB)/7[s4d1@localhost ~]$ sed -i 's/(B)/7/g' chn.txt[4h+[4l)/8[s4d1@localhost ~]$ sed -i 's/(B+)/8/g' chn.txtA+)/9[s4d1@localhost ~]$ sed -i 's/(A+)/9/g' chn.txt[4h)[4l/8.5[s4d1@localhost ~]$ sed -i 's/(A)/8.5/g' chn.txt[4h)[4l[4h([4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt[s4d1@localhost ~]$ [7Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i[4l 's/(B+)/(8)/g'[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt[s4d1@localhost ~]$ [6Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i[4l 's/(B+)/(8)/g'
+[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt
+
+[s4d1@localhost ~]$ [6Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[1P"CHN17CS"
+[s4d1@localhost ~]$ grep "CHN17CS" chn.txt
+
+[s4d1@localhost ~]$ [4hsed -[4li 's/(FE)/0/g'
+[s4d1@localhost ~]$ sed -i 's/(FE)/0/g' chn.txt[1P
+[s4d1@localhost ~]$ sed -i 's/(F)/0/g' chn.txtP)/5
+[s4d1@localhost ~]$ sed -i 's/(P)/5/g' chn.txtC)/6
+[s4d1@localhost ~]$ sed -i 's/(C)/6/g' chn.txtB)/7
+[s4d1@localhost ~]$ sed -i 's/(B)/7/g' chn.txt[4h+[4l)/8
+[s4d1@localhost ~]$ sed -i 's/(B+)/8/g' chn.txtA+)/9
+[s4d1@localhost ~]$ sed -i 's/(A+)/9/g' chn.txt[4h)[4l/8.5
+[s4d1@localhost ~]$ sed -i 's/(A)/8.5/g' chn.txt[4h)[4l[4h([4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt
+
+[s4d1@localhost ~]$ [7Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i[4l 's/(B+)/(8)/g'
+[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt
+
+[s4d1@localhost ~]$ [6Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
 CHN17CS001 Course Code (Grade) MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
-]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/(8.5)/g'[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt[1P[s4d1@localhost ~]$ sed -i 's/(A)/8[s4d1@localhost ~]$ sed -i 's/(A)/8.[s4d1@localhost ~]$ sed -i 's/(A)/8.5[s4d1@localhost ~]$ sed -i 's/(A)/8.5)[1P[4h [4l[s4d1@localhost ~]$ sed -i 's/(A)/ 8[s4d1@localhost ~]$ sed -i 's/(A)/ 8.[s4d1@localhost ~]$ sed -i 's/(A)/ 8.5[4h [4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A)/ 8.5 /g' chn.txt[s4d1@localhost ~]$ [7Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/(8.5)/g'[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt[s4d1@localhost ~]$ [7Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/(8.5)/g'
+[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt[1P
+[s4d1@localhost ~]$ sed -i 's/(A)/8
+[s4d1@localhost ~]$ sed -i 's/(A)/8.
+[s4d1@localhost ~]$ sed -i 's/(A)/8.5
+[s4d1@localhost ~]$ sed -i 's/(A)/8.5)[1P[4h [4l
+[s4d1@localhost ~]$ sed -i 's/(A)/ 8
+[s4d1@localhost ~]$ sed -i 's/(A)/ 8.
+[s4d1@localhost ~]$ sed -i 's/(A)/ 8.5[4h [4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sed -i 's/(A)/ 8.5 /g' chn.txt
+
+[s4d1@localhost ~]$ [7Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/(8.5)/g'
+[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt
+
+[s4d1@localhost ~]$ [7Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
 CHN17CS001 Course Code (Grade) MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt
 awk: cmd. line:1: {s+=}
 awk: cmd. line:1:     ^ syntax error
-]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt[s4d1@localhost ~]$ [11Pgrep CHN17CS001 chn.txt[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt[1P[4h3[4l[s4d1@localhost ~]$ awk {s+=$3}[s4d1@localhost ~]$ awk {s+=$3} [s4d1@localhost ~]$ awk {s+=$3} E[s4d1@localhost ~]$ awk {s+=$3} EN[s4d1@localhost ~]$ awk {s+=$3} END[s4d1@localhost ~]$ awk {s+=$3} END [s4d1@localhost ~]$ awk {s+=$3} END {[s4d1@localhost ~]$ awk {s+=$3} END {P[s4d1@localhost ~]$ awk {s+=$3} END {Pr[s4d1@localhost ~]$ awk {s+=$3} END {Pri[s4d1@localhost ~]$ awk {s+=$3} END {Prin[s4d1@localhost ~]$ awk {s+=$3} END {Print[s4d1@localhost ~]$ awk {s+=$3} END {Print [s4d1@localhost ~]$ awk {s+=$3} END {Print s[s4d1@localhost ~]$ awk {s+=$3} END {Print s}[s4d1@localhost ~]$ awk {s+=$3} END {Print s} [s4d1@localhost ~]$ awk {s+=$3} END {Print s} *[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *c[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *ch[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.t[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.tx[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt
+
+[s4d1@localhost ~]$ [11Pgrep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt[1P[4h3[4l
+[s4d1@localhost ~]$ awk {s+=$3}
+[s4d1@localhost ~]$ awk {s+=$3} 
+[s4d1@localhost ~]$ awk {s+=$3} E
+[s4d1@localhost ~]$ awk {s+=$3} EN
+[s4d1@localhost ~]$ awk {s+=$3} END
+[s4d1@localhost ~]$ awk {s+=$3} END 
+[s4d1@localhost ~]$ awk {s+=$3} END {
+[s4d1@localhost ~]$ awk {s+=$3} END {P
+[s4d1@localhost ~]$ awk {s+=$3} END {Pr
+[s4d1@localhost ~]$ awk {s+=$3} END {Pri
+[s4d1@localhost ~]$ awk {s+=$3} END {Prin
+[s4d1@localhost ~]$ awk {s+=$3} END {Print
+[s4d1@localhost ~]$ awk {s+=$3} END {Print 
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s}
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} 
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *c
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *ch
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.t
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.tx
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.txt
 awk: cmd. line:1: {s+=}
 awk: cmd. line:1:     ^ syntax error
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.txt[K[K[K[K[K[K[K[K
 awk: cmd. line:1: {s+=}
 awk: cmd. line:1:     ^ syntax error
-]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.txt[1Pchn.txt[s4d1@localhost ~]$ awk {s+=$3} END {Print s} c[s4d1@localhost ~]$ awk {s+=$3} END {Print s} ch[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.t[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.tx[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$3} END {Print s} *chn.txt[1Pchn.txt
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} c
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} ch
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.t
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.tx
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.txt
 awk: cmd. line:1: {s+=}
 awk: cmd. line:1:     ^ syntax error
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$3} END {Print s} chn.txt[Kchn.txt* chn.txt
 awk: cmd. line:1: {s+=}
 awk: cmd. line:1:     ^ syntax error
-]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$3} END {Print s}* chn.txt[1P[s4d1@localhost ~]$ [Kawk {s+=$3} END {Print s* chn.txt[s4d1@localhost ~]$ awk {s+=$3} END {Print s*[1P chn.txt} chn.txt' chn.txt[s4d1@localhost ~]$ awk [4h'[4l
+]0;s4d1@localhost:~[s4d1@localhost ~]$ awk {s+=$3} END {Print s}* chn.txt[1P
+
+[s4d1@localhost ~]$ [Kawk {s+=$3} END {Print s* chn.txt
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s*[1P chn.txt} chn.txt' chn.txt
+[s4d1@localhost ~]$ awk [4h'[4l
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ CAT  \[K[K[K[K[K[Kcat chn.txt
 PJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY Thiruvananthapuram, Kerala, INDIA A
 Exam Centre: COLLEGE OF ENGINEERING CHENGANNUR
@@ -1685,8 +1877,11 @@ CHN17CS007 MA1010, PH1006, BE1005, BE101050, BE1038, EE1000, PH1108.5, EE1108, C
 CHN17CS008 MA1017, PH1007, BE1007, BE101058, BE1038.5, EE1006, PH1109, EE1108, CS1107 
 CHN17CS009 MA1018.5, PH1008.5, BE1007, BE101050, BE1039, EE1006, PH1108.5, EE1108, CS1107 
 CHN17CS010 MA1010, PH1006, BE1007, BE101056, BE1037, EE1006, PH1108, EE1108, CS1107 
-]0;s4d1@localhost:~[s4d1@localhost ~]$ cat chng.txt[1P.txt[4hawk '{s+=$3} END {Print [4ls}'[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt
-]0;s4d1@localhost:~[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt[s4d1@localhost ~]$ [23Pcat chng.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cat chng.txt[1P.txt[4hawk '{s+=$3} END {Print [4ls}'
+[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt
+
+[s4d1@localhost ~]$ [23Pcat chng.txt
 CHN17CS001 MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  
 CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
 CHN17CS003 MA1018, PH1007, BE1006, BE101056, BE1039, EE1006, PH1108, EE1108, CS1107 
@@ -1699,7 +1894,37 @@ CHN17CS009 MA1018.5, PH1008.5, BE1007, BE101050, BE1039, EE1006, PH1108.5, EE110
 CHN17CS010 MA1010, PH1006, BE1007, BE101056, BE1037, EE1006, PH1108, EE1108, CS1107 
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ cat chng.txtawk '{s+=$3} END {Print s}' chn.txt
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt[Kawk '{s+=$3} END {Print s}' chn.txt[1P[4h1[4l
-]0;s4d1@localhost:~[s4d1@localhost ~]$ awk '{s+=$1} END {Print s}' chn.txt3[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt[s4d1@localhost ~]$ [23Pcat chng.txtawk '{s+=$3} END {Print s}' chn.txt[s4d1@localhost ~]$ [23Pcat chng.txt[1P.txt[4hawk '{s+=$3} END {Print [4ls}'[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt[s4d1@localhost ~]$ awk [1P{s+=$3} END {Print s}*[s4d1@localhost ~]$ awk {s+=$3} END {Print s}* chn.txt[1P chn.txt[K*chn.txti[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt[s4d1@localhost ~]$ [11Pgrep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/ 8.5 /g'[s4d1@localhost ~]$ sed -i 's/(A)/ 8.5 /g' chn.txt[s4d1@localhost ~]$ [7Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/(8.5)/g'[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt[s4d1@localhost ~]$ [7Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[s4d1@localhost ~]$ [4hsed -i[4l 's/(B+)/(8)/g'[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt[s4d1@localhost ~]$ [6Pgrep CHN17CS001[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat chng.txt
+]0;s4d1@localhost:~[s4d1@localhost ~]$ awk '{s+=$1} END {Print s}' chn.txt3
+[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt
+
+[s4d1@localhost ~]$ [23Pcat chng.txtawk '{s+=$3} END {Print s}' chn.txt
+
+[s4d1@localhost ~]$ [23Pcat chng.txt[1P.txt[4hawk '{s+=$3} END {Print [4ls}'
+[s4d1@localhost ~]$ awk '{s+=$3} END {Print s}' chn.txt
+
+[s4d1@localhost ~]$ awk [1P{s+=$3} END {Print s}*
+[s4d1@localhost ~]$ awk {s+=$3} END {Print s}* chn.txt[1P chn.txt[K*chn.txti
+[s4d1@localhost ~]$ awk {s+=$i} END {Print s} *chn.txt
+
+[s4d1@localhost ~]$ [11Pgrep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/ 8.5 /g'
+[s4d1@localhost ~]$ sed -i 's/(A)/ 8.5 /g' chn.txt
+
+[s4d1@localhost ~]$ [7Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i [4l's/(A)/(8.5)/g'
+[s4d1@localhost ~]$ sed -i 's/(A)/(8.5)/g' chn.txt
+
+[s4d1@localhost ~]$ [7Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt
+
+[s4d1@localhost ~]$ [4hsed -i[4l 's/(B+)/(8)/g'
+[s4d1@localhost ~]$ sed -i 's/(B+)/(8)/g' chn.txt
+
+[s4d1@localhost ~]$ [6Pgrep CHN17CS001
+[s4d1@localhost ~]$ grep CHN17CS001 chn.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat chng.txt
 CHN17CS001 MA1018.5, PH1008, BE1007, BE101058, BE1038, EE1006, PH1108.5, EE1108, CS1108.5			  
 CHN17CS002 MA1018.5, PH1008, BE1007, BE101058, BE1038.5, EE1007, PH1108, EE1108, CS1107 
 CHN17CS003 MA1018, PH1007, BE1006, BE101056, BE1039, EE1006, PH1108, EE1108, CS1107 
