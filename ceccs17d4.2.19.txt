@@ -1,4 +1,9 @@
-Script started on Wed 01 Jan 2003 01:01:52 AM IST
+//ANAKHA BM
+//S4D
+//ROLL_NO:6
+
+
+Script started on Mon 04 Feb 2019 09:05:52 AM IST
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ la[Ks
 [00m[00mabhi.txt[00m   [00manakha.txt[00m   [00ma.txt[00m   [00mceccs17d4.2.19.txt[00m
 [00mabhi.txt~[00m  [00manakha.txt~[00m  [00ma.txt~[00m  [00;34mDesktop[00m
@@ -735,4 +740,4 @@ rtt min/avg/max/mdev = 0.148/0.226/1.923/0.141 ms, pipe 2
 [K[s4d1@localhost ~]
 exit
 
-Script done on Mon 4 Feb 2019 11:53:48 AM IST
+Script done on Mon 04 Feb 2019 11:53:48 AM IST
