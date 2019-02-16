@@ -206,7 +206,12 @@ No manual entry for ll
 drwxr-xr-x  2 s4d1 s4d1 4096 Jan  1 00:20 [00;34mDesktop[00m
 [m]0;s4d1@localhost:~[s4d1@localhost ~]$ alia [Ks ll=ls -l
 bash: alias: -l: not found
-]0;s4d1@localhost:~[s4d1@localhost ~]$ alias ll=ls -l[4h'[4l[s4d1@localhost ~]$ alias ll='l[s4d1@localhost ~]$ alias ll='ls[s4d1@localhost ~]$ alias ll='ls [s4d1@localhost ~]$ alias ll='ls -'l[1Pl[s4d1@localhost ~]$ alias ll='ls -l'
+]0;s4d1@localhost:~[s4d1@localhost ~]$ alias ll=ls -l[4h'[4l
+[s4d1@localhost ~]$ alias ll='l
+[s4d1@localhost ~]$ alias ll='ls
+[s4d1@localhost ~]$ alias ll='ls 
+[s4d1@localhost ~]$ alias ll='ls -'l[1Pl
+[s4d1@localhost ~]$ alias ll='ls -l'
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ ll
 [00mtotal 76
 -rw-rw-r--  1 s4d1 s4d1   10 Jan  1 00:58 [00mabhi.txt[00m
@@ -464,7 +469,9 @@ drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
 -rw-rw-r--  1 s4d1 s4d1    12 Jan  1 00:50 [00mabhi.txt~[00m
 -rw-rw-r--  1 s4d1 s4d1    49 Jan  1 00:46 [00manakha.txt~[00m
 drwxr-xr-x  2 s4d1 s4d1  4096 Jan  1 00:20 [00;34mDesktop[00m
-[m]0;s4d1@localhost:~[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ ls *i.txt
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ ls *i.txt
 [00m[00mabhi.txt[00m
 [m]0;s4d1@localhost:~[s4d1@localhost ~]$ ls *k*
 [00m[00manakha.txt[00m  [00manakha.txt~[00m
@@ -707,4 +714,25 @@ PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
 --- 192.168.0.2 ping statistics ---
 176 packets transmitted, 176 received, 0% packet loss, time 175036ms
 rtt min/avg/max/mdev = 0.148/0.226/1.923/0.141 ms, pipe 2
-]0;s4d1@localhost:~[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]$ [K[s4d1@localhost ~]
+]0;s4d1@localhost:~[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]$ 
+[K[s4d1@localhost ~]
+exit
+
+Script done on Mon 4 Feb 2019 11:53:48 AM IST
