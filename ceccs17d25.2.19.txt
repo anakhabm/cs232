@@ -1,3 +1,9 @@
+//ANAKHA BM
+//S4D
+//ROLL_NO:6
+
+
+
 Script started on Sunday 03 March 2019 11:16:39 PM IST
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ifconfig -a
 eth0      Link encap:Ethernet  HWaddr 08:00:27:c3:79:93  
@@ -26,7 +32,8 @@ Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
 10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ rote[K[Kute add defaut[Klt gw 192.168.1. 1
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ rote[K[Kute add defaut[Klt gw 192.168.1. 
+1
 SIOCADDRT: Operation not permitted
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ iwconfig
 lo        no wireless extensions.
@@ -56,18 +63,22 @@ mkdir: missing operand
 Try 'mkdir --help' for more information.
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cd
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ssh s1
-ssh: Could not resolve hostname s1: Name or service not known
+ssh: Could not resolve hostname s1: Name or service not known
+
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ssh 14.139.184.215
 ^C
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ssh ask@14.139.189.212
 The authenticity of host '14.139.189.212 (14.139.189.212)' can't be established.
 ECDSA key fingerprint is 06:31:69:cd:63:4e:4b:75:8a:ad:85:09:d3:68:12:10.
 Are you sure you want to continue connecting (yes/no)? ssh     yes
-Warning: Permanently added '14.139.189.212' (ECDSA) to the list of known hosts.
+Warning: Permanently added '14.139.189.212' (ECDSA) to the list of known hosts.
+
 ask@14.139.189.212's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 ask@14.139.189.212's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 ask@14.139.189.212's password: 
 
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ rsync
