@@ -1,0 +1,663 @@
+Script started on Sunday 03 March 2019 11:16:39 PM IST
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ifconfig -a
+eth0      Link encap:Ethernet  HWaddr 08:00:27:c3:79:93  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fec3:7993/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:173 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:234 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:23361 (23.3 KB)  TX bytes:24186 (24.1 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:275 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:275 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:24183 (24.1 KB)  TX bytes:24183 (24.1 KB)
+
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ifconfig etho[K0 192.168.0.20
+SIOCSIFADDR: Operation not permitted
+SIOCSIFFLAGS: Operation not permitted
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ royte[K[K[Kute
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     1      0        0 eth0
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ rote[K[Kute add defaut[Klt gw 192.168.1. 1
+SIOCADDRT: Operation not permitted
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ iwconfig
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ dhclient usb0
+Cannot find device "usb0"
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ tcpdump -i eth0
+tcpdump: eth0: You don't have permission to capture on that device
+(socket: Operation not permitted)
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+ifup    ^C
+--- 192.168.0.2 ping statistics ---
+24 packets transmitted, 0 received, 100% packet loss, time 23080ms
+
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ifup
+ifup: Use --help for help
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cd
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ssh s1
+ssh: Could not resolve hostname s1: Name or service not known
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ssh 14.139.184.215
+^C
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ssh ask@14.139.189.212
+The authenticity of host '14.139.189.212 (14.139.189.212)' can't be established.
+ECDSA key fingerprint is 06:31:69:cd:63:4e:4b:75:8a:ad:85:09:d3:68:12:10.
+Are you sure you want to continue connecting (yes/no)? ssh     yes
+Warning: Permanently added '14.139.189.212' (ECDSA) to the list of known hosts.
+ask@14.139.189.212's password: 
+Permission denied, please try again.
+ask@14.139.189.212's password: 
+Permission denied, please try again.
+ask@14.139.189.212's password: 
+
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ rsync
+rsync  version 3.1.0  protocol version 31
+Copyright (C) 1996-2013 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 32-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1556) [client=3.1.0]
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ps
+  PID TTY          TIME CMD
+ 2746 pts/2    00:00:00 bash
+ 2803 pts/2    00:00:00 ps
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 23:05 ?        00:00:09 /sbin/init
+root         2     0  0 23:05 ?        00:00:00 [kthreadd]
+root         3     2  0 23:05 ?        00:00:01 [ksoftirqd/0]
+root         5     2  0 23:05 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 23:05 ?        00:00:06 [rcu_sched]
+root         8     2  0 23:05 ?        00:00:00 [rcu_bh]
+root         9     2  0 23:05 ?        00:00:00 [migration/0]
+root        10     2  0 23:05 ?        00:00:00 [watchdog/0]
+root        11     2  0 23:05 ?        00:00:00 [kdevtmpfs]
+root        12     2  0 23:05 ?        00:00:00 [netns]
+root        13     2  0 23:05 ?        00:00:00 [perf]
+root        14     2  0 23:05 ?        00:00:00 [khungtaskd]
+root        15     2  0 23:05 ?        00:00:00 [writeback]
+root        16     2  0 23:05 ?        00:00:00 [ksmd]
+root        17     2  0 23:05 ?        00:00:01 [khugepaged]
+root        18     2  0 23:05 ?        00:00:00 [crypto]
+root        19     2  0 23:05 ?        00:00:00 [kintegrityd]
+root        20     2  0 23:05 ?        00:00:00 [bioset]
+root        21     2  0 23:05 ?        00:00:00 [kblockd]
+root        22     2  0 23:05 ?        00:00:00 [ata_sff]
+root        23     2  0 23:05 ?        00:00:00 [md]
+root        24     2  0 23:05 ?        00:00:00 [devfreq_wq]
+root        25     2  0 23:05 ?        00:00:01 [kworker/u2:1]
+root        28     2  0 23:05 ?        00:00:00 [kswapd0]
+root        29     2  0 23:05 ?        00:00:00 [vmstat]
+root        30     2  0 23:05 ?        00:00:00 [fsnotify_mark]
+root        31     2  0 23:05 ?        00:00:00 [ecryptfs-kthre
+root        47     2  0 23:05 ?        00:00:00 [kthrotld]
+root        48     2  0 23:05 ?        00:00:00 [acpi_thermal_p
+root        51     2  0 23:05 ?        00:00:00 [bioset]
+root        52     2  0 23:05 ?        00:00:00 [bioset]
+root        53     2  0 23:05 ?        00:00:00 [bioset]
+root        54     2  0 23:05 ?        00:00:00 [bioset]
+root        55     2  0 23:05 ?        00:00:00 [bioset]
+root        56     2  0 23:05 ?        00:00:00 [bioset]
+root        57     2  0 23:05 ?        00:00:00 [bioset]
+root        58     2  0 23:05 ?        00:00:00 [bioset]
+root        59     2  0 23:05 ?        00:00:00 [bioset]
+root        60     2  0 23:05 ?        00:00:00 [bioset]
+root        61     2  0 23:05 ?        00:00:00 [bioset]
+root        62     2  0 23:05 ?        00:00:00 [bioset]
+root        63     2  0 23:05 ?        00:00:00 [bioset]
+root        64     2  0 23:05 ?        00:00:00 [bioset]
+root        65     2  0 23:05 ?        00:00:00 [bioset]
+root        66     2  0 23:05 ?        00:00:00 [bioset]
+root        67     2  0 23:05 ?        00:00:00 [bioset]
+root        68     2  0 23:05 ?        00:00:00 [bioset]
+root        69     2  0 23:05 ?        00:00:00 [bioset]
+root        70     2  0 23:05 ?        00:00:00 [bioset]
+root        71     2  0 23:05 ?        00:00:00 [bioset]
+root        72     2  0 23:05 ?        00:00:00 [bioset]
+root        73     2  0 23:05 ?        00:00:00 [bioset]
+root        74     2  0 23:05 ?        00:00:00 [bioset]
+root        75     2  0 23:05 ?        00:00:00 [scsi_eh_0]
+root        76     2  0 23:05 ?        00:00:00 [scsi_tmf_0]
+root        77     2  0 23:05 ?        00:00:00 [scsi_eh_1]
+root        78     2  0 23:05 ?        00:00:00 [scsi_tmf_1]
+root        79     2  0 23:05 ?        00:00:00 [ipv6_addrconf]
+root        85     2  0 23:05 ?        00:00:00 [kworker/0:2]
+root        86     2  0 23:05 ?        00:00:00 [bioset]
+root        94     2  0 23:05 ?        00:00:00 [deferwq]
+root        95     2  0 23:05 ?        00:00:00 [charger_manage
+root       151     2  0 23:05 ?        00:00:00 [kpsmoused]
+root       152     2  0 23:05 ?        00:00:00 [scsi_eh_2]
+root       153     2  0 23:05 ?        00:00:00 [scsi_tmf_2]
+root       154     2  0 23:05 ?        00:00:00 [bioset]
+root       165     2  0 23:05 ?        00:00:00 [jbd2/sda1-8]
+root       166     2  0 23:05 ?        00:00:00 [ext4-rsv-conve
+root       207     2  0 23:05 ?        00:00:00 [kworker/0:1H]
+root       304     1  0 23:05 ?        00:00:01 upstart-udev-br
+root       312     1  0 23:05 ?        00:00:00 /lib/systemd/sy
+root       413     2  0 23:05 ?        00:00:00 [iprt-VBoxWQueu
+message+   451     1  0 23:06 ?        00:00:03 dbus-daemon --s
+root       488     1  0 23:06 ?        00:00:00 /usr/sbin/bluet
+root       508     1  0 23:06 ?        00:00:00 /lib/systemd/sy
+root       515     2  0 23:06 ?        00:00:00 [krfcommd]
+syslog     518     1  0 23:06 ?        00:00:00 rsyslogd
+avahi      527     1  0 23:06 ?        00:00:00 avahi-daemon: r
+avahi      528   527  0 23:06 ?        00:00:00 avahi-daemon: c
+root       587     2  0 23:06 ?        00:00:00 [ttm_swap]
+root       648     1  0 23:06 ?        00:00:00 /usr/sbin/Modem
+root       684     1  0 23:06 ?        00:00:01 NetworkManager
+root       700     1  0 23:06 ?        00:00:02 /usr/lib/policy
+root       731   684  0 23:06 ?        00:00:00 /sbin/dhclient 
+root       742     1  0 23:06 ?        00:00:00 upstart-file-br
+root       750     1  0 23:06 ?        00:00:00 upstart-socket-
+nobody     752   684  0 23:06 ?        00:00:00 /usr/sbin/dnsma
+root      1009     1  0 23:06 tty4     00:00:00 /sbin/getty -8 
+root      1018     1  0 23:06 tty5     00:00:00 /sbin/getty -8 
+root      1033     1  0 23:06 tty2     00:00:00 /sbin/getty -8 
+root      1036     1  0 23:06 tty3     00:00:00 /sbin/getty -8 
+root      1039     1  0 23:06 tty6     00:00:00 /sbin/getty -8 
+root      1098     1  0 23:06 ?        00:00:00 cron
+root      1099     1  0 23:06 ?        00:00:00 acpid -c /etc/a
+root      1150     1  0 23:06 ?        00:00:00 /usr/sbin/cups-
+root      1169     1  0 23:06 ?        00:00:00 /usr/sbin/cupsd
+kernoops  1170     1  0 23:06 ?        00:00:00 /usr/sbin/kerne
+whoopsie  1174     1  0 23:06 ?        00:00:00 whoopsie
+root      1234     1  0 23:06 tty1     00:00:00 /sbin/getty -8 
+root      1254     1  0 23:06 ?        00:00:00 lightdm
+root      1265  1254  4 23:06 tty7     00:01:06 /usr/lib/xorg/X
+root      1268     1  0 23:06 ?        00:00:00 /usr/lib/accoun
+root      1293     2  0 23:07 ?        00:00:00 [kauditd]
+root      1343  1254  0 23:07 ?        00:00:00 lightdm --sessi
+root      1369     1  0 23:07 ?        00:00:01 /usr/lib/upower
+rtkit     1409     1  0 23:07 ?        00:00:00 /usr/lib/rtkit/
+colord    1541     1  0 23:07 ?        00:00:00 /usr/lib/colord
+anakha44  1567     1  0 23:11 ?        00:00:00 /usr/bin/gnome-
+anakha44  1570  1343  0 23:11 ?        00:00:04 init --user
+anakha44  1665  1570  0 23:11 ?        00:00:03 dbus-daemon --f
+anakha44  1676  1570  0 23:11 ?        00:00:00 upstart-event-b
+anakha44  1682  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1701  1570  0 23:11 ?        00:00:02 /usr/lib/i386-l
+anakha44  1708  1570  0 23:11 ?        00:00:01 upstart-dbus-br
+anakha44  1709  1570  0 23:11 ?        00:00:00 upstart-file-br
+anakha44  1711  1570  0 23:11 ?        00:00:00 upstart-dbus-br
+anakha44  1715  1570  0 23:11 ?        00:00:00 /usr/lib/at-spi
+anakha44  1716  1570  0 23:11 ?        00:00:10 /usr/bin/ibus-d
+anakha44  1729  1715  0 23:11 ?        00:00:00 /bin/dbus-daemo
+anakha44  1734  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+anakha44  1739  1570  0 23:11 ?        00:00:00 /usr/lib/at-spi
+anakha44  1741  1570  0 23:11 ?        00:00:03 /usr/lib/unity-
+anakha44  1745  1570  0 23:11 ?        00:00:01 /usr/lib/i386-l
+anakha44  1752  1570  0 23:11 ?        00:00:01 gnome-session -
+anakha44  1755  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+anakha44  1760  1570  0 23:11 ?        00:00:02 /usr/lib/unity/
+anakha44  1767  1716  0 23:11 ?        00:00:00 /usr/lib/ibus/i
+anakha44  1770  1716  0 23:11 ?        00:00:02 /usr/lib/ibus/i
+anakha44  1777  1570  0 23:11 ?        00:00:00 /usr/lib/ibus/i
+anakha44  1825  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1830  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1831  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1835  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1837  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1842  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1844  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1848  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1857  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1881  1570  0 23:11 ?        00:00:01 /usr/bin/pulsea
+anakha44  1883  1570  0 23:11 ?        00:00:00 /usr/lib/evolut
+anakha44  1909  1716  0 23:11 ?        00:00:02 /usr/lib/ibus/i
+anakha44  1941  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  1950  1570  0 23:11 ?        00:00:00 /usr/lib/dconf/
+anakha44  1988  1752  9 23:11 ?        00:01:45 compiz
+anakha44  2011  1570  0 23:11 ?        00:00:01 /usr/lib/evolut
+anakha44  2026  1752  0 23:11 ?        00:00:03 nautilus -n
+anakha44  2035  1752  0 23:11 ?        00:00:01 nm-applet
+anakha44  2039  1752  0 23:11 ?        00:00:00 /usr/lib/policy
+anakha44  2057  1752  0 23:11 ?        00:00:00 /usr/lib/unity-
+anakha44  2159  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+root      2183     1  0 23:11 ?        00:00:00 /usr/lib/udisks
+root      2197     2  0 23:11 ?        00:00:00 [kworker/u2:0]
+anakha44  2213  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+anakha44  2217  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  2226  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+anakha44  2247  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+anakha44  2254  1752  0 23:11 ?        00:00:00 telepathy-indic
+anakha44  2298  1752  0 23:11 ?        00:00:00 zeitgeist-datah
+anakha44  2323  1570  0 23:11 ?        00:00:00 /usr/lib/telepa
+anakha44  2326  1570  0 23:11 ?        00:00:00 /usr/bin/zeitge
+anakha44  2337  1570  0 23:11 ?        00:00:00 /usr/lib/gvfs/g
+anakha44  2349  1570  0 23:11 ?        00:00:00 /usr/lib/i386-l
+anakha44  2385  2349  0 23:12 ?        00:00:00 /bin/cat
+anakha44  2393  1570  0 23:12 ?        00:00:00 /usr/lib/gvfs/g
+root      2394     2  0 23:12 ?        00:00:01 [kworker/0:0]
+anakha44  2584  1752  0 23:12 ?        00:00:00 update-notifier
+anakha44  2593  1570  0 23:12 ?        00:00:01 /usr/lib/i386-l
+anakha44  2610  1570  0 23:12 ?        00:00:02 /usr/bin/unity-
+anakha44  2612  1570  0 23:12 ?        00:00:00 /usr/lib/i386-l
+anakha44  2616  1570  0 23:12 ?        00:00:00 /usr/lib/i386-l
+anakha44  2658  1570  1 23:13 ?        00:00:11 gnome-terminal
+anakha44  2668  2658  0 23:13 ?        00:00:00 gnome-pty-helpe
+anakha44  2669  2658  0 23:13 pts/0    00:00:00 bash
+anakha44  2704  1570  2 23:13 ?        00:00:20 /usr/bin/python
+anakha44  2707  1752  0 23:13 ?        00:00:00 /usr/lib/i386-l
+anakha44  2744  2669  0 23:16 pts/0    00:00:00 script ceccs17d
+anakha44  2745  2744  0 23:16 pts/0    00:00:00 script ceccs17d
+anakha44  2746  2745  0 23:16 pts/2    00:00:00 bash -i
+root      2773     2  0 23:23 ?        00:00:00 [kworker/u2:2]
+root      2779     2  0 23:26 ?        00:00:00 [kworker/u2:3]
+root      2796     2  0 23:28 ?        00:00:00 [kworker/0:1]
+anakha44  2804  2746  0 23:29 pts/2    00:00:00 ps -ef
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ pkill dhcp
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ top
+[?1h=[?25l[H[2J(B[mtop - 23:30:19 up 24 min,  2 users,  load average: 0.28, 0.43, (B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 182 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 181 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mz(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  5.5 (B[m[39;49mus,(B[m[39;49m[1m 20.9 (B[m[39;49msy,(B[m[39;49m[1m  1.4 (B[m[39;49mni,(B[m[39;49m[1m 63.0 (B[m[39;49mid,(B[m[39;49m[1m  8.6 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024412 (B[m[39;49mtotal,(B[m[39;49m[1m   785776 (B[m[39;49mused,(B[m[39;49m[1m   238636 (B[m[39;49mfree,(B[m[39;49m[1m    5065(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31555(B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM (B[m[39;49m[K
+(B[m 1988 anakha44  20   0  356732 152100  63216 S 41.3 14.8 (B[m[39;49m[K
+(B[m 1265 root      20   0  142076  49548  25344 S 13.8  4.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5432   2704   2368 R 13.8  0.3 (B[m[39;49m[K
+(B[m    1 root      20   0    4596   3660   2532 S  0.0  0.4 (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   12 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   15 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K[H(B[mtop - 23:30:23 up 24 min,  2 users,  load average: 0.42, 0.46, (B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 182 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 181 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mz(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.7 (B[m[39;49mus,(B[m[39;49m[1m 12.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 80.3 (B[m[39;49mid,(B[m[39;49m[1m  2.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024412 (B[m[39;49mtotal,(B[m[39;49m[1m   785760 (B[m[39;49mused,(B[m[39;49m[1m   238652 (B[m[39;49mfree,(B[m[39;49m[1m    5066(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31554(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S  6.5 14.8 (B[m[39;49m[K
+(B[m 1265 root      20   0  142076  49548  25344 S  3.3  4.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  2.6  0.3 (B[m[39;49m[K
+(B[m 1716 anakha44  20   0   38420   7472   6556 S  1.0  0.7 (B[m[39;49m[K
+(B[m 1835 anakha44  20   0   37864   7260   6680 S  1.0  0.7 (B[m[39;49m[K
+(B[m 1369 root      20   0   37812   8852   6120 S  0.7  0.9 (B[m[39;49m[K
+(B[m 1760 anakha44  20   0  117308  23816  20164 S  0.7  2.3 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  135876  27220  23044 S  0.7  2.7 (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  165 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  207 root       0 -20       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  451 message+  20   0    4932   3192   2216 S  0.3  0.3 (B[m[39;49m[K
+(B[m 1665 anakha44  20   0    5024   3172   2152 S  0.3  0.3 (B[m[39;49m[K
+(B[m 1909 anakha44  20   0   29592   7052   6576 S  0.3  0.7 (B[m[39;49m[K
+(B[m 2298 anakha44  20   0   60580  11664  10448 S  0.3  1.1 (B[m[39;49m[K
+(B[m 2349 anakha44  20   0   58532  16428  12656 S  0.3  1.6 (B[m[39;49m[K[H(B[mtop - 23:30:26 up 25 min,  2 users,  load average: 0.38, 0.45, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 10.5 (B[m[39;49mus,(B[m[39;49m[1m 26.0 (B[m[39;49msy,(B[m[39;49m[1m  0.3 (B[m[39;49mni,(B[m[39;49m[1m 62.2 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31555(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S 14.2 14.8 (B[m[39;49m[K
+(B[m 1265 root      20   0  142076  49548  25344 S 12.6  4.8 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  3.6  2.7 (B[m[39;49m[K
+(B[m 1739 anakha44  20   0   17376   5856   5384 S  1.6  0.6 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  1.3  0.3 (B[m[39;49m[K
+(B[m 2779 root      20   0       0      0      0 S  0.6  0.0 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  207 root       0 -20       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m 1701 anakha44  20   0  121524  23440  16264 S  0.3  2.3 (B[m[39;49m[K
+(B[m 1741 anakha44  20   0  147136  28916  20628 S  0.3  2.8 (B[m[39;49m[K
+(B[m 1752 anakha44  20   0   70932  18328  15824 S  0.3  1.8 (B[m[39;49m[K
+(B[m 1770 anakha44  20   0  116684  26512  19188 S  0.3  2.6 (B[m[39;49m[K
+(B[m 1844 anakha44  20   0   56668  19204  16968 S  0.3  1.9 (B[m[39;49m[K
+(B[m 1941 anakha44  20   0   44708  19612  15476 S  0.3  1.9 (B[m[39;49m[K
+(B[m 2026 anakha44  20   0  223156  36452  30904 S  0.3  3.6 (B[m[39;49m[K
+(B[m 2039 anakha44  20   0   44252  16684  14632 S  0.3  1.6 (B[m[39;49m[K[H(B[mtop - 23:30:29 up 25 min,  2 users,  load average: 0.38, 0.45, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.6 (B[m[39;49mus,(B[m[39;49m[1m  6.9 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 87.5 (B[m[39;49mid,(B[m[39;49m[1m  2.6 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024412 (B[m[39;49mtotal,(B[m[39;49m[1m   785884 (B[m[39;49mused,(B[m[39;49m[1m   238528 (B[m[39;49mfree,(B[m[39;49m[1m    5066(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31554(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S  3.6 14.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  1.9  0.3 (B[m[39;49m[K
+(B[m 1265 root      20   0  142076  49564  25344 S  1.6  4.8 (B[m[39;49m[K
+(B[m 2026 anakha44  20   0  223156  36452  30904 S  1.0  3.6 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  0.6  2.7 (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  165 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+
+(B[m 1741 anakha44  20   0  147136  28916  20628 S  0.3  2.8 (B[m[39;49m[K
+(B[m 2612 anakha44  20   0  100668  13932  10724 S  0.3  1.4 (B[m[39;49m[K
+(B[m 2796 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m    1 root      20   0    4596   3660   2532 S  0.0  0.4 (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K[H(B[mtop - 23:30:32 up 25 min,  2 users,  load average: 0.35, 0.44, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.7 (B[m[39;49mus,(B[m[39;49m[1m  6.6 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 91.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31555(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S  3.9 14.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  2.6  0.3 (B[m[39;49m[K
+
+(B[m    7 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m 1409 rtkit     21   1   21372   2368   2192 S  0.3  0.2 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  0.3  2.7 (B[m[39;49m[K
+(B[m 2779 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m 2796 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m    1 root      20   0    4596   3660   2532 S  0.0  0.4 (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K[H(B[mtop - 23:30:35 up 25 min,  2 users,  load average: 0.33, 0.43, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.3 (B[m[39;49mus,(B[m[39;49m[1m  5.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 92.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S  3.2 14.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  2.3  0.3 (B[m[39;49m[K
+
+(B[m   17 root      39  19       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  684 root      20   0   53548  10556   9480 S  0.3  1.0 (B[m[39;49m[K
+(B[m 2298 anakha44  20   0   60580  11664  10448 S  0.3  1.1 (B[m[39;49m[K
+(B[m 2349 anakha44  20   0   58532  16428  12656 S  0.3  1.6 (B[m[39;49m[K
+(B[m 2610 anakha44  20   0   94600  30144  15380 S  0.3  2.9 (B[m[39;49m[K
+(B[m 2616 anakha44  20   0   67452  19448  11956 S  0.3  1.9 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  0.3  2.7 (B[m[39;49m[K
+(B[m 2745 anakha44  20   0    4488    980    848 S  0.3  0.1 (B[m[39;49m[K
+(B[m    1 root      20   0    4596   3660   2532 S  0.0  0.4 (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K[H(B[mtop - 23:30:38 up 25 min,  2 users,  load average: 0.33, 0.43, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.0 (B[m[39;49mus,(B[m[39;49m[1m 10.6 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 87.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31556(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S  4.2 14.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  2.6  0.3 (B[m[39;49m[K
+(B[m 1265 root      20   0  142076  49564  25344 S  1.9  4.8 (B[m[39;49m[K
+(B[m 1716 anakha44  20   0   38420   7472   6556 S  0.6  0.7 (B[m[39;49m[K
+(B[m 2026 anakha44  20   0  223156  36452  30904 S  0.6  3.6 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  0.6  2.7 (B[m[39;49m[K
+(B[m 2779 root      20   0       0      0      0 S  0.6  0.0 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m 1770 anakha44  20   0  116684  26512  19188 S  0.3  2.6 (B[m[39;49m[K
+(B[m 2584 anakha44  20   0   62792  20016  17684 S  0.3  2.0 (B[m[39;49m[K
+(B[m 2796 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+
+
+
+
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K[H(B[mtop - 23:30:41 up 25 min,  2 users,  load average: 0.30, 0.43, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.6 (B[m[39;49mus,(B[m[39;49m[1m  8.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 87.3 (B[m[39;49mid,(B[m[39;49m[1m  2.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024412 (B[m[39;49mtotal,(B[m[39;49m[1m   786008 (B[m[39;49mused,(B[m[39;49m[1m   238404 (B[m[39;49mfree,(B[m[39;49m[1m    5067(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+
+(B[m 1265 root      20   0  142076  49564  25344 S  2.6  4.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  2.3  0.3 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  0.3  2.7 (B[m[39;49m[K
+(B[m 2779 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m    1 root      20   0    4596   3660   2532 S  0.0  0.4 (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   12 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0 (B[m[39;49m[K[H(B[mtop - 23:30:44 up 25 min,  2 users,  load average: 0.30, 0.43, (B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.3 (B[m[39;49mus,(B[m[39;49m[1m  9.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 84.7 (B[m[39;49mid,(B[m[39;49m[1m  2.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m (B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m  1024412 (B[m[39;49mtotal,(B[m[39;49m[1m   785892 (B[m[39;49mused,(B[m[39;49m[1m   238520 (B[m[39;49mfree,(B[m[39;49m[1m    5068(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  1046524 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m  1046524 (B[m[39;49mfree.(B[m[39;49m[1m   31555(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1988 anakha44  20   0  356732 152100  63216 S  3.6 14.8 (B[m[39;49m[K
+(B[m[1m 2806 anakha44  20   0    5436   2752   2368 R  1.9  0.3 (B[m[39;49m[K
+(B[m 2593 anakha44  20   0  100536  24828  15268 S  1.3  2.4 (B[m[39;49m[K
+(B[m 1265 root      20   0  142076  49564  25344 S  1.0  4.8 (B[m[39;49m[K
+(B[m 1716 anakha44  20   0   38420   7472   6556 S  1.0  0.7 (B[m[39;49m[K
+(B[m  752 nobody    20   0    5560   3024   2824 S  0.6  0.3 (B[m[39;49m[K
+(B[m 2026 anakha44  20   0  223156  36452  30904 S  0.6  3.6 (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  165 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  207 root       0 -20       0      0      0 S  0.3  0.0 (B[m[39;49m[K
+(B[m  684 root      20   0   53548  10556   9480 S  0.3  1.0 (B[m[39;49m[K
+(B[m 1741 anakha44  20   0  147136  28916  20628 S  0.3  2.8 (B[m[39;49m[K
+(B[m 1909 anakha44  20   0   29592   7052   6576 S  0.3  0.7 (B[m[39;49m[K
+(B[m 2612 anakha44  20   0  100668  13932  10724 S  0.3  1.4 (B[m[39;49m[K
+(B[m 2658 anakha44  20   0  136020  27220  23044 S  0.3  2.7 (B[m[39;49m[K
+(B[m 2779 root      20   0       0      0      0 S  0.3  0.0 (B[m[39;49m[K[?1l>[24;1H
+[?12l[?25h[K]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ who
+anakha44 :0           2019-03-03 23:11 (:0)
+anakha44 pts/0        2019-03-03 23:13 (:0)
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ who -a
+           system boot  2019-03-03 23:06
+           run-level 2  2019-03-03 23:06
+LOGIN      tty4         2019-03-03 23:06              1009 id=4
+LOGIN      tty5         2019-03-03 23:06              1018 id=5
+LOGIN      tty2         2019-03-03 23:06              1033 id=2
+LOGIN      tty3         2019-03-03 23:06              1036 id=3
+LOGIN      tty6         2019-03-03 23:06              1039 id=6
+LOGIN      tty1         2019-03-03 23:06              1234 id=1
+anakha44 ? :0           2019-03-03 23:11   ?          1570 (:0)
+anakha44 + pts/0        2019-03-03 23:13   .          2658 (:0)
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ su
+Password: 
+
+su: Authentication failure
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ 
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ last
+anakha44 pts/0        :0               Sun Mar  3 23:13   still logged in   
+anakha44 :0           :0               Sun Mar  3 23:11   still logged in   
+reboot   system boot  4.4.0-31-generic Sun Mar  3 23:06 - 23:31  (00:25)    
+anakha44 pts/1        :0               Sat Feb 16 16:00 - 18:49  (02:49)    
+anakha44 :0           :0               Sat Feb 16 15:56 - 18:49  (02:53)    
+reboot   system boot  4.4.0-31-generic Sat Feb 16 15:54 - 18:50  (02:55)    
+anakha44 pts/1        :0               Sat Feb 16 12:14 - crash  (03:40)    
+anakha44 pts/1        :0               Sat Feb 16 12:13 - 12:14  (00:00)    
+anakha44 :0           :0               Sat Feb 16 12:08 - crash  (03:46)    
+reboot   system boot  4.4.0-31-generic Sat Feb 16 12:06 - 18:50  (06:43)    
+
+wtmp begins Sat Feb 16 12:06:40 2019
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ service appache start
+appache: unrecognized service
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ kill
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ kill -9 1234
+bash: kill: (1234) - Operation not permitted
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ exit
+exit
+
+Script done on Sunday 03 March 2019 11:32:46 PM IST
