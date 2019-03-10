@@ -1,3 +1,9 @@
+//ANAKHA BM
+//S4D
+//ROLL_NO:6
+
+
+
 Script started on Saturday 16 February 2019 04:01:01 PM IST
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ pdftotext res.pdf res.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ CAT[K[K[Kcat res.txt
@@ -549,11 +555,13 @@ Controller of Examinations
 [01;31m[KCHN17CS[m[K120 MA101(F), PH100(F), BE100(F), BE10105(F), BE103(B+), EE100(C), PH110(A), EE110(B+),
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ grep CHN17CS019 res.txt
 [01;31m[KCHN17CS019[m[K MA101(A), PH100(A+), BE100(B+), BE10105(A+), BE103(A), EE100(A), PH110(O), EE110(B+),
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ [K]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ 
+[K]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txt
 cat: ress.txt: No such file or directory
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat>ress.txt
 ^C
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ [K]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/9[K(0[KO)/10(10[C[C)/G[Kg' res.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ 
+[K]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/9[K(0[KO)/10(10[C[C)/G[Kg' res.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(O)/(10)/g' res.txt[C[C[1P[1@a[1@A[1P[1P[1@A[1@+[C[C[C[C[C[1P[1P[1@9
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(A+)/(9)/g' res.txt[C[C[1P[C[C[C[C[1P[1@8[1@.[1@5
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(A)/(8.5)/g' res.txt[C[Ksed -i 's/(A)/(8.5)/g' res.txt[1P[1P[1P[1@B[1@+
@@ -1409,7 +1417,9 @@ CS110(10)
 
 CHN17CS119 MA101(0), PH100(6), BE100(0), BE10105(7), BE103(7), EE100(6), PH110(9), EE110(8),
 CS110(10)
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txtls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K[1Pres.txt[7Pexit[2Plscat ress.txt[Ksed -i 's/( 0 )/ 0 /g' res.txts.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txtls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K[1Pres.txt[7Pexit[2Plscat ress.txt[Ksed -i 's/( 0 )/ 0 /g' res.txts.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/( 10 )/ 10 /g' ress.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/( 9 )/ 9 /g' ress.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/( 8 )/ 8 /g' ress.txt
@@ -1775,7 +1785,8 @@ CS110 10
 
 CHN17CS119 MA101 0 , PH100 6 , BE100 0 , BE10105 7 , BE103 7 , EE100 6 , PH110 9 , EE110 8 ,
 CS110 10 
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txt[17@sed -i 's/(0)/ 0 /g'[C[C[C[C[C[C[C[C[C[2@10)/ 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P9)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C8)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C7)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C6)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C5)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[4@8.5)/ 8.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat[C[C[C[C[C[C[C[C[C[23@sed -i 's/( 8.5 )/ 8.5 /g'[C[C[C[C[C[C[C[C[C[4P5 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C6 )/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C7 )/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C8 )/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C9 )/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[2@10 )/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[2P0 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[Cls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kcgpa.txt[1Pres.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txt[17@sed -i 's/(0)/ 0 /g'[C[C[C[C[C[C[C[C[C[2@10)/ 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P9)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C8)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C7)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C6)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C5)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[4@8.5)/ 8.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat[C[C[C[C[C[C[C[C[C[23@sed -i 's/( 8.5 )/ 8.5 /g'[C[C[C[C[C[C[C[C[C[4P5 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C6 )/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C7 )/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C8 )/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C9 )/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[2@10 )/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[2P0 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[Cls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kcgpa.txt[1Pres.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat cgpa.txt
 0
 7.4375
@@ -2355,7 +2366,9 @@ CS110(10)
 
 CHN17CS119 MA101(0), PH100(6), BE100(0), BE10105(7), BE103(7), EE100(6), PH110(9), EE110(8),
 CS110(10)
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txtls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K[1Pres.txt[7Pexit[2Plscat ress.txt[Ksed -i 's/( 0 )/ 0 /g' res.txts.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txtls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat cgpa.txt[K[1Pres.txt[7Pexit[2Plscat ress.txt[Ksed -i 's/( 0 )/ 0 /g' res.txts.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/( 10 )/ 10 /g' ress.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/( 9 )/ 9 /g' ress.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/( 8 )/ 8 /g' ress.txt
@@ -2721,7 +2734,8 @@ CS110 10
 
 CHN17CS119 MA101 0 , PH100 6 , BE100 0 , BE10105 7 , BE103 7 , EE100 6 , PH110 9 , EE110 8 ,
 CS110 10 
-]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txt[17@sed -i 's/(0)/ 0 /g'[C[C[C[C[C[C[C[C[C[2@10)/ 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P9)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C8)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C7)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C6)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C5)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[4@8.5)/ 8.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat[C[C[C[C[C[C[C[C[C[23@sed -i 's/( 8.5 )/ 8.5 /g'[C[C[C[C[C[C[C[C[C[4P5 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C6 )/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C7 )/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C8 )/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C9 )/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[2@10 )/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[2P0 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[Cls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kcgpa.txt[1Pres.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat ress.txt[17@sed -i 's/(0)/ 0 /g'[C[C[C[C[C[C[C[C[C[2@10)/ 1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P9)/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C8)/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C7)/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C6)/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C5)/ 5[C[C[C[C[C[C[C[C[C[C[C[C[C[4@8.5)/ 8.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat[C[C[C[C[C[C[C[C[C[23@sed -i 's/( 8.5 )/ 8.5 /g'[C[C[C[C[C[C[C[C[C[4P5 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C6 )/ 6[C[C[C[C[C[C[C[C[C[C[C[C[C7 )/ 7[C[C[C[C[C[C[C[C[C[C[C[C[C8 )/ 8[C[C[C[C[C[C[C[C[C[C[C[C[C9 )/ 9[C[C[C[C[C[C[C[C[C[C[C[C[C[2@10 )/ 10[C[C[C[C[C[C[C[C[C[C[C[C[C[2P0 )/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pcat[C[C[C[C[C[C[C[C[Cls[Kexitcat res.txtcgpa.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kcgpa.txt[1Pres.txtawk '{s=$3+$6+$9+$12+$15+$18+$21+$24}{r=s/8}{print r}' ress.txt>cgpa.txt
 ]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat cgpa.txt
 0
 7.4375
