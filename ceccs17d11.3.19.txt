@@ -1,0 +1,49 @@
+Script started on Mon 11 Mar 2019 11:32:26 AM IST
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sfrt[K[Ktp cs17d06@192.168.0.2
+Connecting to 192.168.0.2...
+cs17d06@192.168.0.2's password: 
+Permission denied, please try again.
+cs17d06@192.168.0.2's password: 
+Permission denied, please try again.
+cs17d06@192.168.0.2's password: 
+Permission denied (publickey,password).
+Couldn't read packet: Connection reset by peer
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sftp cs17d06@192.168.0.2[8P192.168.0.2cs17d06@192.168.0.2[K30
+Connecting to 192.168.0.30...
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+RSA key fingerprint is 0a:dd:9a:c3:36:b0:13:d9:42:c0:d6:00:4f:65:ab:1d.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (RSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'new file
+cs17d06@192.168.0.30's password: 
+sftp> put ceccs17d4.2.19.txt
+Uploading ceccs17d4.2.19.txt to /home/cs17d06/ceccs17d4.2.19.txt
+ceccs17d4.2.19.txt                              0%    0     0.0KB/s   --:-- ETAceccs17d4.2.19.txt                            100%   36KB  36.0KB/s   00:00    
+sftp> put ceccs17d11.2.19.txt
+Uploading ceccs17d11.2.19.txt to /home/cs17d06/ceccs17d11.2.19.txt
+ceccs17d11.2.19.txt                             0%    0     0.0KB/s   --:-- ETAceccs17d11.2.19.txt                           100%   87KB  86.6KB/s   00:00    
+sftp> put ceccs17d25.2.19.txt
+Uploading ceccs17d25.2.19.txt to /home/cs17d06/ceccs17d25.2.19.txt
+ceccs17d25.2.19.txt                             0%    0     0.0KB/s   --:-- ETAceccs17d25.2.19.txt                           100%  672KB 672.0KB/s   00:00    
+sftp> GET     get ^^?    ceccs17d25.2.19.txt
+Fetching /home/cs17d06/ceccs17d25.2.19.txt to ceccs17d25.2.19.txt
+/home/cs17d06/ceccs17d25.2.19.txt               0%    0     0.0KB/s   --:-- ETA/home/cs17d06/ceccs17d25.2.19.txt             100%  672KB 672.0KB/s   00:00    
+sftp> size
+Invalid command.
+sftp> status
+Invalid command.
+sftp> system
+Invalid command.
+sftp> bye
+sftp> ls
+ceccs17d11.2.19.txt     ceccs17d25.2.19.txt     ceccs17d4.2.19.txt      examples.desktop
+sftp> pwd
+Remote working directory: /home/cs17d06
+
+]0;s4d1@localhost:~[s4d1@localhost ~]$ exit
+
+Script done on Mon 11 Mar 2019 11:45:40 AM IST
