@@ -1,0 +1,63 @@
+Script started on Mon 25 Mar 2019 11:45:27 AM IST
+]0;s4d1@localhost:~[s4d1@localhost ~]$ rpm -q e[Krsync
+rsync-2.6.3-1
+]0;s4d1@localhost:~[s4d1@localhost ~]$ sftp cs17d06@192.168.0.30
+Connecting to 192.168.0.30...
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d06@192.168.0.30's password: 
+sftp> put b.txt
+Uploading b.txt to /home/cs17d06/b.txt
+b.txt                                           0%    0     0.0KB/s   --:-- ETAb.txt                                         100%    3     0.0KB/s   00:00    
+sftp> put test.txt
+Uploading test.txt to /home/cs17d06/test.txt
+test.txt                                        0%    0     0.0KB/s   --:-- ETAtest.txt                                      100%   10     0.0KB/s   00:00    
+sftp> bye
+]0;s4d1@localhost:~[s4d1@localhost ~]$ rsync -zvp /home/s4d1/b.txt /home/s4d1/Desktop/a.txt
+b.txt
+
+sent 80 bytes  received 40 bytes  240.00 bytes/sec
+total size is 3  speedup is 0.03
+]0;s4d1@localhost:~[s4d1@localhost ~]$ ls -l
+[00mtotal 76
+-rw-rw-r--  1 s4d1 s4d1    0 Mar 25 10:46 [00manakha.txt[00m
+-rw-------  1 s4d1 s4d1    3 Mar 25 10:19 [00mb.txt[00m
+-rw-------  1 s4d1 s4d1    3 Mar 25 10:19 [00mb.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1 3564 Mar 25 11:33 [00mceccs17d06.25.3.19.txt[00m
+-rw-rw-r--  1 s4d1 s4d1 3564 Mar 25 11:33 [00mceccs17d06.25.3.19.txt~[00m
+-rw-rw-r--  1 s4d1 s4d1    0 Mar 25 11:45 [00mceccs17d0625.3.19.txt[00m
+-rwxrw-r--  1 s4d1 s4d1    0 Jan  1  2003 [00;32mceccs17d18.03.19.txt[00m
+-rwxrw-r--  1 s4d1 s4d1 4096 Jan  1  2003 [00;32mceccs17d18.3.19.txt[00m
+drwxr-xr-x  3 s4d1 s4d1 4096 Mar 25 11:46 [00;34mDesktop[00m
+-rw-rw-r--  1 s4d1 s4d1   10 Mar 25 10:45 [00mtest.txt[00m
+-rw-rw-r--  1 s4d1 s4d1   10 Mar 25 10:45 [00mtest.txt~[00m
+[m]0;s4d1@localhost:~[s4d1@localhost ~]$ rsync -avzp /home/s4d1/b.txt cs17d06@192.168.0.30:
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d06@192.168.0.30's password: 
+building file list ... done
+b.txt
+
+sent 108 bytes  received 46 bytes  34.22 bytes/sec
+total size is 3  speedup is 0.02
+]0;s4d1@localhost:~[s4d1@localhost ~]$ pwd
+/home/s4d1
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cd~/.ssh
+bash: cd~/.ssh: No such file or directory
+]0;s4d1@localhost:~[s4d1@localhost ~]$ cd~/.ssh ~/.ssh
+]0;s4d1@localhost:~/.ssh[s4d1@localhost .ssh]$ ssh loch[Kalhost
+s4d1@localhost's password: 
+Last login: Mon Mar 25 11:40:50 2019 from localhost.localdomain
+]0;s4d1@localhost:~[s4d1@localhost ~]$ exit
+logout
+[H[2JConnection to localhost closed.
+]0;s4d1@localhost:~/.ssh[s4d1@localhost .ssh]$ exir[Kt
+exit
+
+Script done on Mon 25 Mar 2019 11:48:04 AM IST
