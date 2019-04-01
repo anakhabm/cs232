@@ -1,0 +1,28 @@
+Script started on Monday 01 April 2019 11:23:27 AM IST
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ pdftotext -nopgbrk result2.pdf
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ grep --no-group-separator -A3 'CHN17CS' result2. txt | tr '\n' ' ' | sed 's/\ CHN/\nCHN/g' > results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(O)/ 10  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(A+)/  9  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(A)/  8.5  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(B+)/  8  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(B+)/  8  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(B+)/  8  /g' results2.txt[C[C[1P[C[C[C[C[C[1P[1@7
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(C)/  6  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(P)/  5  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(F)/  0  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(FE)/  0  /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sed -i 's/(I)/ 0 /g' results2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ awk '{s=$3*4+$6*3+$9*3+$12*1+$15*1+$18*4+$21*3+$ 24*3+$27*1}{r=s/23}{print r}' results2.txt >s2sgpa.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ awk '{print $1}' results2.txt >reg2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t ' reg2.txt s2sgpa.txt >resu.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {see n[$2]++; print $2}' s4d.txt resu.txt >sgpas2.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ awk '{print $3}' s4d.txt >reg1.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t ' reg1.txt sgpas2.txt >s2final.txt [A
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t ' s1final.txt sgpas2.txt >s1_s2.tx t
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ awk '{s=$2+$3}{r=s/2}{print r}' s1_s2.txt >cgpa. txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t ' reg1.txt cgpa.txt >final_cgpa.tx t
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ awk '{print $4}' s4d.txt >name.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ exit
+exit
+
+Script done on Monday 01 April 2019 11:34:27 AM IST
