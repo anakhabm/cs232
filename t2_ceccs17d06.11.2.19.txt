@@ -1,0 +1,14 @@
+Script started on Monday 01 April 2019 11:35:28 AM IST
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ echo "Reg no.  Name  s1 sgpa  s2 sgpa  Final cgp a"
+Reg no.  Name  s1 sgpa  s2 sgpa  Final cgpa
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t  \t ' reg1.txt name.txt >A.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t  \t ' A.txt s1sgpa.txt >B.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t  \t ' B.txt sgpas2.txt >C.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ paste -d ' \t  \t ' C.txt cgpa.txt >s4dfinal.txt [A
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ echo
+
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat s4dfinal.txt
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ exit
+exit
+
+Script done on Monday 01 April 2019 11:37:34 AM IST
