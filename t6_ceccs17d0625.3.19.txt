@@ -11,10 +11,14 @@ Connecting to 192.168.0.30...
 cs17d06@192.168.0.30's password: 
 sftp> put b.txt
 Uploading b.txt to /home/cs17d06/b.txt
-b.txt                                           0%    0     0.0KB/s   --:-- ETAb.txt                                         100%    3     0.0KB/s   00:00    
+
+b.txt                                           0%    0     0.0KB/s   --:-- ETA
+b.txt                                         100%    3     0.0KB/s   00:00    
 sftp> put test.txt
 Uploading test.txt to /home/cs17d06/test.txt
-test.txt                                        0%    0     0.0KB/s   --:-- ETAtest.txt                                      100%   10     0.0KB/s   00:00    
+
+test.txt                                        0%    0     0.0KB/s   --:-- ETA
+test.txt                                      100%   10     0.0KB/s   00:00    
 sftp> bye
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ rsync -zvp /home/s4d1/b.txt /home/s4d1/Desktop/a.txt
 b.txt
@@ -53,10 +57,12 @@ bash: cd~/.ssh: No such file or directory
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ cd~/.ssh ~/.ssh
 ]0;s4d1@localhost:~/.ssh[s4d1@localhost .ssh]$ ssh loch[Kalhost
 s4d1@localhost's password: 
-Last login: Mon Mar 25 11:40:50 2019 from localhost.localdomain
+Last login: Mon Mar 25 11:40:50 2019 from localhost.localdomain
+
 ]0;s4d1@localhost:~[s4d1@localhost ~]$ exit
 logout
-[H[2JConnection to localhost closed.
+[H[2JConnection to localhost closed.
+
 ]0;s4d1@localhost:~/.ssh[s4d1@localhost .ssh]$ exir[Kt
 exit
 
