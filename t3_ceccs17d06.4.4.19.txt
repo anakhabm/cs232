@@ -1,0 +1,140 @@
+Script started on Thursday 04 April 2019 10:45:13 AM IST
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ ifconfig
+enp4s0    Link encap:Ethernet  HWaddr 10:78:d2:50:d0:2e  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3559 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:730 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:591840 (591.8 KB)  TX bytes:111861 (111.8 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:13281 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13281 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:812500 (812.5 KB)  TX bytes:812500 (812.5 KB)
+
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo ifconfig
+[sudo] password for cec: 
+enp4s0    Link encap:Ethernet  HWaddr 10:78:d2:50:d0:2e  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3569 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:730 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:592440 (592.4 KB)  TX bytes:111861 (111.8 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:13457 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13457 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:823124 (823.1 KB)  TX bytes:823124 (823.1 KB)
+
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo ifconfig [K[5Pifconfigsudo ifconfig eth0 192.168.0.5
+SIOCSIFADDR: No such device
+eth0: ERROR while getting interface flags: No such device
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo ifconfig eth0 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5[1P 192.168.0.5n 192.168.0.5p 192.168.0.54 192.168.0.5s 192.168.0.50 192.168.0.5
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ ping 192.168.0.3
+PING 192.168.0.3 (192.168.0.3) 56(84) bytes of data.
+64 bytes from 192.168.0.3: icmp_seq=1 ttl=64 time=0.189 ms
+64 bytes from 192.168.0.3: icmp_seq=2 ttl=64 time=0.204 ms
+64 bytes from 192.168.0.3: icmp_seq=3 ttl=64 time=0.135 ms
+64 bytes from 192.168.0.3: icmp_seq=4 ttl=64 time=0.226 ms
+64 bytes from 192.168.0.3: icmp_seq=5 ttl=64 time=0.223 ms
+64 bytes from 192.168.0.3: icmp_seq=6 ttl=64 time=0.222 ms
+64 bytes from 192.168.0.3: icmp_seq=7 ttl=64 time=0.228 ms
+64 bytes from 192.168.0.3: icmp_seq=8 ttl=64 time=0.222 ms
+64 bytes from 192.168.0.3: icmp_seq=9 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.3: icmp_seq=10 ttl=64 time=0.212 ms
+64 bytes from 192.168.0.3: icmp_seq=11 ttl=64 time=0.230 ms
+64 bytes from 192.168.0.3: icmp_seq=12 ttl=64 time=0.223 ms
+64 bytes from 192.168.0.3: icmp_seq=13 ttl=64 time=0.230 ms
+64 bytes from 192.168.0.3: icmp_seq=14 ttl=64 time=0.230 ms
+64 bytes from 192.168.0.3: icmp_seq=15 ttl=64 time=0.196 ms
+64 bytes from 192.168.0.3: icmp_seq=16 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.3: icmp_seq=17 ttl=64 time=0.237 ms
+64 bytes from 192.168.0.3: icmp_seq=18 ttl=64 time=0.146 ms
+64 bytes from 192.168.0.3: icmp_seq=19 ttl=64 time=0.227 ms
+64 bytes from 192.168.0.3: icmp_seq=20 ttl=64 time=0.190 ms
+64 bytes from 192.168.0.3: icmp_seq=21 ttl=64 time=0.230 ms
+64 bytes from 192.168.0.3: icmp_seq=22 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.3: icmp_seq=23 ttl=64 time=0.194 ms
+64 bytes from 192.168.0.3: icmp_seq=24 ttl=64 time=0.222 ms
+64 bytes from 192.168.0.3: icmp_seq=25 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.3: icmp_seq=26 ttl=64 time=0.169 ms
+64 bytes from 192.168.0.3: icmp_seq=27 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.3: icmp_seq=28 ttl=64 time=0.153 ms
+64 bytes from 192.168.0.3: icmp_seq=29 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.3: icmp_seq=30 ttl=64 time=0.180 ms
+64 bytes from 192.168.0.3: icmp_seq=31 ttl=64 time=0.195 ms
+64 bytes from 192.168.0.3: icmp_seq=32 ttl=64 time=0.233 ms
+64 bytes from 192.168.0.3: icmp_seq=33 ttl=64 time=0.193 ms
+64 bytes from 192.168.0.3: icmp_seq=34 ttl=64 time=0.240 ms
+64 bytes from 192.168.0.3: icmp_seq=35 ttl=64 time=0.238 ms
+64 bytes from 192.168.0.3: icmp_seq=36 ttl=64 time=0.195 ms
+64 bytes from 192.168.0.3: icmp_seq=37 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.3: icmp_seq=38 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.3: icmp_seq=39 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.3: icmp_seq=40 ttl=64 time=0.238 ms
+64 bytes from 192.168.0.3: icmp_seq=41 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.3: icmp_seq=42 ttl=64 time=0.206 ms
+64 bytes from 192.168.0.3: icmp_seq=43 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.3: icmp_seq=44 ttl=64 time=0.190 ms
+64 bytes from 192.168.0.3: icmp_seq=45 ttl=64 time=0.155 ms
+64 bytes from 192.168.0.3: icmp_seq=46 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.3: icmp_seq=47 ttl=64 time=0.197 ms
+64 bytes from 192.168.0.3: icmp_seq=48 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.3: icmp_seq=49 ttl=64 time=0.247 ms
+64 bytes from 192.168.0.3: icmp_seq=50 ttl=64 time=0.204 ms
+64 bytes from 192.168.0.3: icmp_seq=51 ttl=64 time=0.197 ms
+64 bytes from 192.168.0.3: icmp_seq=52 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.3: icmp_seq=53 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.3: icmp_seq=54 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.3: icmp_seq=55 ttl=64 time=0.229 ms
+64 bytes from 192.168.0.3: icmp_seq=56 ttl=64 time=0.222 ms
+64 bytes from 192.168.0.3: icmp_seq=57 ttl=64 time=0.225 ms
+64 bytes from 192.168.0.3: icmp_seq=58 ttl=64 time=0.156 ms
+64 bytes from 192.168.0.3: icmp_seq=59 ttl=64 time=0.188 ms
+64 bytes from 192.168.0.3: icmp_seq=60 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.3: icmp_seq=61 ttl=64 time=0.187 ms
+64 bytes from 192.168.0.3: icmp_seq=62 ttl=64 time=0.202 ms
+64 bytes from 192.168.0.3: icmp_seq=63 ttl=64 time=0.188 ms
+64 bytes from 192.168.0.3: icmp_seq=64 ttl=64 time=0.187 ms
+64 bytes from 192.168.0.3: icmp_seq=65 ttl=64 time=0.198 ms
+64 bytes from 192.168.0.3: icmp_seq=66 ttl=64 time=0.221 ms
+64 bytes from 192.168.0.3: icmp_seq=67 ttl=64 time=0.191 ms
+64 bytes from 192.168.0.3: icmp_seq=68 ttl=64 time=0.233 ms
+From 192.168.0.5 icmp_seq=100 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=101 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=102 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=103 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=104 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=105 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=106 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=107 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=108 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=109 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=110 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=111 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=112 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=113 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=114 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=115 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=116 Destination Host Unreachable
+From 192.168.0.5 icmp_seq=117 Destination Host Unreachable
+^C
+--- 192.168.0.3 ping statistics ---
+118 packets transmitted, 68 received, +18 errors, 42% packet loss, time 119523ms
+rtt min/avg/max/mdev = 0.135/0.206/0.247/0.026 ms, pipe 4
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ ssh lab2@192.168.0.3
+ssh: connect to host 192.168.0.3 port 22: No route to host
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ ssh lab2@192.168.0.3
+ssh: connect to host 192.168.0.3 port 22: Network is unreachable
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 04 April 2019 10:59:48 AM IST
