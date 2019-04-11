@@ -122,7 +122,7 @@ c ^C
 c ^C
 ]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cat index.html
 cat: index.html: No such file or directory
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cat index.htmlsudo gedit /var/www/html/index.html
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cat index.htmlsudo gedit /home/clab1/index.html
 ^C
 ]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ exit
 exit
