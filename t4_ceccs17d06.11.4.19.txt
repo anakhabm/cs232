@@ -1,0 +1,38 @@
+Script started on Thursday 11 April 2019 10:03:38 PM IST
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ ssh cs17d06@192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d06@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Thu Apr 11 09:44:52 2019 from 192.168.0.167
+$ ls
+examples.desktop	 IMG-20190311-WA0052.jpg  IMG-20190311-WA0057.jpg		 t1_ceccs17d06.4.2.19.txt      t3_ceccs17d06.4.4.19.txt
+frst.txt		 IMG-20190311-WA0053.jpg  IMG-20190311-WA0064.jpg		 t2_ceccs17d06.11.2.19.txt     t4_ceccs17d0625.3.19.txt
+IMG-20190311-WA0037.jpg  IMG-20190311-WA0054.jpg  one.txt				 t2_s1_ceccs17d06.11.2.19.txt  t5_ceccs17d06.11.3.19.txt
+IMG-20190311-WA0043.jpg  IMG-20190311-WA0055.jpg  scnd.txt				 t2_s2_ceccs17d06.11.2.19.txt
+IMG-20190311-WA0044.jpg  IMG-20190311-WA0056.jpg  script_file_ceccs17d06.18.3.19.sh.txt  t3_ceccs17d06.25.2.19.txt
+$ touch t two.txt
+$ scp one.txt two.txt
+$ cat two.txt
+anakha bm
+abhinav mb
+$ exit
+Connection to 192.168.0.30 closed.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo apt[K[K[K[K[K[K[K[K[K]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ EXIT[K[K[K[Kexit
+exit
+
+Script done on Thursday 11 April 2019 10:11:02 PM IST
