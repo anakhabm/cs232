@@ -1,0 +1,998 @@
+Script started on Thursday 11 April 2019 11:07:46 PM IST
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ $ wget https://cdn.kernel.org/pub/linux/kernel/v4. x/linux-4.20.12.tar.xz
+$: command not found
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ $ wget https://cdn.kernel.org/pub/linux/kernel/v4. x/linux-4.20.12.tar.xz[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wget https://cdn.kernel.org/pub/linux/kernel/v4.x/[1Plinux-4.20.12.tar.xz[A]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ 
+
+--2019-04-11 23:08:49--  https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.20.12.tar.xz
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 104284676 (99M) [application/x-xz]
+Saving to: ‘linux-4.20.12.tar.xz’
+
+linux-4.20.12.tar.x   0%[                    ]       0  --.-KB/s               linux-4.20.12.tar.x   0%[                    ] 391.60K  1.68MB/s               linux-4.20.12.tar.x   2%[                    ]   2.05M  4.80MB/s               linux-4.20.12.tar.x   3%[                    ]   3.55M  5.66MB/s               linux-4.20.12.tar.x   5%[>                   ]   5.10M  6.15MB/s               linux-4.20.12.tar.x   6%[>                   ]   6.70M  6.50MB/s               linux-4.20.12.tar.x   8%[>                   ]   8.36M  6.78MB/s               linux-4.20.12.tar.x  10%[=>                  ]  10.09M  7.03MB/s               linux-4.20.12.tar.x  11%[=>                  ]  11.85M  7.25MB/s               linux-4.20.12.tar.x  13%[=>                  ]  13.59M  7.41MB/s               linux-4.20.12.tar.x  15%[==>                 ]  14.98M  7.36MB/s               linux-4.20.12.tar.x  16%[==>                 ]  16.31M  7.29MB/s               linux-4.20.12.tar.x  17%[==>                 ]  17.67M  7.23MB/s               linux-4.20.12.tar.x  19%[==>                 ]  19.06M  7.21MB/s               linux-4.20.12.tar.x  20%[===>                ]  20.45M  7.19MB/s               linux-4.20.12.tar.x  21%[===>                ]  21.86M  7.18MB/s    eta 11s    linux-4.20.12.tar.x  23%[===>                ]  23.31M  7.47MB/s    eta 11s    linux-4.20.12.tar.x  24%[===>                ]  24.75M  7.51MB/s    eta 11s    linux-4.20.12.tar.x  26%[====>               ]  26.22M  7.52MB/s    eta 11s    linux-4.20.12.tar.x  27%[====>               ]  27.73M  7.51MB/s    eta 11s    linux-4.20.12.tar.x  29%[====>               ]  29.27M  7.50MB/s    eta 10s    linux-4.20.12.tar.x  30%[=====>              ]  30.75M  7.42MB/s    eta 10s    linux-4.20.12.tar.x  31%[=====>              ]  31.47M  7.12MB/s    eta 10s    linux-4.20.12.tar.x  32%[=====>              ]  32.48M  6.92MB/s    eta 10s    linux-4.20.12.tar.x  33%[=====>              ]  33.28M  6.64MB/s    eta 10s    linux-4.20.12.tar.x  34%[=====>              ]  34.06M  6.37MB/s    eta 10s    linux-4.20.12.tar.x  35%[======>             ]  34.91M  6.17MB/s    eta 10s    linux-4.20.12.tar.x  35%[======>             ]  35.75M  6.02MB/s    eta 10s    linux-4.20.12.tar.x  36%[======>             ]  36.58M  5.83MB/s    eta 10s    linux-4.20.12.tar.x  37%[======>             ]  37.37M  5.67MB/s    eta 10s    linux-4.20.12.tar.x  38%[======>             ]  37.92M  5.42MB/s    eta 10s    linux-4.20.12.tar.x  38%[======>             ]  38.38M  5.04MB/s    eta 10s    linux-4.20.12.tar.x  39%[======>             ]  38.85M  4.76MB/s    eta 10s    linux-4.20.12.tar.x  39%[======>             ]  39.33M  4.48MB/s    eta 10s    linux-4.20.12.tar.x  40%[=======>            ]  39.85M  4.06MB/s    eta 10s    linux-4.20.12.tar.x  40%[=======>            ]  40.36M  3.80MB/s    eta 10s    linux-4.20.12.tar.x  41%[=======>            ]  40.92M  3.55MB/s    eta 10s    linux-4.20.12.tar.x  41%[=======>            ]  41.49M  3.25MB/s    eta 10s    linux-4.20.12.tar.x  42%[=======>            ]  42.07M  3.29MB/s    eta 10s    linux-4.20.12.tar.x  42%[=======>            ]  42.69M  3.13MB/s    eta 10s    linux-4.20.12.tar.x  43%[=======>            ]  43.32M  3.05MB/s    eta 10s    linux-4.20.12.tar.x  44%[=======>            ]  43.96M  3.01MB/s    eta 10s    linux-4.20.12.tar.x  44%[=======>            ]  44.64M  2.97MB/s    eta 10s    linux-4.20.12.tar.x  45%[========>           ]  45.35M  2.88MB/s    eta 10s    linux-4.20.12.tar.x  46%[========>           ]  45.99M  2.84MB/s    eta 10s    linux-4.20.12.tar.x  46%[========>           ]  46.49M  2.80MB/s    eta 10s    linux-4.20.12.tar.x  47%[========>           ]  47.03M  2.83MB/s    eta 10s    linux-4.20.12.tar.x  47%[========>           ]  47.61M  2.86MB/s    eta 10s    linux-4.20.12.tar.x  48%[========>           ]  48.19M  2.89MB/s    eta 10s    linux-4.20.12.tar.x  49%[========>           ]  48.82M  2.95MB/s    eta 10s    linux-4.20.12.tar.x  49%[========>           ]  49.46M  2.98MB/s    eta 10s    linux-4.20.12.tar.x  50%[=========>          ]  50.10M  3.01MB/s    eta 10s    linux-4.20.12.tar.x  51%[=========>          ]  50.75M  3.04MB/s    eta 10s    linux-4.20.12.tar.x  51%[=========>          ]  51.45M  3.08MB/s    eta 10s    linux-4.20.12.tar.x  52%[=========>          ]  52.12M  3.10MB/s    eta 10s    linux-4.20.12.tar.x  53%[=========>          ]  52.73M  3.07MB/s    eta 10s    linux-4.20.12.tar.x  53%[=========>          ]  53.25M  3.03MB/s    eta 10s    linux-4.20.12.tar.x  53%[=========>          ]  53.62M  2.92MB/s    eta 10s    linux-4.20.12.tar.x  54%[=========>          ]  54.01M  2.82MB/s    eta 10s    linux-4.20.12.tar.x  54%[=========>          ]  54.42M  2.73MB/s    eta 10s    linux-4.20.12.tar.x  55%[==========>         ]  54.86M  2.71MB/s    eta 10s    linux-4.20.12.tar.x  55%[==========>         ]  55.29M  2.67MB/s    eta 10s    linux-4.20.12.tar.x  56%[==========>         ]  55.78M  2.64MB/s    eta 10s    linux-4.20.12.tar.x  56%[==========>         ]  56.26M  2.59MB/s    eta 10s    linux-4.20.12.tar.x  57%[==========>         ]  56.79M  2.57MB/s    eta 10s    linux-4.20.12.tar.x  57%[==========>         ]  57.32M  2.51MB/s    eta 10s    linux-4.20.12.tar.x  58%[==========>         ]  57.90M  2.49MB/s    eta 10s    linux-4.20.12.tar.x  58%[==========>         ]  58.46M  2.47MB/s    eta 10s    linux-4.20.12.tar.x  59%[==========>         ]  59.09M  2.42MB/s    eta 10s    linux-4.20.12.tar.x  60%[===========>        ]  59.70M  2.41MB/s    eta 10s    linux-4.20.12.tar.x  60%[===========>        ]  60.37M  2.42MB/s    eta 9s     linux-4.20.12.tar.x  61%[===========>        ]  61.01M  2.50MB/s    eta 9s     linux-4.20.12.tar.x  61%[===========>        ]  61.57M  2.56MB/s    eta 9s     linux-4.20.12.tar.xz                  62%[=========================================>                          ]  61.82M  2.58MB/s    eta 9s     linux-4.20.12.tar.xz                  62%[=========================================>                          ]  62.38M  2.62MB/s    eta 9s     linux-4.20.12.tar.xz                  63%[==========================================>                         ]  62.93M  2.68MB/s    eta 9s     linux-4.20.12.tar.xz                  63%[==========================================>                         ]  63.51M  2.71MB/s    eta 9s     linux-4.20.12.tar.xz                  64%[==========================================>                         ]  64.10M  2.74MB/s    eta 9s     linux-4.20.12.tar.xz                  65%[===========================================>                        ]  64.71M  2.80MB/s    eta 9s     linux-4.20.12.tar.xz                  65%[===========================================>                        ]  65.32M  2.83MB/s    eta 9s     linux-4.20.12.tar.xz                  66%[============================================>                       ]  65.95M  2.87MB/s    eta 9s     linux-4.20.12.tar.xz                  66%[============================================>                       ]  66.60M  2.92MB/s    eta 8s     linux-4.20.12.tar.xz                  67%[============================================>                       ]  67.26M  2.94MB/s    eta 8s     linux-4.20.12.tar.xz                  68%[=============================================>                      ]  67.93M  2.97MB/s    eta 8s     linux-4.20.12.tar.xz                  68%[=============================================>                      ]  68.45M  2.92MB/s    eta 8s     linux-4.20.12.tar.xz                  69%[==============================================>                     ]  68.92M  2.86MB/s    eta 8s     linux-4.20.12.tar.xz                  69%[==============================================>                     ]  69.31M  2.79MB/s    eta 8s     linux-4.20.12.tar.xz                  70%[==============================================>                     ]  69.70M  2.72MB/s    eta 8s     linux-4.20.12.tar.xz                  70%[==============================================>                     ]  70.04M  2.63MB/s    eta 8s     linux-4.20.12.tar.xz                  70%[===============================================>                    ]  70.31M  2.54MB/s    eta 8s     linux-4.20.12.tar.xz                  70%[===============================================>                    ]  70.46M  2.41MB/s    eta 8s     linux-4.20.12.tar.xz                  71%[===============================================>                    ]  70.63M  2.28MB/s    eta 8s     linux-4.20.12.tar.xz                  71%[===============================================>                    ]  70.84M  2.18MB/s    eta 8s     linux-4.20.12.tar.xz                  71%[===============================================>                    ]  71.04M  2.02MB/s    eta 8s     linux-4.20.12.tar.xz                  71%[===============================================>                    ]  71.29M  1.91MB/s    eta 8s     linux-4.20.12.tar.xz                  71%[===============================================>                    ]  71.54M  1.82MB/s    eta 8s     linux-4.20.12.tar.xz                  72%[================================================>                   ]  71.82M  1.66MB/s    eta 8s     linux-4.20.12.tar.xz                  72%[================================================>                   ]  72.12M  1.57MB/s    eta 8s     linux-4.20.12.tar.xz                  72%[================================================>                   ]  72.44M  1.49MB/s    eta 8s     linux-4.20.12.tar.xz                  73%[================================================>                   ]  72.78M  1.38MB/s    eta 8s     linux-4.20.12.tar.xz                  73%[=================================================>                  ]  73.15M  1.36MB/s    eta 8s     linux-4.20.12.tar.xz                  73%[=================================================>                  ]  73.53M  1.37MB/s    eta 7s     linux-4.20.12.tar.xz                  74%[=================================================>                  ]  73.94M  1.36MB/s    eta 7s     linux-4.20.12.tar.xz                  74%[=================================================>                  ]  74.36M  1.37MB/s    eta 7s     linux-4.20.12.tar.xz                  75%[==================================================>                 ]  74.81M  1.44MB/s    eta 7s     linux-4.20.12.tar.xz                  75%[==================================================>                 ]  75.27M  1.54MB/s    eta 7s     linux-4.20.12.tar.xz                  76%[==================================================>                 ]  75.72M  1.62MB/s    eta 7s     linux-4.20.12.tar.xz                  76%[===================================================>                ]  76.24M  1.72MB/s    eta 7s     linux-4.20.12.tar.xz                  77%[===================================================>                ]  76.77M  1.84MB/s    eta 7s     linux-4.20.12.tar.xz                  77%[===================================================>                ]  77.35M  1.93MB/s    eta 7s     linux-4.20.12.tar.xz                  78%[====================================================>               ]  77.91M  2.06MB/s    eta 7s     linux-4.20.12.tar.xz                  78%[====================================================>               ]  78.50M  2.15MB/s    eta 6s     linux-4.20.12.tar.xz                  79%[=====================================================>              ]  79.13M  2.23MB/s    eta 6s     linux-4.20.12.tar.xz                  80%[=====================================================>              ]  79.77M  2.37MB/s    eta 6s     linux-4.20.12.tar.xz                  80%[=====================================================>              ]  80.41M  2.46MB/s    eta 6s     linux-4.20.12.tar.xz                  81%[======================================================>             ]  81.08M  2.55MB/s    eta 6s     linux-4.20.12.tar.xz                  82%[======================================================>             ]  81.77M  2.67MB/s    eta 5s     linux-4.20.12.tar.xz                  82%[=======================================================>            ]  82.47M  2.76MB/s    eta 5s     linux-4.20.12.tar.xz                  83%[=======================================================>            ]  83.21M  2.85MB/s    eta 5s     linux-4.20.12.tar.xz                  84%[========================================================>           ]  83.94M  2.97MB/s    eta 5s     linux-4.20.12.tar.xz                  85%[========================================================>           ]  84.71M  3.06MB/s    eta 5s     linux-4.20.12.tar.xz                  85%[=========================================================>          ]  85.50M  3.15MB/s    eta 4s     linux-4.20.12.tar.xz                  86%[==========================================================>         ]  86.30M  3.29MB/s    eta 4s     linux-4.20.12.tar.xz                  87%[==========================================================>         ]  87.14M  3.38MB/s    eta 4s     linux-4.20.12.tar.xz                  88%[===========================================================>        ]  87.81M  3.41MB/s    eta 4s     linux-4.20.12.tar.xz                  88%[===========================================================>        ]  88.44M  3.42MB/s    eta 4s     linux-4.20.12.tar.xz                  89%[===========================================================>        ]  89.09M  3.47MB/s    eta 3s     linux-4.20.12.tar.xz                  90%[============================================================>       ]  89.78M  3.49MB/s    eta 3s     linux-4.20.12.tar.xz                  90%[============================================================>       ]  90.48M  3.51MB/s    eta 3s     linux-4.20.12.tar.xz                  91%[=============================================================>      ]  91.22M  3.55MB/s    eta 3s     linux-4.20.12.tar.xz                  92%[=============================================================>      ]  91.97M  3.57MB/s    eta 3s     linux-4.20.12.tar.xz                  93%[==============================================================>     ]  92.68M  3.58MB/s    eta 2s     linux-4.20.12.tar.xz                  94%[==============================================================>     ]  93.51M  3.63MB/s    eta 2s     linux-4.20.12.tar.xz                  94%[===============================================================>    ]  94.31M  3.66MB/s    eta 2s     linux-4.20.12.tar.xz                  95%[================================================================>   ]  95.09M  3.62MB/s    eta 2s     linux-4.20.12.tar.xz                  96%[================================================================>   ]  95.67M  3.57MB/s    eta 2s     linux-4.20.12.tar.xz                  96%[================================================================>   ]  96.09M  3.44MB/s    eta 1s     linux-4.20.12.tar.xz                  97%[=================================================================>  ]  96.54M  3.31MB/s    eta 1s     linux-4.20.12.tar.xz                  97%[=================================================================>  ]  97.00M  3.20MB/s    eta 1s     linux-4.20.12.tar.xz                  98%[=================================================================>  ]  97.50M  3.16MB/s    eta 1s     linux-4.20.12.tar.xz                  98%[=================================================================>  ]  97.98M  3.07MB/s    eta 1s     linux-4.20.12.tar.xz                  99%[==================================================================> ]  98.53M  3.04MB/s    eta 0s     linux-4.20.12.tar.xz                  99%[==================================================================> ]  99.04M  2.99MB/s    eta 0s     linux-4.20.12.tar.xz                 100%[===================================================================>]  99.45M  2.97MB/s    in 29s     
+
+2019-04-11 23:09:21 (3.41 MB/s) - ‘linux-4.20.12.tar.xz’ saved [104284676/104284676]
+
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ unzx -v linux-4.20.12.tar.xz
+No command 'unzx' found, did you mean:
+ Command 'unxz' from package 'xz-utils' (main)
+unzx: command not found
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ xz -d -v linux-4.20.12.tar.xz
+linux-4.20.12.tar.xz (1/1)
+  5.8 %          5.8 MiB / 32.4 MiB = 0.178                   0:01              10.9 %         10.8 MiB / 81.0 MiB = 0.134                   0:02              16.3 %        16.2 MiB / 123.2 MiB = 0.131    41 MiB/s       0:03              22.0 %        21.9 MiB / 161.2 MiB = 0.136    40 MiB/s       0:04              26.3 %        26.2 MiB / 226.5 MiB = 0.116    45 MiB/s       0:05              30.2 %        30.1 MiB / 308.9 MiB = 0.097    51 MiB/s       0:06              35.8 %        35.6 MiB / 353.7 MiB = 0.101    51 MiB/s       0:07              41.4 %        41.3 MiB / 394.5 MiB = 0.105    49 MiB/s       0:08         15 s 47.1 %        46.9 MiB / 435.0 MiB = 0.108    48 MiB/s       0:09         10 s 52.8 %        52.6 MiB / 476.6 MiB = 0.110    48 MiB/s       0:10          8 s 58.5 %        58.2 MiB / 519.4 MiB = 0.112    47 MiB/s       0:11          7 s 63.8 %        63.5 MiB / 559.2 MiB = 0.114    47 MiB/s       0:12          6 s 69.2 %        68.9 MiB / 598.9 MiB = 0.115    46 MiB/s       0:13          5 s 74.9 %        74.5 MiB / 638.0 MiB = 0.117    46 MiB/s       0:14          4 s 80.6 %        80.2 MiB / 676.8 MiB = 0.119    45 MiB/s       0:15          3 s 86.1 %        85.7 MiB / 713.0 MiB = 0.120    45 MiB/s       0:16          2 s 91.8 %        91.4 MiB / 750.7 MiB = 0.122    44 MiB/s       0:17          1 s 97.3 %        96.8 MiB / 793.9 MiB = 0.122    44 MiB/s       0:18          1 s  100 %        99.5 MiB / 815.3 MiB = 0.122    44 MiB/s       0:18             
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.20.12.tar.sign
+--2019-04-11 23:10:59--  https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.20.12.tar.sign
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 991 [text/plain]
+Saving to: ‘linux-4.20.12.tar.sign’
+
+linux-4.20.12.tar.sign                 0%[                                                                    ]       0  --.-KB/s               linux-4.20.12.tar.sign               100%[===================================================================>]     991  --.-KB/s    in 0s      
+
+2019-04-11 23:11:00 (87.9 MB/s) - ‘linux-4.20.12.tar.sign’ saved [991/991]
+
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cd linux-4.20.12
+bash: cd: linux-4.20.12: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cp -v /boot/config-$(uname -r) .config
+'/boot/config-4.13.0-32-generic' -> '.config/config-4.13.0-32-generic'
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+[sudo] password for clab1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+Note, selecting 'libncurses5-dev' instead of 'libncurses-dev'
+bison is already the newest version (2:3.0.4.dfsg-1).
+build-essential is already the newest version (12.1ubuntu2).
+flex is already the newest version (2.6.0-11).
+The following additional packages will be installed:
+  libssl-doc libssl1.0.0 libtinfo-dev zlib1g zlib1g-dev
+Suggested packages:
+  ncurses-doc
+The following NEW packages will be installed:
+  libelf-dev libncurses5-dev libssl-dev libssl-doc libtinfo-dev zlib1g-dev
+The following packages will be upgraded:
+  libssl1.0.0 zlib1g
+2 upgraded, 6 newly installed, 0 to remove and 449 not upgraded.
+Need to get 4,030 kB of archives.
+After this operation, 12.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g amd64 1:1.2.8.dfsg-2ubuntu4.1 [51.2 kB]
+0% [1 zlib1g 2,559 B/51.2 kB 5%]                                4% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl1.0.0 amd64 1.0.2g-1ubuntu4.15 [1,084 kB]
+4% [2 libssl1.0.0 0 B/1,084 kB 0%]7% [2 libssl1.0.0 186 kB/1,084 kB 17%]24% [2 libssl1.0.0 1,015 kB/1,084 kB 94%]                                         28% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libelf-dev amd64 0.165-3ubuntu1.1 [54.3 kB]
+28% [3 libelf-dev 0 B/54.3 kB 0%]                                 31% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libtinfo-dev amd64 6.0+20160213-1ubuntu1 [77.4 kB]
+31% [4 libtinfo-dev 1,111 B/77.4 kB 1%]                                       35% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libncurses5-dev amd64 6.0+20160213-1ubuntu1 [175 kB]
+35% [5 libncurses5-dev 0 B/175 kB 0%]                                     41% [Working]             Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g-dev amd64 1:1.2.8.dfsg-2ubuntu4.1 [168 kB]
+41% [6 zlib1g-dev 0 B/168 kB 0%]                                47% [Working]             Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl-dev amd64 1.0.2g-1ubuntu4.15 [1,344 kB]
+47% [7 libssl-dev 0 B/1,344 kB 0%]69% [7 libssl-dev 1,122 kB/1,344 kB 83%]                                        76% [Working]             Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl-doc all 1.0.2g-1ubuntu4.15 [1,077 kB]
+76% [8 libssl-doc 0 B/1,077 kB 0%]                                  100% [Working]              Fetched 4,030 kB in 4s (946 kB/s)
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 212269 files and directories currently installed.)
+Preparing to unpack .../zlib1g_1%3a1.2.8.dfsg-2ubuntu4.1_amd64.deb ...
+Unpacking zlib1g:amd64 (1:1.2.8.dfsg-2ubuntu4.1) over (1:1.2.8.dfsg-2ubuntu4) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up zlib1g:amd64 (1:1.2.8.dfsg-2ubuntu4.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 212269 files and directories currently installed.)
+Preparing to unpack .../libssl1.0.0_1.0.2g-1ubuntu4.15_amd64.deb ...
+Unpacking libssl1.0.0:amd64 (1.0.2g-1ubuntu4.15) over (1.0.2g-1ubuntu4.13) ...
+Selecting previously unselected package libelf-dev:amd64.
+Preparing to unpack .../libelf-dev_0.165-3ubuntu1.1_amd64.deb ...
+Unpacking libelf-dev:amd64 (0.165-3ubuntu1.1) ...
+Selecting previously unselected package libtinfo-dev:amd64.
+Preparing to unpack .../libtinfo-dev_6.0+20160213-1ubuntu1_amd64.deb ...
+Unpacking libtinfo-dev:amd64 (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package libncurses5-dev:amd64.
+Preparing to unpack .../libncurses5-dev_6.0+20160213-1ubuntu1_amd64.deb ...
+Unpacking libncurses5-dev:amd64 (6.0+20160213-1ubuntu1) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-2ubuntu4.1_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu4.1) ...
+Selecting previously unselected package libssl-dev:amd64.
+Preparing to unpack .../libssl-dev_1.0.2g-1ubuntu4.15_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.0.2g-1ubuntu4.15) ...
+Selecting previously unselected package libssl-doc.
+Preparing to unpack .../libssl-doc_1.0.2g-1ubuntu4.15_all.deb ...
+Unpacking libssl-doc (1.0.2g-1ubuntu4.15) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libssl1.0.0:amd64 (1.0.2g-1ubuntu4.15) ...
+Setting up libelf-dev:amd64 (0.165-3ubuntu1.1) ...
+Setting up libtinfo-dev:amd64 (6.0+20160213-1ubuntu1) ...
+Setting up libncurses5-dev:amd64 (6.0+20160213-1ubuntu1) ...
+Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu4.1) ...
+Setting up libssl-dev:amd64 (1.0.2g-1ubuntu4.15) ...
+Setting up libssl-doc (1.0.2g-1ubuntu4.15) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make menuconfig
+make: *** No rule to make target 'menuconfig'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make
+make: *** No targets specified and no makefile found.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make gconfig 
+make: *** No rule to make target 'gconfig'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make xconfig
+make: *** No rule to make target 'xconfig'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make -j 4
+make: *** No targets specified and no makefile found.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo make modules_install 
+make: *** No rule to make target 'modules_install'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ [K]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo make instakll[K[K[Kll
+make: *** No rule to make target 'install'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo update-initramfs -c -k 4.20.12
+update-initramfs: Generating /boot/initrd.img-4.20.12
+WARNING: missing /lib/modules/4.20.12
+Ensure all necessary drivers are built into the linux image!
+depmod: ERROR: could not open directory /lib/modules/4.20.12: No such file or directory
+depmod: FATAL: could not search modules: No such file or directory
+depmod: WARNING: could not open /var/tmp/mkinitramfs_JqHDXY/lib/modules/4.20.12/modules.order: No such file or directory
+depmod: WARNING: could not open /var/tmp/mkinitramfs_JqHDXY/lib/modules/4.20.12/modules.builtin: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo update-grub
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.13.0-32-generic
+Found initrd image: /boot/initrd.img-4.13.0-32-generic
+Found linux image: /boot/vmlinuz-4.8.0-36-generic
+Found initrd image: /boot/initrd.img-4.8.0-36-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Found Windows 7 (loader) on /dev/sda1
+done
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ man make
+[?1049h[?1h=MAKE(1)                                                         User Commands                                                         MAKE(1)[m
+[m
+[1mNAME[0m[m
+       make - GNU make utility to maintain groups of programs[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmake[0m [[4mOPTION[24m]... [[4mTARGET[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       The  [4mmake[24m utility will determine automatically which pieces of a large program need to be recompiled, and issue the commands to recom‐[m
+       pile them.  The manual describes the GNU implementation of [1mmake[0m, which was written by Richard Stallman and Roland McGrath, and is cur‐[m
+       rently  maintained by Paul Smith.  Our examples show C programs, since they are very common, but you can use [1mmake[0m with any programming[m
+       language whose compiler can be run with a shell command.  In fact, [1mmake[0m is not limited to programs.  You can use it  to  describe  any[m
+       task where some files must be updated automatically from others whenever the others change.[m
+[m
+       To  prepare  to  use [1mmake[0m, you must write a file called the [4mmakefile[24m that describes the relationships among files in your program, and[m
+       the states the commands for updating each file.  In a program, typically the executable file is updated from object files,  which  are[m
+       in turn made by compiling source files.[m
+[m
+       Once a suitable makefile exists, each time you change some source files, this simple shell command:[m
+[m
+              [1mmake[0m[m
+[m
+       suffices  to  perform all necessary recompilations.  The [1mmake[0m program uses the makefile description and the last-modification times of[m
+       the files to decide which of the files need to be updated.  For each of those files, it issues the commands recorded in the makefile.[m
+[m
+       [1mmake[0m executes commands in the [4mmakefile[24m to update one or more target [4mnames[24m, where [4mname[24m is typically a program.   If  no  [1m-f[0m  option  is[m
+       present, [1mmake[0m will look for the makefiles [4mGNUmakefile[24m, [4mmakefile[24m, and [4mMakefile[24m, in that order.[m
+[m
+       Normally  you  should  call your makefile either [4mmakefile[24m or [4mMakefile[24m.  (We recommend [4mMakefile[24m because it appears prominently near the[m
+       beginning of a directory listing, right near other important files such as [4mREADME[24m.)  The first name checked, [4mGNUmakefile[24m, is not  rec‐[m
+       ommended for most makefiles.  You should use this name if you have a makefile that is specific to GNU [1mmake[0m, and will not be understood[m
+       by other versions of [1mmake[0m.  If [4mmakefile[24m is '-', the standard input is read.[m
+[m
+       [1mmake[0m updates a target if it depends on prerequisite files that have been modified since the target was last modified, or if the target[m
+       does not exist.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-b[0m, [1m-m[0m[m
+            These options are ignored for compatibility with other versions of [1mmake[0m.[m
+[m
+       [1m-B[0m, [1m--always-make[0m[m
+[7m Manual page make(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Unconditionally make all targets.[m
+[7m Manual page make(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m [4mdir[24m, [1m--directory[0m=[4mdir[24m[m
+[7m Manual page make(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Change  to  directory  [4mdir[24m  before  reading  the makefiles or doing anything else.  If multiple [1m-C[0m options are specified, each is[m
+[7m Manual page make(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            interpreted relative to the previous one: [1m-C[0m / [1m-C[0m etc is equivalent to [1m-C[0m /etc.  This is typically used  with  recursive  invoca‐[m
+[7m Manual page make(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            tions of [1mmake[0m.[m
+[7m Manual page make(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m   Print  debugging  information  in addition to normal processing.  The debugging information says which files are being considered[m
+[7m Manual page make(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            for remaking, which file-times are being compared and with what results, which files actually need to be remade,  which  implicit[m
+[7m Manual page make(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            rules are considered and which are applied---everything interesting about how [1mmake[0m decides what to do.[m
+[7m Manual page make(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--debug[0m[4m[=FLAGS][24m[m
+[7m Manual page make(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Print  debugging  information in addition to normal processing.  If the [4mFLAGS[24m are omitted, then the behavior is the same as if [1m-d[0m[m
+[7m Manual page make(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            was specified.  [4mFLAGS[24m may be [4ma[24m for all debugging output (same as using [1m-d[0m), [4mb[24m for basic  debugging,  [4mv[24m  for  more  verbose  basic[m
+[7m Manual page make(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            debugging,  [4mi[24m  for showing implicit rules, [4mj[24m for details on invocation of commands, and [4mm[24m for debugging while remaking makefiles.[m
+[7m Manual page make(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Use [4mn[24m to disable all previous debugging flags.[m
+[7m Manual page make(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m, [1m--environment-overrides[0m[m
+[7m Manual page make(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Give variables taken from the environment precedence over variables from makefiles.[m
+[7m Manual page make(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m [4mfile[24m, [1m--file[0m=[4mfile[24m, [1m--makefile[0m=[4mFILE[24m[m
+[7m Manual page make(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Use [4mfile[24m as a makefile.[m
+[7m Manual page make(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--ignore-errors[0m[m
+[7m Manual page make(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Ignore all errors in commands executed to remake files.[m
+[7m Manual page make(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-I[0m [4mdir[24m, [1m--include-dir[0m=[4mdir[24m[m
+[7m Manual page make(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies a directory [4mdir[24m to search for included makefiles.  If several [1m-I[0m options are used to specify several  directories,  the[m
+[7m Manual page make(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            directories  are  searched  in the order specified.  Unlike the arguments to other flags of [1mmake[0m, directories given with [1m-I[0m flags[m
+[7m Manual page make(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            may come directly after the flag: [1m-I[0m[4mdir[24m is allowed, as well as [1m-I[0m [4mdir[24m.  This syntax is allowed for compatibility with the C  pre‐[m
+[7m Manual page make(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            processor's [1m-I[0m flag.[m
+[7m Manual page make(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-j[0m [[4mjobs[24m], [1m--jobs[0m[=[4mjobs[24m][m
+[7m Manual page make(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies  the  number of [4mjobs[24m (commands) to run simultaneously.  If there is more than one [1m-j[0m option, the last one is effective.[m
+[7m Manual page make(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            If the [1m-j[0m option is given without an argument, [1mmake[0m will not limit the number of jobs that can run simultaneously.[m
+[7m Manual page make(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--keep-going[0m[m
+[7m Manual page make(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Continue as much as possible after an error.  While the target that failed, and those that depend on it, cannot  be  remade,  the[m
+[7m Manual page make(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            other dependencies of these targets can be processed all the same.[m
+[7m Manual page make(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m [[4mload[24m], [1m--load-average[0m[=[4mload[24m][m
+[7m Manual page make(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Specifies that no new jobs (commands) should be started if there are others jobs running and the load average is at least [4mload[24m (a[m
+[7m Manual page make(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            floating-point number).  With no argument, removes a previous load limit.[m
+[7m Manual page make(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--check-symlink-times[0m[m
+[7m Manual page make(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Use the latest mtime between symlinks and target.[m
+[7m Manual page make(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--just-print[0m, [1m--dry-run[0m, [1m--recon[0m[m
+[7m Manual page make(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Print the commands that would be executed, but do not execute them (except in certain circumstances).[m
+[7m Manual page make(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m [4mfile[24m, [1m--old-file[0m=[4mfile[24m, [1m--assume-old[0m=[4mfile[24m[m
+[7m Manual page make(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Do not remake the file [4mfile[24m even if it is older than its dependencies, and do not remake anything on account of changes in  [4mfile[24m.[m
+[7m Manual page make(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Essentially the file is treated as very old and its rules are ignored.[m
+[7m Manual page make(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-O[0m[[4mtype[24m], [1m--output-sync[0m[=[4mtype[24m][m
+[7m Manual page make(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            When running multiple jobs in parallel with [1m-j[0m, ensure the output of each job is collected together rather than interspersed with[m
+[7m Manual page make(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            output from other jobs.  If [4mtype[24m is not specified or is [1mtarget[0m the output from the entire  recipe  for  each  target  is  grouped[m
+[7m Manual page make(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            together.  If [4mtype[24m is [1mline[0m the output from each command line within a recipe is grouped together.  If [4mtype[24m is [1mrecurse[0m output from[m
+[7m Manual page make(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            an entire recursive make is grouped together.  If [4mtype[24m is [1mnone[0m output synchronization is disabled.[m
+[7m Manual page make(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m, [1m--print-data-base[0m[m
+[7m Manual page make(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Print the data base (rules and variable values) that results from reading the makefiles; then execute as usual  or  as  otherwise[m
+[7m Manual page make(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            specified.   This  also prints the version information given by the [1m-v[0m switch (see below).  To print the data base without trying[m
+[7m Manual page make(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            to remake any files, use [4mmake[24m [4m-p[24m [4m-f/dev/null[24m.[m
+[7m Manual page make(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-q[0m, [1m--question[0m[m
+[7m Manual page make(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            ``Question mode''.  Do not run any commands, or print anything; just return an exit status that is zero if the specified  targets[m
+[7m Manual page make(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            are already up to date, nonzero otherwise.[m
+[7m Manual page make(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--no-builtin-rules[0m[m
+[7m Manual page make(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Eliminate use of the built-in implicit rules.  Also clear out the default list of suffixes for suffix rules.[m
+[7m Manual page make(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--no-builtin-variables[0m[m
+[7m Manual page make(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Don't define any built-in variables.[m
+[7m Manual page make(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--silent[0m, [1m--quiet[0m[m
+[7m Manual page make(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Silent operation; do not print the commands as they are executed.[m
+[7m Manual page make(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--no-keep-going[0m, [1m--stop[0m[m
+[7m Manual page make(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Cancel the effect of the [1m-k[0m option.  This is never necessary except in a recursive [1mmake[0m where [1m-k[0m might be inherited from the top-[m
+[7m Manual page make(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            level [1mmake[0m via MAKEFLAGS or if you set [1m-k[0m in MAKEFLAGS in your environment.[m
+[7m Manual page make(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--touch[0m[m
+[7m Manual page make(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Touch files (mark them up to date without really changing them) instead of running their commands.  This is used to pretend  that[m
+[7m Manual page make(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            the commands were done, in order to fool future invocations of [1mmake[0m.[m
+[7m Manual page make(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--trace[0m[m
+[7m Manual page make(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Information about the disposition of each target is printed (why the target is being rebuilt and what commands are run to rebuild[m
+[7m Manual page make(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            it).[m
+[7m Manual page make(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--version[0m[m
+[7m Manual page make(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Print the version of the [1mmake[0m program plus a copyright, a list of authors and a notice that there is no warranty.[m
+[7m Manual page make(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--print-directory[0m[m
+[7m Manual page make(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Print a message containing the working directory before and after other processing.  This may be useful for tracking down  errors[m
+[7m Manual page make(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            from complicated nests of recursive [1mmake[0m commands.[m
+[7m Manual page make(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-print-directory[0m[m
+[7m Manual page make(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Turn off [1m-w[0m, even if it was turned on implicitly.[m
+[7m Manual page make(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-W[0m [4mfile[24m, [1m--what-if[0m=[4mfile[24m, [1m--new-file[0m=[4mfile[24m, [1m--assume-new[0m=[4mfile[24m[m
+[7m Manual page make(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Pretend that the target [4mfile[24m has just been modified.  When used with the [1m-n[0m flag, this shows you what would happen if you were to[m
+[7m Manual page make(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            modify that file.  Without [1m-n[0m, it is almost the same as running a [4mtouch[24m command on the given file  before  running  [1mmake[0m,  except[m
+[7m Manual page make(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            that the modification time is changed only in the imagination of [1mmake[0m.[m
+[7m Manual page make(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--warn-undefined-variables[0m[m
+[7m Manual page make(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K            Warn when an undefined variable is referenced.[m
+[7m Manual page make(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXIT[0m [1mSTATUS[0m[m
+[7m Manual page make(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU [1mmake[0m exits with a status of zero if all makefiles were successfully parsed and no targets that were built failed.  A status of one[m
+[7m Manual page make(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       will be returned if the [1m-q[0m flag was used and [1mmake[0m determines that a target needs to be rebuilt.  A status of two will be  returned  if[m
+[7m Manual page make(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       any errors were encountered.[m
+[7m Manual page make(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page make(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The full documentation for [1mmake[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mmake[0m programs are properly installed at your site,[m
+[7m Manual page make(1) line 116 (press h for help or q to quit)[27m[K[H[2J[H            Don't define any built-in variables.[m
+[m
+       [1m-s[0m, [1m--silent[0m, [1m--quiet[0m[m
+            Silent operation; do not print the commands as they are executed.[m
+[m
+       [1m-S[0m, [1m--no-keep-going[0m, [1m--stop[0m[m
+            Cancel the effect of the [1m-k[0m option.  This is never necessary except in a recursive [1mmake[0m where [1m-k[0m might be inherited from the top-[m
+            level [1mmake[0m via MAKEFLAGS or if you set [1m-k[0m in MAKEFLAGS in your environment.[m
+[m
+       [1m-t[0m, [1m--touch[0m[m
+            Touch files (mark them up to date without really changing them) instead of running their commands.  This is used to pretend  that[m
+            the commands were done, in order to fool future invocations of [1mmake[0m.[m
+[m
+       [1m--trace[0m[m
+            Information about the disposition of each target is printed (why the target is being rebuilt and what commands are run to rebuild[m
+            it).[m
+[m
+       [1m-v[0m, [1m--version[0m[m
+            Print the version of the [1mmake[0m program plus a copyright, a list of authors and a notice that there is no warranty.[m
+[m
+       [1m-w[0m, [1m--print-directory[0m[m
+            Print a message containing the working directory before and after other processing.  This may be useful for tracking down  errors[m
+            from complicated nests of recursive [1mmake[0m commands.[m
+[m
+       [1m--no-print-directory[0m[m
+            Turn off [1m-w[0m, even if it was turned on implicitly.[m
+[m
+       [1m-W[0m [4mfile[24m, [1m--what-if[0m=[4mfile[24m, [1m--new-file[0m=[4mfile[24m, [1m--assume-new[0m=[4mfile[24m[m
+            Pretend that the target [4mfile[24m has just been modified.  When used with the [1m-n[0m flag, this shows you what would happen if you were to[m
+            modify that file.  Without [1m-n[0m, it is almost the same as running a [4mtouch[24m command on the given file  before  running  [1mmake[0m,  except[m
+            that the modification time is changed only in the imagination of [1mmake[0m.[m
+[m
+       [1m--warn-undefined-variables[0m[m
+            Warn when an undefined variable is referenced.[m
+[m
+[1mEXIT[0m [1mSTATUS[0m[m
+       GNU [1mmake[0m exits with a status of zero if all makefiles were successfully parsed and no targets that were built failed.  A status of one[m
+       will be returned if the [1m-q[0m flag was used and [1mmake[0m determines that a target needs to be rebuilt.  A status of two will be  returned  if[m
+       any errors were encountered.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+[7m Manual page make(1) line 116 (press h for help or q to quit)[27m[K[H[2J[H            Don't define any built-in variables.[m
+[m
+       [1m-s[0m, [1m--silent[0m, [1m--quiet[0m[m
+            Silent operation; do not print the commands as they are executed.[m
+[m
+       [1m-S[0m, [1m--no-keep-going[0m, [1m--stop[0m[m
+            Cancel the effect of the [1m-k[0m option.  This is never necessary except in a recursive [1mmake[0m where [1m-k[0m might be inherited from the top-[m
+            level [1mmake[0m via MAKEFLAGS or if you set [1m-k[0m in MAKEFLAGS in your environment.[m
+[m
+       [1m-t[0m, [1m--touch[0m[m
+            Touch files (mark them up to date without really changing them) instead of running their commands.  This is used to pretend  that[m
+            the commands were done, in order to fool future invocations of [1mmake[0m.[m
+[m
+       [1m--trace[0m[m
+            Information about the disposition of each target is printed (why the target is being rebuilt and what commands are run to rebuild[m
+            it).[m
+[m
+       [1m-v[0m, [1m--version[0m[m
+            Print the version of the [1mmake[0m program plus a copyright, a list of authors and a notice that there is no warranty.[m
+[m
+       [1m-w[0m, [1m--print-directory[0m[m
+            Print a message containing the working directory before and after other processing.  This may be useful for tracking down  errors[m
+            from complicated nests of recursive [1mmake[0m commands.[m
+[m
+       [1m--no-print-directory[0m[m
+            Turn off [1m-w[0m, even if it was turned on implicitly.[m
+[m
+       [1m-W[0m [4mfile[24m, [1m--what-if[0m=[4mfile[24m, [1m--new-file[0m=[4mfile[24m, [1m--assume-new[0m=[4mfile[24m[m
+            Pretend that the target [4mfile[24m has just been modified.  When used with the [1m-n[0m flag, this shows you what would happen if you were to[m
+            modify that file.  Without [1m-n[0m, it is almost the same as running a [4mtouch[24m command on the given file  before  running  [1mmake[0m,  except[m
+            that the modification time is changed only in the imagination of [1mmake[0m.[m
+[m
+       [1m--warn-undefined-variables[0m[m
+            Warn when an undefined variable is referenced.[m
+[m
+[1mEXIT[0m [1mSTATUS[0m[m
+       GNU [1mmake[0m exits with a status of zero if all makefiles were successfully parsed and no targets that were built failed.  A status of one[m
+       will be returned if the [1m-q[0m flag was used and [1mmake[0m determines that a target needs to be rebuilt.  A status of two will be  returned  if[m
+       any errors were encountered.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       The full documentation for [1mmake[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mmake[0m programs are properly installed at your site,[m
+[7m Manual page make(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the command[m
+[7m Manual page make(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1minfo[0m [1mmake[0m[m
+[7m Manual page make(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should give you access to the complete manual.[m
+[7m Manual page make(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m[m
+[7m Manual page make(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       See the chapter ``Problems and Bugs'' in [4mThe[24m [4mGNU[24m [4mMake[24m [4mManual[24m.[m
+[7m Manual page make(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page make(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This manual page contributed by Dennis Morse of Stanford University.  Further updates contributed by  Mike  Frysinger.   It  has  been[m
+[7m Manual page make(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       reworked by Roland McGrath.  Maintained by Paul Smith.[m
+[7m Manual page make(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page make(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 1992-1993, 1996-2014 Free Software Foundation, Inc.  This file is part of [4mGNU[24m [4mmake[24m.[m
+[7m Manual page make(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU  Make is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by[m
+[7m Manual page make(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the Free Software Foundation; either version 3 of the License, or (at your option) any later version.[m
+[7m Manual page make(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU Make is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;  without  even  the  implied  warranty  of  MER‐[m
+[7m Manual page make(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       CHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.[m
+[7m Manual page make(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       You should have received a copy of the GNU General Public License along with this program.  If not, see [4mhttp://www.gnu.org/licenses/[24m.[m
+[7m Manual page make(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page make(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU                                                             03 March 2012                                                         MAKE(1)[m
+[7m Manual page make(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page make(1) line 141/182 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page make(1) line 141/182 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page make(1) line 141/182 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page make(1) line 141/182 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page make(1) line 141/182 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make[K[K[K[Kman makesudo update-grubinitramfs -c -k 4.20.12[18Pmake installmodules_install [17Pmake -j 4sudo make modules_install [17Pmake -j 4
+make: *** No targets specified and no makefile found.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ [K]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cong[Kfigur3e[K[Ke
+configure: command not found
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ [K]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ make clean
+make: *** No rule to make target 'clean'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ ./configure
+bash: ./configure: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ apr-util
+apr-util: command not found
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ ./configure
+bash: ./configure: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get install gcc
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+gcc is already the newest version (4:5.3.1-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 449 not upgraded.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get install gcc[13P./configure
+bash: ./configure: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ chmod +x configure
+chmod: cannot access 'configure': No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ autoconf
+The program 'autoconf' is currently not installed. You can install it by typing:
+sudo apt install autoconf
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ autoconf[K[K[K[K[K[K[K[Ksudo apt install autoconf
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following additional packages will be installed:
+  automake autotools-dev
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc libtool
+The following NEW packages will be installed:
+  autoconf automake autotools-dev
+0 upgraded, 3 newly installed, 0 to remove and 449 not upgraded.
+Need to get 871 kB of archives.
+After this operation, 3,589 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 autoconf all 2.69-9 [321 kB]
+[33m0% [1 autoconf 1,448 B/321 kB 0%][0m[33m11% [1 autoconf 118 kB/321 kB 37%][0m[33m                                  36% [Working][0m             Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 autotools-dev all 20150820.1 [39.8 kB]
+[33m38% [2 autotools-dev 21.4 kB/39.8 kB 54%][0m[33m                                         46% [Working][0m             Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 automake all 1:1.15-4ubuntu1 [510 kB]
+[33m46% [3 automake 0 B/510 kB 0%][0m[33m                              100% [Working][0m              Fetched 871 kB in 1s (524 kB/s)
+
+7[0;42r8[1ASelecting previously unselected package autoconf.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214120 files and directories currently installed.)
+Preparing to unpack .../autoconf_2.69-9_all.deb ...
+7[43;0f[42m[30mProgress: [  0%][49m[39m [...........................................................................................................................] 87[43;0f[42m[30mProgress: [  6%][49m[39m [########...................................................................................................................] 8Unpacking autoconf (2.69-9) ...
+7[43;0f[42m[30mProgress: [ 12%][49m[39m [################...........................................................................................................] 87[43;0f[42m[30mProgress: [ 18%][49m[39m [########################...................................................................................................] 8Selecting previously unselected package autotools-dev.
+Preparing to unpack .../autotools-dev_20150820.1_all.deb ...
+7[43;0f[42m[30mProgress: [ 25%][49m[39m [###############################............................................................................................] 8Unpacking autotools-dev (20150820.1) ...
+7[43;0f[42m[30mProgress: [ 31%][49m[39m [#######################################....................................................................................] 87[43;0f[42m[30mProgress: [ 37%][49m[39m [###############################################............................................................................] 8Selecting previously unselected package automake.
+Preparing to unpack .../automake_1%3a1.15-4ubuntu1_all.deb ...
+7[43;0f[42m[30mProgress: [ 43%][49m[39m [######################################################.....................................................................] 8Unpacking automake (1:1.15-4ubuntu1) ...
+7[43;0f[42m[30mProgress: [ 50%][49m[39m [##############################################################.............................................................] 87[43;0f[42m[30mProgress: [ 56%][49m[39m [######################################################################.....................................................] 8Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Registering documents with scrollkeeper...
+Setting up autoconf (2.69-9) ...
+7[43;0f[42m[30mProgress: [ 62%][49m[39m [#############################################################################..............................................] 87[43;0f[42m[30mProgress: [ 68%][49m[39m [#####################################################################################......................................] 8Setting up autotools-dev (20150820.1) ...
+7[43;0f[42m[30mProgress: [ 75%][49m[39m [#############################################################################################..............................] 87[43;0f[42m[30mProgress: [ 81%][49m[39m [####################################################################################################.......................] 8Setting up automake (1:1.15-4ubuntu1) ...
+7[43;0f[42m[30mProgress: [ 87%][49m[39m [############################################################################################################...............] 8update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode
+7[43;0f[42m[30mProgress: [ 93%][49m[39m [####################################################################################################################.......] 8
+7[0;43r8[1A[J]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ autocong[Kf
+autoconf: error: no input file
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ autoconfsudo apt install autoconfautoconf[Kchmod +x configure[7P./configure
+bash: ./configure: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ wget http://bumblebee-project.org/bumblebee-3.2.1.tar.gz
+--2019-04-11 23:36:54--  http://bumblebee-project.org/bumblebee-3.2.1.tar.gz
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 301 Moved Permanently
+Location: https://bumblebee-project.org/bumblebee-3.2.1.tar.gz [following]
+--2019-04-11 23:36:55--  https://bumblebee-project.org/bumblebee-3.2.1.tar.gz
+Connecting to 192.168.0.2:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 143110 (140K) [application/octet-stream]
+Saving to: ‘bumblebee-3.2.1.tar.gz’
+
+bumblebee-3.2.1.tar.gz                 0%[                                                                    ]       0  --.-KB/s               bumblebee-3.2.1.tar.gz                74%[=================================================>                  ] 103.75K   295KB/s               bumblebee-3.2.1.tar.gz               100%[===================================================================>] 139.76K   395KB/s    in 0.4s    
+
+2019-04-11 23:36:56 (395 KB/s) - ‘bumblebee-3.2.1.tar.gz’ saved [143110/143110]
+
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ tar xf bumblebee-3.2.1.tar.gz
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cd bumblebee-3.2.1
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ ./configure --help
+`configure' configures bumblebee 3.2.1 to adapt to many kinds of systems.
+
+Usage: ./configure [OPTION]... [VAR=VALUE]...
+
+To assign environment variables (e.g., CC, CFLAGS...), specify them as
+VAR=VALUE.  See below for descriptions of some of the useful variables.
+
+Defaults for the options are specified in brackets.
+
+Configuration:
+  -h, --help              display this help and exit
+      --help=short        display options specific to this package
+      --help=recursive    display the short help of all the included packages
+  -V, --version           display version information and exit
+  -q, --quiet, --silent   do not print `checking ...' messages
+      --cache-file=FILE   cache test results in FILE [disabled]
+  -C, --config-cache      alias for `--cache-file=config.cache'
+  -n, --no-create         do not create output files
+      --srcdir=DIR        find the sources in DIR [configure dir or `..']
+
+Installation directories:
+  --prefix=PREFIX         install architecture-independent files in PREFIX
+                          [/usr/local]
+  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
+                          [PREFIX]
+
+By default, `make install' will install all the files in
+`/usr/local/bin', `/usr/local/lib' etc.  You can specify
+an installation prefix other than `/usr/local' using `--prefix',
+for instance `--prefix=$HOME'.
+
+For better control, use the options below.
+
+Fine tuning of the installation directories:
+  --bindir=DIR            user executables [EPREFIX/bin]
+  --sbindir=DIR           system admin executables [EPREFIX/sbin]
+  --libexecdir=DIR        program executables [EPREFIX/libexec]
+  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
+  --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
+  --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
+  --libdir=DIR            object code libraries [EPREFIX/lib]
+  --includedir=DIR        C header files [PREFIX/include]
+  --oldincludedir=DIR     C header files for non-gcc [/usr/include]
+  --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
+  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
+  --infodir=DIR           info documentation [DATAROOTDIR/info]
+  --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
+  --mandir=DIR            man documentation [DATAROOTDIR/man]
+  --docdir=DIR            documentation root [DATAROOTDIR/doc/bumblebee]
+  --htmldir=DIR           html documentation [DOCDIR]
+  --dvidir=DIR            dvi documentation [DOCDIR]
+  --pdfdir=DIR            pdf documentation [DOCDIR]
+  --psdir=DIR             ps documentation [DOCDIR]
+
+Program names:
+  --program-prefix=PREFIX            prepend PREFIX to installed program names
+  --program-suffix=SUFFIX            append SUFFIX to installed program names
+  --program-transform-name=PROGRAM   run sed PROGRAM on installed program names
+
+Optional Features:
+  --disable-option-checking  ignore unrecognized --enable/--with options
+  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
+  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
+  --disable-dependency-tracking  speeds up one-time build
+  --enable-dependency-tracking   do not reject slow dependency extractors
+
+Optional Packages:
+  --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
+  --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
+  --without-pidfile       support for pidfiles in the daemon [default=yes]
+  --with-udev-rules[=DIR] install nvidia udev rule [default=/lib/udev/rules.d]
+
+Some influential environment variables:
+  CONF_BRIDGE optirun display/render bridge, valid values are auto (default),
+              primus and virtualgl
+  CONF_PRIMUS_LD_PATH
+              List of paths which are searched for the primus libGL.so.1 when
+              using the primus bridge
+  CONF_PIDFILE
+              Path to the pidfile or /var/run/bumblebeed.pid if empty
+  CONF_PM_METHOD
+              Power management method, valid values are auto (default),
+              bbswitch, switcheroo and none
+  CONF_DRIVER default driver to use, valid values are nvidia, nouveau and an
+              empty value (for autodetection, default)
+  CONF_DRIVER_MODULE_NVIDIA
+              name of module for nvidia driver, i.e. the filename without .ko.
+              If empty, "nvidia" is assumed
+  CONF_LDPATH_NVIDIA
+              Path to nvidia libraries for nvidia driver
+  CONF_MODPATH_NVIDIA
+              ModulePath for xorg modules when using nvidia driver
+  CC          C compiler command
+  CFLAGS      C compiler flags
+  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+  LIBS        libraries to pass to the linker, e.g. -l<library>
+  CPPFLAGS    (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if
+              you have headers in a nonstandard directory <include dir>
+  PKG_CONFIG  path to pkg-config utility
+  PKG_CONFIG_PATH
+              directories to add to pkg-config's search path
+  PKG_CONFIG_LIBDIR
+              path overriding pkg-config's built-in search path
+  x11_CFLAGS  C compiler flags for x11, overriding pkg-config
+  x11_LIBS    linker flags for x11, overriding pkg-config
+  glib_CFLAGS C compiler flags for glib, overriding pkg-config
+  glib_LIBS   linker flags for glib, overriding pkg-config
+  libbsd_CFLAGS
+              C compiler flags for libbsd, overriding pkg-config
+  libbsd_LIBS linker flags for libbsd, overriding pkg-config
+
+Use these variables to override the choices made by `configure' or to help
+it to find libraries and programs with nonstandard names/locations.
+
+Report bugs to the package provider.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ ./configure --helpcd bumblebee-3.2.1tar xf bumblebee-3.2.1.tar.gzwget http://bumblebee-project.org/bumblebee-3.2.1.tar.gz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./configure[K[3Pautoconfsudo apt install autoconfautoconf[Kchmod +x configure[7P./configuresudo apt-get install gcc[13P./configure[3Papr-util./configure[1Pmake clean[1Pconfiguremake clean
+make: *** No rule to make target 'clean'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ make clean./configure --helpcd bumblebee-3.2.1./configure --helpcd bumblebee-3.2.1tar xf bumblebee-3.2.1.tar.gzwget http://bumblebee-project.org/bumblebee-3.2.1.tar.gz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./configure[K[3Pautoconfsudo apt install autoconfautoconf[K
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ autoconfmake clean./configure --helpcd bumblebee-3.2.1tar xf bumblebee-3.2.1.tar.gzwget http://bumblebee-project.org/bumblebee-3.2.1.tar.gz[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./configure[K[3Pautoconf./configure
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking how to create a pax tar archive... gnutar
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for help2man... no
+configure: WARNING: cannot find help2man, you will not be able to generate
+		manpages
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for x11... no
+configure: error: Package requirements (x11) were not met:
+
+No package 'x11' found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables x11_CFLAGS
+and x11_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ [K]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ make menuconfig
+make: *** No rule to make target 'menuconfig'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ make
+make: *** No targets specified and no makefile found.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ sudo make install
+make: *** No rule to make target 'install'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ sudo apt-get build-dep program
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+E: You must put some 'source' URIs in your sources.list
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ sudo apt-get build-dep program[13Pmake installmake[K menuconfig[4P./configure[3Pautoconf./configure
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking how to create a pax tar archive... gnutar
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for help2man... no
+configure: WARNING: cannot find help2man, you will not be able to generate
+		manpages
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for x11... no
+configure: error: Package requirements (x11) were not met:
+
+No package 'x11' found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables x11_CFLAGS
+and x11_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ [K]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ build-essential
+build-essential: command not found
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ [K]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ autoreconf -ivf
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force 
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: not using Libtool
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --add-missing --copy --force-missing
+Makefile.am:3: warning: shell "$(top_srcdir: non-POSIX variable name
+Makefile.am:3: (probably a GNU make extension)
+autoreconf: Leaving directory `.'
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ make install
+make: *** No rule to make target 'install'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ [K]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ sudo apt-get install gcc-multilib
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following additional packages will be installed:
+  cpp-5 g++-5 gcc-5 gcc-5-base gcc-5-multilib lib32asan2 lib32atomic1 lib32cilkrts5 lib32gcc-5-dev lib32gcc1 lib32gomp1 lib32itm1 lib32mpx0
+  lib32quadmath0 lib32stdc++6 lib32ubsan0 libasan2 libatomic1 libc-dev-bin libc6 libc6-dbg libc6-dev libc6-dev-i386 libc6-dev-x32 libc6-i386
+  libc6-x32 libcc1-0 libcilkrts5 libgcc-5-dev libgomp1 libitm1 liblsan0 libmpx0 libquadmath0 libstdc++-5-dev libstdc++6 libtsan0 libubsan0
+  libx32asan2 libx32atomic1 libx32cilkrts5 libx32gcc-5-dev libx32gcc1 libx32gomp1 libx32itm1 libx32quadmath0 libx32stdc++6 libx32ubsan0
+Suggested packages:
+  gcc-5-locales g++-5-multilib gcc-5-doc libstdc++6-5-dbg libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan2-dbg liblsan0-dbg
+  libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libmpx0-dbg libquadmath0-dbg glibc-doc libstdc++-5-doc
+The following NEW packages will be installed:
+  gcc-5-multilib gcc-multilib lib32asan2 lib32atomic1 lib32cilkrts5 lib32gcc-5-dev lib32gcc1 lib32gomp1 lib32itm1 lib32mpx0 lib32quadmath0
+  lib32stdc++6 lib32ubsan0 libc6-dev-i386 libc6-dev-x32 libc6-i386 libc6-x32 libx32asan2 libx32atomic1 libx32cilkrts5 libx32gcc-5-dev
+  libx32gcc1 libx32gomp1 libx32itm1 libx32quadmath0 libx32stdc++6 libx32ubsan0
+The following packages will be upgraded:
+  cpp-5 g++-5 gcc-5 gcc-5-base libasan2 libatomic1 libc-dev-bin libc6 libc6-dbg libc6-dev libcc1-0 libcilkrts5 libgcc-5-dev libgomp1 libitm1
+  liblsan0 libmpx0 libquadmath0 libstdc++-5-dev libstdc++6 libtsan0 libubsan0
+22 upgraded, 27 newly installed, 0 to remove and 427 not upgraded.
+Need to get 51.7 MB of archives.
+After this operation, 58.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dbg amd64 2.23-0ubuntu11 [3,681 kB]
+0% [1 libc6-dbg 2,555 B/3,681 kB 0%]                                    0% [1 libc6-dbg 113 kB/3,681 kB 3%]1% [1 libc6-dbg 619 kB/3,681 kB 17%]3% [1 libc6-dbg 1,744 kB/3,681 kB 47%]                                      6% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dev amd64 2.23-0ubuntu11 [2,086 kB]
+6% [2 libc6-dev 8,192 B/2,086 kB 0%]9% [2 libc6-dev 1,717 kB/2,086 kB 82%]                                      10% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc-dev-bin amd64 2.23-0ubuntu11 [68.5 kB]
+10% [3 libc-dev-bin 23.1 kB/68.5 kB 34%]                                        10% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6 amd64 2.23-0ubuntu11 [2,577 kB]
+10% [4 libc6 0 B/2,577 kB 0%]                             15% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcc1-0 amd64 5.4.0-6ubuntu1~16.04.11 [38.8 kB]
+15% [5 libcc1-0 19.2 kB/38.8 kB 49%]                                    15% [Working]             Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgomp1 amd64 5.4.0-6ubuntu1~16.04.11 [55.0 kB]
+15% [6 libgomp1 8,270 B/55.0 kB 15%]                                    16% [Working]             Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libitm1 amd64 5.4.0-6ubuntu1~16.04.11 [27.4 kB]
+16% [7 libitm1 9,286 B/27.4 kB 34%]                                   16% [Working]             Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libatomic1 amd64 5.4.0-6ubuntu1~16.04.11 [8,896 B]
+16% [8 libatomic1 8,896 B/8,896 B 100%]                                       Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libasan2 amd64 5.4.0-6ubuntu1~16.04.11 [264 kB]
+                                       17% [9 libasan2 39.5 kB/264 kB 15%]                                   17% [Working]             Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblsan0 amd64 5.4.0-6ubuntu1~16.04.11 [105 kB]
+17% [10 liblsan0 52.0 kB/105 kB 50%]                                    18% [Working]             Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtsan0 amd64 5.4.0-6ubuntu1~16.04.11 [244 kB]
+18% [11 libtsan0 1,110 B/244 kB 0%]                                   19% [Working]             Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libubsan0 amd64 5.4.0-6ubuntu1~16.04.11 [95.4 kB]
+19% [12 libubsan0 15.0 kB/95.4 kB 16%]                                      19% [Working]             Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcilkrts5 amd64 5.4.0-6ubuntu1~16.04.11 [40.1 kB]
+19% [13 libcilkrts5 1,112 B/40.1 kB 3%]                                       20% [Working]             Get:14 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libmpx0 amd64 5.4.0-6ubuntu1~16.04.11 [9,748 B]
+20% [14 libmpx0 8,105 B/9,748 B 83%]                                    20% [Working]             Get:15 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libquadmath0 amd64 5.4.0-6ubuntu1~16.04.11 [131 kB]
+20% [15 libquadmath0 0 B/131 kB 0%]                                   21% [Working]             Get:16 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 g++-5 amd64 5.4.0-6ubuntu1~16.04.11 [8,310 kB]
+21% [16 g++-5 0 B/8,310 kB 0%]28% [16 g++-5 4,568 kB/8,310 kB 55%]33% [16 g++-5 8,071 kB/8,310 kB 97%]                                    34% [Working]             Get:17 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++-5-dev amd64 5.4.0-6ubuntu1~16.04.11 [1,426 kB]
+34% [17 libstdc++-5-dev 0 B/1,426 kB 0%]                                        37% [Working]             Get:18 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgcc-5-dev amd64 5.4.0-6ubuntu1~16.04.11 [2,229 kB]
+37% [18 libgcc-5-dev 0 B/2,229 kB 0%]                                     40% [Working]             Get:19 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gcc-5 amd64 5.4.0-6ubuntu1~16.04.11 [8,417 kB]
+40% [19 gcc-5 0 B/8,417 kB 0%]45% [19 gcc-5 3,026 kB/8,417 kB 36%]                                                                                               3,771 kB/s 7s51% [19 gcc-5 6,860 kB/8,417 kB 82%]                                                                                               3,771 kB/s 6s54% [Working]                                                                                                                      3,771 kB/s 5s                                                                                                                                                Get:20 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 cpp-5 amd64 5.4.0-6ubuntu1~16.04.11 [7,660 kB]
+54% [20 cpp-5 0 B/7,660 kB 0%]                                                                                                     3,771 kB/s 5s57% [20 cpp-5 1,855 kB/7,660 kB 24%]                                                                                               3,771 kB/s 5s65% [20 cpp-5 6,895 kB/7,660 kB 90%]                                                                                               3,771 kB/s 3s66% [Working]                                                                                                                      3,771 kB/s 3s                                                                                                                                                Get:21 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gcc-5-base amd64 5.4.0-6ubuntu1~16.04.11 [17.3 kB]
+67% [Waiting for headers]                                                                                                          3,771 kB/s 3s                                                                                                                                                Get:22 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++6 amd64 5.4.0-6ubuntu1~16.04.11 [393 kB]
+67% [22 libstdc++6 35.8 kB/393 kB 9%]                                                                                              3,771 kB/s 3s68% [Working]                                                                                                                      3,771 kB/s 3s                                                                                                                                                Get:23 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-i386 amd64 2.23-0ubuntu11 [2,328 kB]
+68% [23 libc6-i386 0 B/2,328 kB 0%]                                                                                                3,771 kB/s 3s72% [Working]                                                                                                                      3,771 kB/s 3s                                                                                                                                                Get:24 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dev-i386 amd64 2.23-0ubuntu11 [1,264 kB]
+72% [24 libc6-dev-i386 0 B/1,264 kB 0%]                                                                                            3,771 kB/s 3s74% [Working]                                                                                                                      3,771 kB/s 2s                                                                                                                                                Get:25 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-x32 amd64 2.23-0ubuntu11 [2,550 kB]
+74% [25 libc6-x32 0 B/2,550 kB 0%]                                                                                                 3,771 kB/s 2s78% [Working]                                                                                                                      3,771 kB/s 2s                                                                                                                                                Get:26 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dev-x32 amd64 2.23-0ubuntu11 [1,562 kB]
+78% [26 libc6-dev-x32 0 B/1,562 kB 0%]                                                                                             3,771 kB/s 2s81% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:27 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 lib32gcc1 amd64 1:6.0.1-0ubuntu1 [46.6 kB]
+81% [27 lib32gcc1 0 B/46.6 kB 0%]                                                                                                  3,771 kB/s 1s82% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:28 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libx32gcc1 amd64 1:6.0.1-0ubuntu1 [38.7 kB]
+82% [28 libx32gcc1 0 B/38.7 kB 0%]                                                                                                 3,771 kB/s 1s82% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:29 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32gomp1 amd64 5.4.0-6ubuntu1~16.04.11 [59.7 kB]
+82% [29 lib32gomp1 0 B/59.7 kB 0%]                                                                                                 3,771 kB/s 1s83% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:30 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32gomp1 amd64 5.4.0-6ubuntu1~16.04.11 [55.4 kB]
+83% [30 libx32gomp1 0 B/55.4 kB 0%]                                                                                                3,771 kB/s 1s83% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:31 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32itm1 amd64 5.4.0-6ubuntu1~16.04.11 [29.6 kB]
+83% [31 lib32itm1 0 B/29.6 kB 0%]                                                                                                  3,771 kB/s 1s84% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:32 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32itm1 amd64 5.4.0-6ubuntu1~16.04.11 [27.7 kB]
+84% [32 libx32itm1 0 B/27.7 kB 0%]                                                                                                 3,771 kB/s 1s84% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:33 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32atomic1 amd64 5.4.0-6ubuntu1~16.04.11 [8,638 B]
+84% [33 lib32atomic1 0 B/8,638 B 0%]                                                                                               3,771 kB/s 1s84% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:34 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32atomic1 amd64 5.4.0-6ubuntu1~16.04.11 [8,896 B]
+84% [34 libx32atomic1 0 B/8,896 B 0%]                                                                                              3,771 kB/s 1s85% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:35 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32asan2 amd64 5.4.0-6ubuntu1~16.04.11 [259 kB]
+85% [35 lib32asan2 0 B/259 kB 0%]                                                                                                  3,771 kB/s 1s86% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:36 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32asan2 amd64 5.4.0-6ubuntu1~16.04.11 [253 kB]
+86% [36 libx32asan2 0 B/253 kB 0%]                                                                                                 3,771 kB/s 1s86% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:37 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32stdc++6 amd64 5.4.0-6ubuntu1~16.04.11 [404 kB]
+86% [37 lib32stdc++6 0 B/404 kB 0%]                                                                                                3,771 kB/s 1s87% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:38 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32ubsan0 amd64 5.4.0-6ubuntu1~16.04.11 [105 kB]
+87% [38 lib32ubsan0 0 B/105 kB 0%]                                                                                                 3,771 kB/s 1s88% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:39 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32stdc++6 amd64 5.4.0-6ubuntu1~16.04.11 [383 kB]
+88% [39 libx32stdc++6 0 B/383 kB 0%]                                                                                               3,771 kB/s 1s89% [Working]                                                                                                                      3,771 kB/s 1s                                                                                                                                                Get:40 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32ubsan0 amd64 5.4.0-6ubuntu1~16.04.11 [97.0 kB]
+89% [40 libx32ubsan0 0 B/97.0 kB 0%]                                                                                               3,771 kB/s 1s90% [Working]                                                                                                                      3,726 kB/s 1s                                                                                                                                                Get:41 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32cilkrts5 amd64 5.4.0-6ubuntu1~16.04.11 [44.8 kB]
+90% [41 lib32cilkrts5 0 B/44.8 kB 0%]                                                                                              3,726 kB/s 1s90% [Working]                                                                                                                      3,726 kB/s 1s                                                                                                                                                Get:42 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32cilkrts5 amd64 5.4.0-6ubuntu1~16.04.11 [40.8 kB]
+90% [42 libx32cilkrts5 0 B/40.8 kB 0%]                                                                                             3,726 kB/s 1s91% [Working]                                                                                                                      3,726 kB/s 1s                                                                                                                                                Get:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32mpx0 amd64 5.4.0-6ubuntu1~16.04.11 [11.1 kB]
+91% [43 lib32mpx0 0 B/11.1 kB 0%]                                                                                                  3,726 kB/s 1s91% [Working]                                                                                                                      3,726 kB/s 1s                                                                                                                                                Get:44 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32quadmath0 amd64 5.4.0-6ubuntu1~16.04.11 [203 kB]
+91% [44 lib32quadmath0 1,110 B/203 kB 1%]                                                                                          3,726 kB/s 1s91% [44 lib32quadmath0 105 kB/203 kB 52%]                                                                                          3,726 kB/s 1s92% [Working]                                                                                                                      3,726 kB/s 1s                                                                                                                                                Get:45 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32quadmath0 amd64 5.4.0-6ubuntu1~16.04.11 [134 kB]
+92% [45 libx32quadmath0 0 B/134 kB 0%]                                                                                             3,726 kB/s 1s92% [Waiting for headers]                                                                                                          3,726 kB/s 1s                                                                                                                                                Get:46 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lib32gcc-5-dev amd64 5.4.0-6ubuntu1~16.04.11 [2,051 kB]
+92% [46 lib32gcc-5-dev 0 B/2,051 kB 0%]                                                                                            3,726 kB/s 1s93% [46 lib32gcc-5-dev 272 kB/2,051 kB 13%]                                                                                        3,726 kB/s 0s93% [46 lib32gcc-5-dev 719 kB/2,051 kB 35%]                                                                                        3,726 kB/s 0s94% [46 lib32gcc-5-dev 1,417 kB/2,051 kB 69%]                                                                                      3,726 kB/s 0s96% [Working]                                                                                                                      3,726 kB/s 0s                                                                                                                                                Get:47 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx32gcc-5-dev amd64 5.4.0-6ubuntu1~16.04.11 [1,867 kB]
+96% [47 libx32gcc-5-dev 0 B/1,867 kB 0%]                                                                                           3,726 kB/s 0s97% [47 libx32gcc-5-dev 850 kB/1,867 kB 46%]                                                                                       3,726 kB/s 0s99% [Working]                                                                                                                      3,726 kB/s 0s                                                                                                                                                Get:48 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gcc-5-multilib amd64 5.4.0-6ubuntu1~16.04.11 [964 B]
+99% [48 gcc-5-multilib 0 B/964 B 0%]                                                                                               3,726 kB/s 0s100% [Working]                                                                                                                     3,726 kB/s 0s                                                                                                                                                Get:49 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 gcc-multilib amd64 4:5.3.1-1ubuntu1 [1,212 B]
+100% [49 gcc-multilib 0 B/1,212 B 0%]                                                                                              3,726 kB/s 0s100% [Working]                                                                                                                     3,726 kB/s 0s                                                                                                                                                Fetched 51.7 MB in 18s (2,781 kB/s)
+Extracting templates from packages: 61%Extracting templates from packages: 100%
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214338 files and directories currently installed.)
+Preparing to unpack .../libc6-dbg_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-dbg:amd64 (2.23-0ubuntu11) over (2.23-0ubuntu10) ...
+Preparing to unpack .../libc6-dev_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.23-0ubuntu11) over (2.23-0ubuntu10) ...
+Preparing to unpack .../libc-dev-bin_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc-dev-bin (2.23-0ubuntu11) over (2.23-0ubuntu10) ...
+Preparing to unpack .../libc6_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6:amd64 (2.23-0ubuntu11) over (2.23-0ubuntu10) ...
+Setting up libc6:amd64 (2.23-0ubuntu11) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214338 files and directories currently installed.)
+Preparing to unpack .../libcc1-0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libgomp1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libgomp1:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libitm1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libitm1:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libatomic1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libatomic1:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libasan2_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libasan2:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../liblsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking liblsan0:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libtsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libtsan0:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libubsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libubsan0:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libcilkrts5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libmpx0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libmpx0:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libquadmath0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../g++-5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking g++-5 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libstdc++-5-dev_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../libgcc-5-dev_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../gcc-5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking gcc-5 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../cpp-5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking cpp-5 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Preparing to unpack .../gcc-5-base_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking gcc-5-base:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up gcc-5-base:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214338 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libstdc++6:amd64 (5.4.0-6ubuntu1~16.04.11) over (5.4.0-6ubuntu1~16.04.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up libstdc++6:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Selecting previously unselected package libc6-i386.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 214338 files and directories currently installed.)
+Preparing to unpack .../libc6-i386_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-i386 (2.23-0ubuntu11) ...
+Selecting previously unselected package libc6-dev-i386.
+Preparing to unpack .../libc6-dev-i386_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-dev-i386 (2.23-0ubuntu11) ...
+Selecting previously unselected package libc6-x32.
+Preparing to unpack .../libc6-x32_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-x32 (2.23-0ubuntu11) ...
+Selecting previously unselected package libc6-dev-x32.
+Preparing to unpack .../libc6-dev-x32_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-dev-x32 (2.23-0ubuntu11) ...
+Selecting previously unselected package lib32gcc1.
+Preparing to unpack .../lib32gcc1_1%3a6.0.1-0ubuntu1_amd64.deb ...
+Unpacking lib32gcc1 (1:6.0.1-0ubuntu1) ...
+Selecting previously unselected package libx32gcc1.
+Preparing to unpack .../libx32gcc1_1%3a6.0.1-0ubuntu1_amd64.deb ...
+Unpacking libx32gcc1 (1:6.0.1-0ubuntu1) ...
+Selecting previously unselected package lib32gomp1.
+Preparing to unpack .../lib32gomp1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32gomp1 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32gomp1.
+Preparing to unpack .../libx32gomp1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32gomp1 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32itm1.
+Preparing to unpack .../lib32itm1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32itm1 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32itm1.
+Preparing to unpack .../libx32itm1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32itm1 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32atomic1.
+Preparing to unpack .../lib32atomic1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32atomic1 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32atomic1.
+Preparing to unpack .../libx32atomic1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32atomic1 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32asan2.
+Preparing to unpack .../lib32asan2_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32asan2 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32asan2.
+Preparing to unpack .../libx32asan2_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32asan2 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32stdc++6.
+Preparing to unpack .../lib32stdc++6_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32stdc++6 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32ubsan0.
+Preparing to unpack .../lib32ubsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32ubsan0 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32stdc++6.
+Preparing to unpack .../libx32stdc++6_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32stdc++6 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32ubsan0.
+Preparing to unpack .../libx32ubsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32ubsan0 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32cilkrts5.
+Preparing to unpack .../lib32cilkrts5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32cilkrts5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32cilkrts5.
+Preparing to unpack .../libx32cilkrts5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32cilkrts5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32mpx0.
+Preparing to unpack .../lib32mpx0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32mpx0 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32quadmath0.
+Preparing to unpack .../lib32quadmath0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32quadmath0 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32quadmath0.
+Preparing to unpack .../libx32quadmath0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32quadmath0 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package lib32gcc-5-dev.
+Preparing to unpack .../lib32gcc-5-dev_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking lib32gcc-5-dev (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libx32gcc-5-dev.
+Preparing to unpack .../libx32gcc-5-dev_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libx32gcc-5-dev (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package gcc-5-multilib.
+Preparing to unpack .../gcc-5-multilib_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking gcc-5-multilib (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package gcc-multilib.
+Preparing to unpack .../gcc-multilib_4%3a5.3.1-1ubuntu1_amd64.deb ...
+Unpacking gcc-multilib (4:5.3.1-1ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Setting up libc6-dbg:amd64 (2.23-0ubuntu11) ...
+Setting up libc-dev-bin (2.23-0ubuntu11) ...
+Setting up libc6-dev:amd64 (2.23-0ubuntu11) ...
+Setting up libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libgomp1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libitm1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libatomic1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libasan2:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up liblsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libtsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libubsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libmpx0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up cpp-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up g++-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libc6-i386 (2.23-0ubuntu11) ...
+Setting up libc6-dev-i386 (2.23-0ubuntu11) ...
+Setting up libc6-x32 (2.23-0ubuntu11) ...
+Setting up libc6-dev-x32 (2.23-0ubuntu11) ...
+Setting up lib32gcc1 (1:6.0.1-0ubuntu1) ...
+Setting up libx32gcc1 (1:6.0.1-0ubuntu1) ...
+Setting up lib32gomp1 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32gomp1 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32itm1 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32itm1 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32atomic1 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32atomic1 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32asan2 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32asan2 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32stdc++6 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32ubsan0 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32stdc++6 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32ubsan0 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32cilkrts5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32cilkrts5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32mpx0 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32quadmath0 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32quadmath0 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up lib32gcc-5-dev (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libx32gcc-5-dev (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc-5-multilib (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc-multilib (4:5.3.1-1ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ MAKE[K[K[K[Kmake
+make: *** No targets specified and no makefile found.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ sudo update-initramfs -c -k 4.17-rc2
+update-initramfs: Generating /boot/initrd.img-4.17-rc2
+WARNING: missing /lib/modules/4.17-rc2
+Ensure all necessary drivers are built into the linux image!
+depmod: ERROR: could not open directory /lib/modules/4.17-rc2: No such file or directory
+depmod: FATAL: could not search modules: No such file or directory
+depmod: WARNING: could not open /var/tmp/mkinitramfs_7JRYlB/lib/modules/4.17-rc2/modules.order: No such file or directory
+depmod: WARNING: could not open /var/tmp/mkinitramfs_7JRYlB/lib/modules/4.17-rc2/modules.builtin: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ make modules_install
+make: *** No rule to make target 'modules_install'.  Stop.
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ [K]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ sudo update-grub
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.13.0-32-generic
+Found initrd image: /boot/initrd.img-4.13.0-32-generic
+Found linux image: /boot/vmlinuz-4.8.0-36-generic
+Found initrd image: /boot/initrd.img-4.8.0-36-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+^Cgrep: /tmp/os-prober.fVl1M5/raided-map: No such file or directory
+grep: /tmp/os-prober.fVl1M5/swaps-map: No such file or directory
+grep: /tmp/os-prober.fVl1M5/mounted-map: No such file or directory
+Failed to probe /dev/sda7 for filesystem type
+grep: /tmp/os-prober.fVl1M5/raided-map: No such file or directory
+grep: /tmp/os-prober.fVl1M5/swaps-map: No such file or directory
+grep: /tmp/os-prober.fVl1M5/mounted-map: No such file or directory
+
+]0;clab1@clab1-Veriton-Series: ~/bumblebee-3.2.1[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~/bumblebee-3.2.1[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:47:49 PM IST
