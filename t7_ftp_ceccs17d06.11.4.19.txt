@@ -1,0 +1,125 @@
+Script started on Thursday 11 April 2019 10:25:56 PM IST
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ a[Ksudo apt [K-get install vsftpd
+[sudo] password for clab1: 
+Sorry, try again.
+[sudo] password for clab1: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 451 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 336 kB of additional disk space will be used.
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 vsftpd amd64 3.0.3-3ubuntu2 [115 kB]
+3% [1 vsftpd 3,757 B/115 kB 3%]                               100% [Working]              Fetched 115 kB in 0s (2,963 kB/s)
+
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 210866 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-3ubuntu2_amd64.deb ...
+Unpacking vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.9) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.9) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ si[Kudo nano/etc/vsftpd.conf
+sudo: nano/etc/vsftpd.conf: command not found
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo vsftpd
+500 OOPS: could not bind listening IPv6 socket
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ ftr[Kp://localhost
+bash: ftp://localhost: No such file or directory
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ ftp://localhost ://localhost[C[C /localhost[C[1P/localhost[C localhost
+://: bad port number-- localhost
+usage: ftp host-name [port]
+ftp> ssh cs17d06@192.169[K8.0.30
+?Invalid command
+ftp> ^C
+ftp> ^C
+ftp> bye
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ ftp :// localhost[2P://localhost[4Psudo vsftpdnano/etc/vsftpd.confvsftpd[Kftp://localhost :// localhost[Kssh cs17d06@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d06@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Thu Apr 11 10:09:50 2019 from 192.168.0.253
+$ ftp -p 192.168.0.189
+Connected to 192.168.0.189.
+220 (vsFTPd 3.0.3)
+Name (192.168.0.189:cs17d06): s4d2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+227 Entering Passive Mode (192,168,0,189,54,88).
+c ^C
+receive aborted
+waiting for remote to finish abort
+ftp> ls
+227 Entering Passive Mode (192,168,0,189,246,168).
+ftp: connect: Connection timed out
+ftp> ls
+421 Timeout.
+Passive mode refused.
+ftp> ls
+Not connected.
+ftp> bye
+$ ^[[A^[[A        ssh cs17d06@192.168.0.30
+The authenticity of host '192.168.0.30 (192.168.0.30)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.0.30' (ECDSA) to the list of known hosts.
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d06@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Thu Apr 11 10:35:49 2019 from 192.168.0.253
+$ ftp -p 192.168.0.189
+Connected to 192.168.0.189.
+220 (vsFTPd 3.0.3)
+Name (192.168.0.189:cs17d06): s4d2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+227 Entering Passive Mode (192,168,0,189,131,137).
+ftp: connect: Connection timed out
+ftp> ^C
+ftp> ^C
+ftp> bye
+421 Timeout.
+$ ^C
+$ exit
+Connection to 192.168.0.30 closed.
+$ exit' 
+Connection to 192.168.0.30 closed.
+]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 10:53:20 PM IST
