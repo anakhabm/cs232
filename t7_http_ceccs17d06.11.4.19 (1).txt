@@ -1,0 +1,70 @@
+Script started on Wednesday 24 April 2019 11:13:30 AM IST
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sudo apt-get install nginx
+[sudo] password for anakha44: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 54%Building dependency tree... 84%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  nginx-common nginx-core
+Suggested packages:
+  fcgiwrap nginx-doc
+The following NEW packages will be installed:
+  nginx nginx-common nginx-core
+0 upgraded, 3 newly installed, 0 to remove and 458 not upgraded.
+Need to get 347 kB of archives.
+After this operation, 1,266 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]                                        0% [Connecting to in.archive.ubuntu.com (91.189.88.161)]                                                        0% [Waiting for headers]                        Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main nginx-common all 1.4.6-1ubuntu3.9 [18.9 kB]
+                        0% [1 nginx-common 0 B/18.9 kB 0%]                                  5% [1 nginx-common 17.9 kB/18.9 kB 95%]                                       5% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main nginx-core i386 1.4.6-1ubuntu3.9 [322 kB]
+            5% [2 nginx-core 0 B/322 kB 0%]                               17% [2 nginx-core 41.3 kB/322 kB 13%]34% [2 nginx-core 99.8 kB/322 kB 31%]                                     58% [2 nginx-core 180 kB/322 kB 56%]88% [2 nginx-core 286 kB/322 kB 89%]                                    98% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main nginx all 1.4.6-1ubuntu3.9 [5,418 B]
+             98% [3 nginx 0 B/5,418 B 0%]                            100% [Working]              Fetched 347 kB in 9s (34.8 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package nginx-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 168325 files and directories currently installed.)
+Preparing to unpack .../nginx-common_1.4.6-1ubuntu3.9_all.deb ...
+Unpacking nginx-common (1.4.6-1ubuntu3.9) ...
+Selecting previously unselected package nginx-core.
+Preparing to unpack .../nginx-core_1.4.6-1ubuntu3.9_i386.deb ...
+Unpacking nginx-core (1.4.6-1ubuntu3.9) ...
+Selecting previously unselected package nginx.
+Preparing to unpack .../nginx_1.4.6-1ubuntu3.9_all.deb ...
+Unpacking nginx (1.4.6-1ubuntu3.9) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up nginx-common (1.4.6-1ubuntu3.9) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+Setting up nginx-core (1.4.6-1ubuntu3.9) ...
+Setting up nginx (1.4.6-1ubuntu3.9) ...
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sudo /usr/sbin/nginx
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ http://12.34.56.789/info.php[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo gedit /etc/nginx/sites-enabled-deafult[K[K[K[K[K[K[K[K/default
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sudo gedit /var/www/html/index.html
+
+(gedit:12636): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(gedit:12636): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+^C]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ exit
+exit
+
+Script done on Wednesday 24 April 2019 11:33:45 AM IST
