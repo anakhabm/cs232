@@ -1,0 +1,11 @@
+# cs232
+FOSS Lab
+
+ANAKHA BM
+ROLL_NO:6
+S4D
+
+TASK 9:
+
+http://192.168.0.30/cs17d/cs17d06
+http://14.139.189.217/cs17d/cs17d06
