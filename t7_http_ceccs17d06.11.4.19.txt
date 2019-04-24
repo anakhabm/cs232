@@ -1,130 +1,0 @@
-Script started on Thursday 11 April 2019 10:05:25 PM IST
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo apt-get install nginx
-[sudo] password for clab1: 
-Sorry, try again.
-[sudo] password for clab1: 
-Sorry, try again.
-[sudo] password for clab1: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 1%Reading state information... Done
-The following additional packages will be installed:
-  nginx-common nginx-core
-Suggested packages:
-  fcgiwrap nginx-doc
-The following NEW packages will be installed:
-  nginx nginx-common nginx-core
-0 upgraded, 3 newly installed, 0 to remove and 451 not upgraded.
-Need to get 459 kB of archives.
-After this operation, 1,482 kB of additional disk space will be used.
-Do you want to continue? [Y/n] y Y
-0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-common all 1.10.3-0ubuntu0.16.04.3 [26.7 kB]
-1% [1 nginx-common 4,096 B/26.7 kB 15%]                                       11% [Working]             Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-core amd64 1.10.3-0ubuntu0.16.04.3 [429 kB]
-12% [2 nginx-core 6,654 B/429 kB 2%]                                    93% [Working]             Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx all 1.10.3-0ubuntu0.16.04.3 [3,506 B]
-100% [Working]              Fetched 459 kB in 0s (8,675 kB/s)
-Preconfiguring packages ...
-Selecting previously unselected package nginx-common.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 210811 files and directories currently installed.)
-Preparing to unpack .../nginx-common_1.10.3-0ubuntu0.16.04.3_all.deb ...
-Unpacking nginx-common (1.10.3-0ubuntu0.16.04.3) ...
-Selecting previously unselected package nginx-core.
-Preparing to unpack .../nginx-core_1.10.3-0ubuntu0.16.04.3_amd64.deb ...
-Unpacking nginx-core (1.10.3-0ubuntu0.16.04.3) ...
-Selecting previously unselected package nginx.
-Preparing to unpack .../nginx_1.10.3-0ubuntu0.16.04.3_all.deb ...
-Unpacking nginx (1.10.3-0ubuntu0.16.04.3) ...
-Processing triggers for systemd (229-4ubuntu21.9) ...
-Processing triggers for ureadahead (0.100.0-19) ...
-ureadahead will be reprofiled on next reboot
-Processing triggers for ufw (0.35-0ubuntu2) ...
-Setting up nginx-common (1.10.3-0ubuntu0.16.04.3) ...
-Setting up nginx-core (1.10.3-0ubuntu0.16.04.3) ...
-Setting up nginx (1.10.3-0ubuntu0.16.04.3) ...
-Processing triggers for systemd (229-4ubuntu21.9) ...
-Processing triggers for ureadahead (0.100.0-19) ...
-Processing triggers for ufw (0.35-0ubuntu2) ...
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ SUDO[K[K[K[Ksudo /usr/sbin/nginx
-nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
-nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
-nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
-nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
-nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
-nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
-nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
-nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
-nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
-nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
-nginx: [emerg] still could not bind()
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo nfw app list
-sudo: nfw: command not found
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo ufw app list
-Available applications:
-  CUPS
-  Nginx Full
-  Nginx HTTP
-  Nginx HTTPS
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo gedit/et[K[K[K /etc/nginx/siotes[K[K[K[Ktes-enabled/default
-c ^C
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo gedit /etc/nginx/sites-enabled/default[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvar/www/html/index.html
-
-(gedit:3285): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3285): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-^C
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.html
-
-(gedit:3719): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
-
-** (gedit:3719): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ [K]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.html
-c ^C
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cat index.html
-cat: index.html: No such file or directory
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ cat index.htmlsudo gedit /home/clab1/index.html
-^C
-]0;clab1@clab1-Veriton-Series: ~[01;32mclab1@clab1-Veriton-Series[00m:[01;34m~[00m$ exit
-exit
-
-Script done on Thursday 11 April 2019 10:23:44 PM IST
