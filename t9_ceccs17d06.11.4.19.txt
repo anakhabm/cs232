@@ -1,0 +1,17 @@
+Script started on Thursday 25 April 2019 07:21:25 AM IST
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sftp cs17d06@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d06@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> put /home/anakha44/Downloads/index.html
+Uploading /home/anakha44/Downloads/index.html to /home/cs17d06/index.html
+/home/anakha44/Downloads/index.html             0%    0     0.0KB/s   --:-- ETA/home/anakha44/Downloads/index.html           100% 3154     3.1KB/s   00:00    
+sftp> bye
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ exit
+exit
+
+Script done on Thursday 25 April 2019 07:31:39 AM IST
