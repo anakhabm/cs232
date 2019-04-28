@@ -1,0 +1,65 @@
+Script started on Saturday 27 April 2019 09:34:11 PM IST
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ sudo apt - g e t [C i n s t a l l [C p e r l 
+[sudo] password for anakha44: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 54%Building dependency tree... 69%Building dependency tree... 93%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  libperl5.18 perl-base perl-modules
+Suggested packages:
+  perl-doc libterm-readline-gnu-perl libterm-readline-perl-perl libb-lint-perl
+  libcpanplus-dist-build-perl libcpanplus-perl libfile-checktree-perl
+  liblog-message-perl libobject-accessor-perl
+The following packages will be upgraded:
+  libperl5.18 perl perl-base perl-modules
+4 upgraded, 0 newly installed, 0 to remove and 454 not upgraded.
+Need to get 6,596 kB of archives.
+After this operation, 8,192 B of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]                                        Err http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main perl i386 5.18.2-2ubuntu1.7
+  Could not resolve 'in.archive.ubuntu.com'
+                                        0% [Working]            0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]                                      Err http://security.ubuntu.com/ubuntu/ trusty-security/main perl i386 5.18.2-2ubuntu1.7
+  Could not resolve 'security.ubuntu.com'
+                                      0% [Working]            Err http://security.ubuntu.com/ubuntu/ trusty-security/main libperl5.18 i386 5.18.2-2ubuntu1.7
+  Could not resolve 'security.ubuntu.com'
+            Err http://security.ubuntu.com/ubuntu/ trusty-security/main perl-base i386 5.18.2-2ubuntu1.7
+  Could not resolve 'security.ubuntu.com'
+            Err http://security.ubuntu.com/ubuntu/ trusty-security/main perl-modules all 5.18.2-2ubuntu1.7
+  Could not resolve 'security.ubuntu.com'
+0% [Working]            E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/perl/perl_5.18.2-2ubuntu1.7_i386.deb  Could not resolve 'security.ubuntu.com'
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/perl/libperl5.18_5.18.2-2ubuntu1.7_i386.deb  Could not resolve 'security.ubuntu.com'
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/perl/perl-base_5.18.2-2ubuntu1.7_i386.deb  Could not resolve 'security.ubuntu.com'
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/p/perl/perl-modules_5.18.2-2ubuntu1.7_all.deb  Could not resolve 'security.ubuntu.com'
+
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat perlpg.pl
+cat: perlpg.pl: No such file or directory
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ touch perlpg.pl
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ cat > perlpg.pl
+#!/usr/bin/perl
+
+$num=^[[D^[[A^[[B              m = 1;
+do {
+           print"$num | \n";
+             $num++;
+  }
+  while($num<=^[[D^[[D           <= 10);
+^C
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ perl perlpg.pl
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+]0;anakha44@anakha44-VirtualBox: ~anakha44@anakha44-VirtualBox:~$ exit
+exit
+
+Script done on Saturday 27 April 2019 09:51:12 PM IST
